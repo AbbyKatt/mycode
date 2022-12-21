@@ -1,0 +1,42 @@
+#Experiment/BQ Helper functions
+import uuid
+import pandas as pd
+import datetime
+
+
+def ViewFromBQ(tableName):
+    #Load data into a pandas dataframe
+    query="select * from `{0}`".format(tableName)
+    df=pd.read_gbq(query, project_id="datawx", dialect='standard')
+    return df
+
+#Save an experiment dataframe
+def SaveExperiment(experimentName,experimentSubType,sampleDataTable,expexperimentType,Description,aiType,aiVersion,dfResults,TrainingTimeMinutes,Mode,TestRecordsMinute):
+    #Make tablename from experiment name
+    guid=uuid.uuid4()
+    safeExperimentName=experimentName.replace(" ","_")
+    safeSubType=experimentSubType.replace(" ","_")
+    dateStr=datetime.datetime.now().strftime("%Y_%m_%d_%H_%M")
+    experimentDataTable="experiments.{0}__{1}__{2}__{3}".format(safeExperimentName,safeSubType,dateStr,guid)
+
+    experiment={"experimentId":str(guid),
+        "experimentName":experimentName,
+        "experimentSubType":experimentSubType,
+        "experimentDate":datetime.datetime.now(),
+        "sampleDataTable":sampleDataTable,
+        "experimentDataTable":experimentDataTable,
+        "experimentType":expexperimentType,
+        "Description":Description,
+        "aiType":aiType,
+        "aiVersion":aiVersion,
+        "TrainingTimeMinutes":TrainingTimeMinutes,
+        "Mode":Mode,
+        "TestRecordsMinute":TestRecordsMinute}
+
+    #Save experiment to BigQuery
+    df=pd.DataFrame([experiment])
+    df.to_gbq("experiments._experiments", project_id="datawx", if_exists='append', table_schema=None, progress_bar=False)
+
+    #Save data to table
+    dfResults.to_gbq(experimentDataTable, project_id="datawx", progress_bar=True)
+
