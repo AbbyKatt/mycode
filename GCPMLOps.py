@@ -19,28 +19,32 @@ class SimpleTimer():
 
 class DataSource():
 
-    def __init__(self,filetype,sourceEnvironment,ExtractQuery):
+    def __init__(self,ProjectID,filetype,sourceEnvironment,ExtractQuery):
         self.guid = str(uuid.uuid4())
         self.filetype = filetype
+        self.ProjectID = ProjectID
         self.sourceEnvironment = sourceEnvironment
         self.ExtractQuery = ExtractQuery
         self.loadedDate = pd.Timestamp.now()
         self.TargetTable =filetype + "_" + self.loadedDate.strftime("%Y_%m_%d") + "_" + self.guid
+        
+    def WriteEntry(self):
+        print("Writing Entry")
         self.WriteToBQ()
 
-    def WriteToBQ(self):
+    def WriteToBQ(self):        
         frame=[{"Filetype":self.filetype,
             "LoadedDate":self.loadedDate,
             "SourceEnvironment":self.sourceEnvironment,
             "ExtractQuery":self.ExtractQuery,
             "TargetTable":self.TargetTable,
             "GUID":self.guid}]
-        print(frame)
+        #print(frame)
         df = pd.DataFrame(frame)
-        df.to_gbq("DATASCIENCE_SOURCEDATA._datasources", project_id=ProjectID, if_exists='append')
+        df.to_gbq("DATASCIENCE_SOURCEDATA._datasources", project_id=self.ProjectID, if_exists='append')
 
     @staticmethod    
-    def GetLatest(fileType):
+    def GetLatest(ProjectID,fileType):
         query="""SELECT * FROM `datawx.DATASCIENCE_SOURCEDATA._datasources`
             where Filetype="{0}"
             order by LoadedDate desc
@@ -49,13 +53,22 @@ class DataSource():
         #Get first row
         df = pd.read_gbq(query, project_id=ProjectID)
         row = df.iloc[0]
-        source=DSDataSource(row["Filetype"],row["SourceEnvironment"],row["ExtractQuery"])
+        source=DataSource(ProjectID,row["Filetype"],row["SourceEnvironment"],row["ExtractQuery"])
         source.loadedDate=row["LoadedDate"]
         source.TargetTable=row["TargetTable"]
         return source
 
-class TrainingMetrics():
+# class TrainingMetrics():
 
-    @staticmethod
-    def SaveMetrics(self,ExperimentName,ModelName,ModelVersion,ModelType,trainingTime:SimpleTimer):
+    # @staticmethod
+    # def SaveMetrics(self,ExperimentName,ModelName,ModelVersion,ModelType,trainingTime:SimpleTimer):
+    #     frame=[{"ExperimentName":ExperimentName,
+    #         "ModelName":ModelName,
+    #         "ModelVersion":ModelVersion,
+    #         "ModelType":ModelType,
+    #         "TrainingTime":trainingTime.GetElalpsed().total_seconds()}]
+    #     print(frame)
+    #     df = pd.DataFrame(frame)
+    #     df.to_gbq("DATASCIENCE_MODELS._trainingmetrics", project_id=ProjectID, if_exists='append')
+
 
