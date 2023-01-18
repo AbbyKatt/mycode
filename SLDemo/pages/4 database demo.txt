@@ -1,0 +1,43 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+st.title('Database Demo')
+st.text("Since Streamlit is based around Pandas dataframes\nit makes it super easy to connect to a database and display the results")
+
+st.text("Simple Query and Dataframe Display (cached for your temporal pleasure)")
+#Best of all we can cache long running results queries!
+@st.cache 
+def GetSimpleSql():
+    query="""SELECT * FROM `bigquery-public-data.samples.shakespeare` where word_count>100 LIMIT 10"""
+    df=pd.read_gbq(query,project_id="datawx")
+    return df
+
+df=GetSimpleSql()
+df
+
+#Lets draw a bar chart of that
+st.text("Lets draw a bar chart of that")
+st.bar_chart(df[["word_count"]])
+
+
+#Create some map data with lat/long
+st.text("First we need to get the lat/long of the locations")
+testData=[{"location":"London","lat":51.5074,"lon":0.1278},
+        {"location":"New York","lat":40.7128,"lon":-74.0060},
+        {"location":"Paris","lat":48.8566,"lon":2.3522},
+        {"location":"Rome","lat":41.9028,"lon":12.4964},
+        {"location":"Venice","lat":45.4408,"lon":12.3155},
+        {"location":"Dublin","lat":53.3498,"lon":-6.2603}]
+testData=pd.DataFrame(testData)
+testData
+
+#Draw world map with data
+st.text("Its easy to do some REALLY advanced stuff")
+st.text("Here we use the backtraced home currency of the transaction currency to draw a world map")
+st.map(testData)
+
+
+    
