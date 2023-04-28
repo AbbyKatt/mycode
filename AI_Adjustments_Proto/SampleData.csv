@@ -1,1001 +1,1001 @@
 AdjustmentType,AdjustmentName,AdjustedField,Drawn,Undrawn,PD,CustomerID,CustomerType,RiskCategory,IsDefaulted,CountryCode,NewVal
-Amend,Fix_Broken_Batch,CountryCode,912767,162739,0.34,CUST665428,SME,Medium,1,GB,US
-Amend,Defaulting_Reclassify,CustomerType,439948,204474,0.85,CUST981372,Retail,High,1,US,Retail
-Amend,Fix_Broken_Batch,CustomerType,956281,799827,0.88,CUST450896,SME,Medium,0,GB,Corporate
-Amend,Default,IsDefaulted,547812,972499,0.39,CUST238947,SME,High,0,US,0
-Amend,Default,CustomerID,381768,194402,0.65,CUST192654,SME,Medium,1,GB,CUST804231
-Amend,Credit_Uplift,RiskCategory,130639,818402,0.49,CUST192654,Retail,Medium,1,GB,Low
-Amend,Defaulting_Reclassify,CustomerID,718156,218338,0.84,CUST238947,Retail,Low,1,GB,CUST804231
-Amend,Market Downturn,CustomerID,973076,836581,0.15,CUST450896,Corporate,High,0,DE,0.75
-Amend,Credit_Uplift,RiskCategory,348917,962837,0.27,CUST981372,Retail,Low,1,DE,Medium
-Amend,Credit_Uplift,CustomerID,904829,70181,0.25,CUST665428,SME,Low,0,GB,CUST359147
-Amend,Credit_Uplift,CountryCode,702507,333455,0.39,CUST712035,SME,High,0,DE,US
-Amend,Fix_Broken_Batch,CustomerType,690821,873997,0.92,CUST192654,SME,Low,1,DE,Corporate
-Amend,Credit_Uplift,RiskCategory,767658,699509,0.37,CUST804231,SME,High,0,US,Low
-Amend,Market Downturn,CustomerType,982770,43614,0.8,CUST238947,Corporate,High,1,US,0.75
-Amend,Credit_Uplift,CountryCode,231815,225815,0.41,CUST238947,Corporate,Medium,0,US,DE
-Amend,Credit_Uplift,CustomerID,683360,814598,0.08,CUST238947,Corporate,Low,1,GB,CUST359147
-Amend,Fix_Broken_Batch,CountryCode,842286,936708,0.34,CUST981372,Retail,High,0,US,US
-Amend,Defaulting_Reclassify,CountryCode,335678,86944,0.51,CUST238947,Retail,Low,0,DE,GB
-Amend,Fix_Broken_Batch,CustomerID,436516,471480,0.07,CUST804231,Corporate,Low,0,US,CUST981372
-Amend,Defaulting_Reclassify,CountryCode,11995,70202,0.22,CUST665428,Retail,High,0,GB,DE
-Amend,GRC_EndMonth,IsDefaulted,362562,20556,0.2,CUST450896,Corporate,Low,0,US,0
-Amend,Defaulting_Reclassify,CustomerType,763926,447707,0.83,CUST192654,Corporate,Low,1,DE,SME
-Amend,Fix_Broken_Batch,CustomerID,887114,589815,0.8,CUST238947,Retail,Low,1,DE,CUST103289
-Amend,Credit_Uplift,RiskCategory,797346,736165,0.69,CUST450896,Retail,Low,0,GB,Low
-Amend,GRC_EndMonth,IsDefaulted,717182,301913,0.88,CUST450896,Retail,Low,0,US,0
-Amend,Fix_Broken_Batch,CountryCode,86479,638383,0.72,CUST981372,Retail,Medium,0,GB,DE
-Amend,Fix_Broken_Batch,CountryCode,893749,322875,0.72,CUST665428,Retail,Medium,1,DE,US
-Amend,Credit_Uplift,CountryCode,322280,887190,0.15,CUST192654,SME,High,1,GB,US
-Amend,Default,IsDefaulted,705272,611905,0.0,CUST359147,SME,Low,0,US,0
-Amend,Fix_Broken_Batch,IsDefaulted,779167,994087,0.43,CUST450896,SME,Medium,0,GB,0
-Amend,Default,RiskCategory,684018,263598,0.68,CUST665428,Retail,Low,0,GB,Medium
-Amend,GRC_EndMonth,CountryCode,523145,732722,0.67,CUST665428,SME,High,1,US,DE
-Amend,Default,CustomerID,627350,130574,0.94,CUST359147,Corporate,Medium,1,US,CUST192654
-Amend,Defaulting_Reclassify,CustomerID,883379,161782,0.39,CUST563201,Retail,High,0,DE,CUST665428
-Amend,Defaulting_Reclassify,CustomerID,437625,759046,0.19,CUST563201,SME,High,1,US,CUST563201
-Amend,Default,RiskCategory,563768,366521,0.27,CUST450896,SME,Low,0,US,Low
-Amend,Fix_Broken_Batch,IsDefaulted,375721,196002,0.3,CUST712035,Retail,Medium,1,US,0
-Amend,Fix_Broken_Batch,CountryCode,281750,825645,0.56,CUST103289,SME,Low,1,US,US
-Amend,Fix_Broken_Batch,RiskCategory,500933,734523,0.7,CUST103289,Retail,Medium,1,GB,Medium
-Amend,GRC_EndMonth,CountryCode,385114,678519,0.96,CUST192654,SME,Medium,0,GB,GB
-Amend,Default,CountryCode,816560,660685,0.4,CUST804231,SME,Low,1,DE,DE
-Amend,Defaulting_Reclassify,CountryCode,486192,310127,0.27,CUST192654,Corporate,Medium,0,US,GB
-Amend,Fix_Broken_Batch,CustomerType,687705,840032,0.56,CUST103289,Corporate,Low,0,US,Retail
-Amend,Market Downturn,CountryCode,404655,754854,0.82,CUST450896,Corporate,High,1,US,0.75
-Amend,Defaulting_Reclassify,CustomerID,102843,495240,0.26,CUST192654,Corporate,Medium,1,DE,CUST359147
-Amend,Default,CustomerID,770433,531302,0.54,CUST192654,SME,High,0,US,CUST238947
-Amend,Defaulting_Reclassify,IsDefaulted,225225,394862,0.21,CUST712035,SME,High,0,US,0
-Amend,GRC_EndMonth,RiskCategory,603236,556469,0.22,CUST981372,Retail,High,1,DE,Medium
-Amend,GRC_EndMonth,IsDefaulted,897814,845650,0.78,CUST981372,SME,Medium,0,GB,0
-Amend,Fix_Broken_Batch,IsDefaulted,468144,25717,0.14,CUST563201,Retail,High,0,GB,0
-Amend,GRC_EndMonth,CountryCode,422123,478504,0.25,CUST563201,Retail,Medium,0,GB,GB
-Amend,Fix_Broken_Batch,CountryCode,845305,41548,0.29,CUST981372,Retail,High,1,GB,US
-Amend,Market Downturn,CountryCode,393534,546808,0.8,CUST192654,Corporate,High,0,DE,0.75
-Amend,Credit_Uplift,RiskCategory,721033,253986,0.57,CUST712035,Retail,High,1,US,High
-Amend,Default,RiskCategory,68384,456716,0.03,CUST103289,SME,Low,0,GB,Medium
-Amend,Defaulting_Reclassify,IsDefaulted,943242,563147,0.68,CUST359147,SME,Medium,1,US,1
-Amend,Credit_Uplift,CustomerID,887677,987369,0.64,CUST103289,SME,Low,1,US,CUST804231
-Amend,GRC_EndMonth,CountryCode,82584,965905,0.58,CUST238947,SME,High,0,US,GB
-Amend,GRC_EndMonth,CustomerID,171827,804982,0.62,CUST238947,Retail,Medium,0,US,CUST712035
-Amend,Market Downturn,RiskCategory,174863,585296,0.01,CUST665428,Corporate,High,0,DE,0.75
-Amend,Market Downturn,RiskCategory,935504,664550,0.66,CUST665428,Corporate,High,0,DE,0.75
-Amend,Default,CustomerType,463132,364891,0.49,CUST665428,Retail,High,0,GB,Corporate
-Amend,Credit_Uplift,CountryCode,642560,962313,0.8,CUST981372,Retail,High,1,US,DE
-Amend,Credit_Uplift,CustomerID,722202,987763,0.26,CUST804231,SME,High,1,US,CUST359147
-Amend,Fix_Broken_Batch,CountryCode,443579,836768,0.58,CUST981372,SME,Medium,0,GB,US
-Amend,GRC_EndMonth,IsDefaulted,645528,538950,0.44,CUST359147,SME,High,0,US,1
-Amend,Credit_Uplift,CustomerID,558769,644002,0.87,CUST804231,Retail,Medium,0,US,CUST804231
-Amend,Market Downturn,CustomerType,10428,100021,0.69,CUST981372,Corporate,High,1,US,0.75
-Amend,Default,CountryCode,142337,818264,0.76,CUST563201,Corporate,Low,1,GB,DE
-Amend,Market Downturn,CustomerID,748704,419884,0.44,CUST804231,Corporate,High,0,GB,0.75
-Amend,Credit_Uplift,RiskCategory,418503,261756,0.15,CUST192654,Retail,Medium,0,DE,High
-Amend,Defaulting_Reclassify,IsDefaulted,429902,777852,0.14,CUST238947,SME,Low,1,GB,1
-Amend,Market Downturn,CountryCode,905560,609730,0.11,CUST804231,Corporate,High,0,US,0.75
-Amend,Default,CountryCode,766839,305884,0.1,CUST450896,SME,High,0,DE,GB
-Amend,Fix_Broken_Batch,CustomerID,823773,377812,0.74,CUST103289,Retail,High,0,DE,CUST563201
-Amend,Defaulting_Reclassify,CustomerType,436973,556963,0.97,CUST359147,SME,Low,0,US,Retail
-Amend,GRC_EndMonth,CountryCode,533075,903162,0.09,CUST665428,SME,Low,0,GB,US
-Amend,Market Downturn,CustomerID,706129,480261,0.18,CUST665428,Corporate,High,1,GB,0.75
-Amend,Credit_Uplift,CustomerID,292744,209380,0.96,CUST981372,SME,Medium,0,GB,CUST450896
-Amend,GRC_EndMonth,CustomerID,604952,835221,0.65,CUST981372,Retail,Low,1,GB,CUST804231
-Amend,Credit_Uplift,CountryCode,779188,465863,0.87,CUST450896,Retail,Medium,0,US,US
-Amend,Default,CountryCode,195853,721629,0.75,CUST981372,Retail,High,1,GB,GB
-Amend,Market Downturn,IsDefaulted,295141,775563,0.49,CUST450896,Corporate,High,0,DE,0.75
-Amend,Defaulting_Reclassify,CustomerType,260887,669730,0.37,CUST712035,Corporate,Low,1,US,SME
-Amend,Market Downturn,CustomerType,520070,610135,0.7,CUST450896,Corporate,High,1,DE,0.75
-Amend,GRC_EndMonth,IsDefaulted,825936,168098,0.82,CUST450896,SME,Low,0,GB,0
-Amend,Market Downturn,CustomerType,912529,126223,0.96,CUST103289,Corporate,High,0,DE,0.75
-Amend,Default,CountryCode,200358,881272,0.93,CUST804231,Retail,Medium,0,GB,GB
-Amend,Defaulting_Reclassify,IsDefaulted,682218,506065,0.58,CUST563201,Retail,Medium,1,US,0
-Amend,GRC_EndMonth,RiskCategory,532419,902744,0.53,CUST192654,SME,High,0,DE,Low
-Amend,Defaulting_Reclassify,CountryCode,267954,42823,0.14,CUST192654,Retail,Medium,1,US,DE
-Amend,Defaulting_Reclassify,RiskCategory,94062,118251,0.43,CUST450896,SME,High,1,DE,Medium
-Amend,Market Downturn,CustomerType,602036,727968,0.47,CUST238947,Corporate,High,0,DE,0.75
-Amend,Default,CustomerID,385293,306642,0.92,CUST563201,Retail,High,1,US,CUST804231
-Amend,Market Downturn,CustomerID,306933,498831,0.56,CUST804231,Corporate,High,0,GB,0.75
-Amend,Market Downturn,RiskCategory,41102,364437,0.65,CUST563201,Corporate,High,0,US,0.75
-Amend,GRC_EndMonth,RiskCategory,585684,410559,0.36,CUST563201,Retail,Low,1,GB,Low
-Amend,Defaulting_Reclassify,CustomerID,16265,248044,0.84,CUST192654,Corporate,Medium,0,GB,CUST665428
-Amend,Default,CustomerID,980679,916571,0.22,CUST192654,SME,Medium,0,DE,CUST359147
-Amend,Credit_Uplift,CustomerType,549822,619443,0.42,CUST665428,SME,Low,1,DE,SME
-Amend,Market Downturn,CustomerType,564695,376928,0.6,CUST192654,Corporate,High,1,US,0.75
-Amend,Default,RiskCategory,344908,169026,0.99,CUST192654,Retail,Medium,1,DE,High
-Amend,GRC_EndMonth,CustomerID,12358,473435,0.53,CUST192654,SME,Low,0,DE,CUST804231
-Amend,Default,CustomerType,943080,480660,0.06,CUST192654,SME,Low,1,DE,SME
-Amend,Market Downturn,IsDefaulted,869874,426959,0.42,CUST712035,Corporate,High,0,GB,0.75
-Amend,Fix_Broken_Batch,CustomerID,637053,822090,0.35,CUST712035,Retail,Medium,0,DE,CUST563201
-Amend,Market Downturn,CustomerID,240508,810937,0.0,CUST563201,Corporate,High,0,DE,0.75
-Amend,GRC_EndMonth,IsDefaulted,463746,960200,0.6,CUST103289,Corporate,Medium,1,DE,1
-Amend,Credit_Uplift,RiskCategory,565202,901898,0.26,CUST804231,SME,Medium,0,US,Low
-Amend,Defaulting_Reclassify,RiskCategory,179464,125768,0.8,CUST563201,Retail,High,1,US,Medium
-Amend,Fix_Broken_Batch,IsDefaulted,82445,964197,0.98,CUST665428,Retail,High,1,DE,1
-Amend,Defaulting_Reclassify,CustomerID,767085,455450,0.59,CUST238947,SME,Low,0,DE,CUST665428
-Amend,Fix_Broken_Batch,CountryCode,959638,29532,0.66,CUST563201,Corporate,Low,0,US,GB
-Amend,Credit_Uplift,CustomerType,282656,556280,0.31,CUST981372,Corporate,Low,0,DE,SME
-Amend,GRC_EndMonth,RiskCategory,776196,474248,0.1,CUST238947,SME,High,1,GB,High
-Amend,Market Downturn,IsDefaulted,377284,77614,0.54,CUST665428,Corporate,High,0,US,0.75
-Amend,Defaulting_Reclassify,RiskCategory,647768,778499,0.23,CUST238947,SME,Low,0,DE,Medium
-Amend,GRC_EndMonth,CustomerType,214024,171564,0.13,CUST563201,Retail,Low,0,US,SME
-Amend,Market Downturn,RiskCategory,239112,602569,0.5,CUST981372,Corporate,High,0,GB,0.75
-Amend,Defaulting_Reclassify,CustomerID,396115,751860,0.01,CUST665428,Retail,High,0,GB,CUST450896
-Amend,GRC_EndMonth,RiskCategory,547243,847485,0.25,CUST450896,SME,Medium,1,US,Medium
-Amend,Default,CustomerType,365567,820470,0.72,CUST359147,Retail,Medium,0,GB,Retail
-Amend,GRC_EndMonth,IsDefaulted,975444,85311,0.39,CUST359147,Corporate,Low,0,US,1
-Amend,Default,CustomerID,418945,708645,0.66,CUST450896,SME,High,1,DE,CUST103289
-Amend,Defaulting_Reclassify,CustomerType,398021,21942,0.69,CUST192654,Retail,Low,0,DE,Corporate
-Amend,Defaulting_Reclassify,CustomerType,798195,28891,0.26,CUST103289,Corporate,Medium,0,US,SME
-Amend,Market Downturn,RiskCategory,144206,246362,0.48,CUST103289,Corporate,High,1,US,0.75
-Amend,Fix_Broken_Batch,RiskCategory,353396,106820,0.62,CUST450896,Retail,Medium,0,US,High
-Amend,Default,CustomerType,850671,402641,0.06,CUST450896,SME,High,1,GB,Retail
-Amend,Default,RiskCategory,197592,575785,0.96,CUST563201,Retail,Medium,1,US,Low
-Amend,Credit_Uplift,RiskCategory,646353,896692,0.58,CUST665428,Retail,Medium,1,GB,High
-Amend,Fix_Broken_Batch,CustomerType,733122,284605,0.72,CUST359147,SME,High,0,DE,Corporate
-Amend,Fix_Broken_Batch,RiskCategory,191028,976586,0.89,CUST981372,Retail,Low,1,DE,Medium
-Amend,Defaulting_Reclassify,CountryCode,428756,334813,0.76,CUST192654,Corporate,Low,1,DE,DE
-Amend,GRC_EndMonth,CustomerType,658129,634001,0.65,CUST665428,Retail,Medium,1,DE,Retail
-Amend,Credit_Uplift,CustomerID,792532,548838,0.59,CUST665428,Retail,Medium,1,GB,CUST712035
-Amend,Credit_Uplift,CustomerType,423044,875177,0.24,CUST981372,SME,Low,1,DE,Corporate
-Amend,GRC_EndMonth,RiskCategory,830673,887064,0.47,CUST192654,Retail,High,1,GB,Medium
-Amend,Default,RiskCategory,625846,12689,0.59,CUST981372,SME,Medium,0,US,Low
-Amend,GRC_EndMonth,IsDefaulted,898430,548795,0.63,CUST450896,SME,Medium,0,US,0
-Amend,Fix_Broken_Batch,RiskCategory,895861,894451,0.95,CUST238947,SME,High,0,US,High
-Amend,Defaulting_Reclassify,CountryCode,894757,300296,0.13,CUST712035,Retail,Medium,0,DE,GB
-Amend,Credit_Uplift,CountryCode,582426,854166,0.96,CUST804231,Retail,High,1,US,DE
-Amend,GRC_EndMonth,CustomerType,755620,663711,0.9,CUST192654,Retail,Low,0,US,Retail
-Amend,Fix_Broken_Batch,CountryCode,957450,120550,0.34,CUST665428,Retail,High,1,US,US
-Amend,GRC_EndMonth,CountryCode,971599,885919,0.27,CUST238947,Corporate,Low,1,DE,DE
-Amend,Fix_Broken_Batch,CountryCode,700311,215354,0.76,CUST665428,Corporate,Medium,0,US,GB
-Amend,Default,IsDefaulted,939873,891032,0.99,CUST665428,Corporate,Medium,1,GB,1
-Amend,Market Downturn,CustomerType,613221,711403,0.95,CUST192654,Corporate,High,0,DE,0.75
-Amend,Defaulting_Reclassify,IsDefaulted,817207,793746,0.07,CUST712035,Retail,High,1,GB,0
-Amend,Default,CustomerID,636297,532537,0.89,CUST238947,SME,High,0,DE,CUST192654
-Amend,Default,IsDefaulted,112188,539945,0.59,CUST804231,Retail,Medium,0,US,1
-Amend,Default,RiskCategory,823215,971844,0.14,CUST192654,Retail,Medium,0,GB,Medium
-Amend,Fix_Broken_Batch,IsDefaulted,909445,741197,0.45,CUST450896,SME,High,0,DE,1
-Amend,GRC_EndMonth,RiskCategory,352738,288551,0.03,CUST665428,Retail,Medium,1,DE,Medium
-Amend,Credit_Uplift,CountryCode,64363,933366,0.3,CUST450896,Retail,Medium,1,DE,GB
-Amend,Credit_Uplift,CustomerType,618138,647469,0.49,CUST804231,Corporate,Low,1,GB,Corporate
-Amend,Default,CustomerID,698548,848550,0.96,CUST450896,Retail,Medium,1,US,CUST804231
-Amend,Credit_Uplift,CustomerType,233669,288507,0.27,CUST804231,Retail,Low,0,DE,SME
-Amend,Fix_Broken_Batch,RiskCategory,954838,137060,0.82,CUST665428,Corporate,Medium,1,DE,Low
-Amend,Market Downturn,CountryCode,835313,795946,0.69,CUST804231,Corporate,High,1,GB,0.75
-Amend,Credit_Uplift,CountryCode,657501,490084,0.04,CUST563201,Corporate,Medium,0,GB,GB
-Amend,GRC_EndMonth,RiskCategory,757141,298886,0.74,CUST665428,SME,Medium,1,US,Medium
-Amend,Credit_Uplift,CountryCode,626307,856705,0.2,CUST804231,Corporate,Low,0,DE,DE
-Amend,Market Downturn,CountryCode,75337,195490,0.85,CUST665428,Corporate,High,0,US,0.75
-Amend,Credit_Uplift,CustomerType,475377,323410,0.71,CUST563201,Corporate,Low,0,GB,Corporate
-Amend,Credit_Uplift,CustomerType,681706,601759,0.47,CUST981372,Retail,Low,1,DE,Retail
-Amend,Default,CustomerType,997811,5157,0.1,CUST804231,SME,Low,0,US,SME
-Amend,Default,CustomerType,543361,274216,0.49,CUST563201,Retail,Medium,0,DE,SME
-Amend,Fix_Broken_Batch,CountryCode,208496,243640,0.69,CUST359147,Retail,High,1,DE,GB
-Amend,Fix_Broken_Batch,CountryCode,671884,26938,0.89,CUST103289,Retail,High,1,GB,DE
-Amend,Credit_Uplift,IsDefaulted,223386,79290,0.68,CUST238947,Retail,High,0,US,1
-Amend,Defaulting_Reclassify,CountryCode,815256,625988,0.06,CUST238947,Retail,Medium,1,GB,GB
-Amend,Defaulting_Reclassify,CountryCode,224137,765086,0.18,CUST712035,SME,Low,0,DE,US
-Amend,Default,IsDefaulted,759973,740750,0.7,CUST563201,Retail,High,1,DE,1
-Amend,Default,RiskCategory,543824,136644,0.26,CUST238947,Corporate,Medium,1,DE,Low
-Amend,GRC_EndMonth,CountryCode,354091,138369,0.16,CUST981372,Retail,Low,0,GB,DE
-Amend,GRC_EndMonth,CustomerID,705332,424036,0.23,CUST192654,SME,Low,0,US,CUST238947
-Amend,Fix_Broken_Batch,RiskCategory,364342,253685,0.52,CUST665428,Corporate,Low,1,US,High
-Amend,GRC_EndMonth,CustomerType,918478,940999,0.73,CUST563201,Retail,High,1,US,SME
-Amend,GRC_EndMonth,IsDefaulted,699836,985390,0.96,CUST804231,SME,Low,0,GB,1
-Amend,Default,CustomerID,617541,878396,0.47,CUST192654,Retail,Medium,1,DE,CUST103289
-Amend,Defaulting_Reclassify,IsDefaulted,465869,188199,0.85,CUST563201,SME,High,0,DE,1
-Amend,Fix_Broken_Batch,IsDefaulted,606941,436490,0.68,CUST103289,Retail,Medium,0,GB,1
-Amend,Defaulting_Reclassify,IsDefaulted,449601,154797,0.13,CUST450896,Corporate,Medium,1,US,0
-Amend,Credit_Uplift,CustomerType,245959,993506,0.94,CUST665428,Retail,High,1,DE,SME
-Amend,Defaulting_Reclassify,CustomerID,118285,588592,0.26,CUST192654,SME,High,1,US,CUST103289
-Amend,Defaulting_Reclassify,CustomerType,234219,19329,0.49,CUST712035,Retail,High,0,US,Retail
-Amend,Credit_Uplift,RiskCategory,629872,244815,0.66,CUST563201,SME,Low,0,US,Medium
-Amend,Defaulting_Reclassify,CustomerType,309789,433191,0.27,CUST192654,Corporate,Low,0,US,Retail
-Amend,Defaulting_Reclassify,CountryCode,472876,159595,0.2,CUST103289,Corporate,Medium,0,GB,GB
-Amend,Credit_Uplift,IsDefaulted,147193,648099,0.4,CUST103289,Retail,Medium,1,US,1
-Amend,Defaulting_Reclassify,CountryCode,394644,460170,0.25,CUST238947,Retail,Medium,1,US,GB
-Amend,GRC_EndMonth,IsDefaulted,121569,646352,0.4,CUST359147,SME,Medium,1,GB,1
-Amend,Market Downturn,CustomerType,662054,270549,0.02,CUST804231,Corporate,High,1,US,0.75
-Amend,Credit_Uplift,CustomerType,55985,176442,0.23,CUST804231,Corporate,Medium,1,DE,Corporate
-Amend,Default,CustomerID,402186,353876,0.59,CUST563201,Retail,High,0,US,CUST563201
-Amend,Credit_Uplift,IsDefaulted,38517,105273,0.66,CUST804231,Retail,High,0,DE,0
-Amend,Defaulting_Reclassify,CustomerID,4703,877295,0.61,CUST712035,SME,High,0,US,CUST450896
-Amend,Credit_Uplift,RiskCategory,817985,403619,0.07,CUST981372,Retail,Medium,0,DE,High
-Amend,Market Downturn,IsDefaulted,429884,483157,0.03,CUST192654,Corporate,High,1,US,0.75
-Amend,Market Downturn,IsDefaulted,703315,219698,0.0,CUST359147,Corporate,High,0,US,0.75
-Amend,Default,CustomerID,756823,819435,0.31,CUST712035,SME,High,1,DE,CUST804231
-Amend,Fix_Broken_Batch,IsDefaulted,808953,375805,0.29,CUST359147,Retail,Medium,0,DE,0
-Amend,GRC_EndMonth,CustomerType,790124,860400,0.06,CUST804231,Retail,Low,0,DE,Corporate
-Amend,GRC_EndMonth,CountryCode,371771,644994,0.86,CUST563201,Corporate,Low,1,DE,US
-Amend,Defaulting_Reclassify,CountryCode,73205,296417,0.12,CUST450896,Corporate,Medium,0,US,US
-Amend,GRC_EndMonth,CustomerID,477053,416479,0.81,CUST192654,Corporate,Medium,0,US,CUST981372
-Amend,Fix_Broken_Batch,CustomerType,168888,563212,0.82,CUST665428,SME,Low,0,DE,SME
-Amend,Default,IsDefaulted,921157,367699,0.69,CUST712035,Retail,Low,1,GB,1
-Amend,Credit_Uplift,RiskCategory,935451,730012,0.75,CUST359147,SME,Medium,0,DE,Medium
-Amend,GRC_EndMonth,RiskCategory,238213,821188,0.99,CUST450896,Corporate,Low,1,DE,Medium
-Amend,Fix_Broken_Batch,CustomerType,420098,712823,0.81,CUST563201,Corporate,Low,0,US,Corporate
-Amend,Fix_Broken_Batch,IsDefaulted,337036,748531,0.4,CUST238947,Retail,Low,0,DE,0
-Amend,GRC_EndMonth,CustomerID,41774,431137,0.93,CUST804231,Retail,Low,1,DE,CUST450896
-Amend,Credit_Uplift,IsDefaulted,304561,394063,0.11,CUST450896,SME,Low,0,GB,1
-Amend,Default,CountryCode,647583,296884,0.83,CUST103289,SME,Low,0,GB,GB
-Amend,Credit_Uplift,CustomerID,332270,577748,0.95,CUST450896,Retail,Low,0,US,CUST563201
-Amend,Credit_Uplift,CustomerID,903820,44509,0.85,CUST981372,Retail,Medium,1,US,CUST563201
-Amend,Fix_Broken_Batch,CustomerID,131623,568064,0.94,CUST450896,Retail,Low,0,DE,CUST665428
-Amend,Credit_Uplift,CustomerType,331873,83554,0.81,CUST238947,Retail,Low,1,GB,SME
-Amend,Default,CustomerID,492285,969424,0.81,CUST981372,SME,High,1,GB,CUST804231
-Amend,Credit_Uplift,RiskCategory,59960,891858,0.59,CUST804231,Retail,Low,0,US,High
-Amend,Credit_Uplift,CustomerType,847969,530856,0.84,CUST103289,Retail,Low,0,GB,Retail
-Amend,Defaulting_Reclassify,IsDefaulted,857035,932495,0.88,CUST804231,Retail,Low,0,GB,1
-Amend,Defaulting_Reclassify,RiskCategory,929970,983818,0.68,CUST563201,SME,Medium,0,US,Low
-Amend,Defaulting_Reclassify,CountryCode,894275,302289,0.91,CUST450896,Retail,High,0,DE,GB
-Amend,Fix_Broken_Batch,CustomerID,942783,739469,0.6,CUST359147,Retail,Medium,1,GB,CUST450896
-Amend,Default,IsDefaulted,34005,795976,0.83,CUST563201,Corporate,Medium,1,US,1
-Amend,Defaulting_Reclassify,CustomerType,752856,359218,0.49,CUST712035,Retail,Medium,0,GB,Corporate
-Amend,Fix_Broken_Batch,CountryCode,964078,92669,0.2,CUST450896,Retail,High,1,US,US
-Amend,Credit_Uplift,IsDefaulted,866579,291121,0.75,CUST804231,Corporate,Low,1,DE,1
-Amend,Defaulting_Reclassify,CustomerID,887588,295435,0.07,CUST192654,Retail,Medium,1,DE,CUST563201
-Amend,Defaulting_Reclassify,CustomerID,655059,45839,0.59,CUST804231,Retail,Medium,0,DE,CUST238947
-Amend,Fix_Broken_Batch,IsDefaulted,257510,944046,0.37,CUST192654,Retail,Medium,0,DE,0
-Amend,Defaulting_Reclassify,CustomerType,499844,983132,0.99,CUST563201,Retail,Low,1,DE,Corporate
-Amend,Default,CustomerID,851799,508095,0.81,CUST192654,Corporate,Medium,0,DE,CUST238947
-Amend,GRC_EndMonth,CountryCode,112711,402221,0.8,CUST192654,Retail,Low,1,DE,US
-Amend,Defaulting_Reclassify,CustomerID,355598,393424,0.91,CUST712035,Corporate,Medium,1,GB,CUST712035
-Amend,Defaulting_Reclassify,CustomerID,993153,475257,0.32,CUST804231,SME,High,1,DE,CUST238947
-Amend,Credit_Uplift,CountryCode,662663,111111,0.82,CUST563201,SME,Low,1,DE,DE
-Amend,GRC_EndMonth,CountryCode,113949,824512,0.44,CUST804231,Retail,Low,1,DE,GB
-Amend,GRC_EndMonth,RiskCategory,154533,116436,0.59,CUST238947,Retail,High,1,DE,Medium
-Amend,Defaulting_Reclassify,RiskCategory,973463,859294,0.76,CUST981372,SME,Medium,0,DE,Low
-Amend,Default,CustomerType,44407,714122,0.15,CUST238947,Retail,Low,0,DE,Retail
-Amend,Default,CustomerType,678716,881445,0.97,CUST563201,Retail,High,1,DE,Retail
-Amend,Fix_Broken_Batch,IsDefaulted,401014,568457,0.87,CUST563201,Corporate,Medium,0,US,0
-Amend,Defaulting_Reclassify,IsDefaulted,202044,721827,0.19,CUST103289,Retail,Medium,1,GB,1
-Amend,Market Downturn,RiskCategory,888865,42513,0.49,CUST238947,Corporate,High,0,US,0.75
-Amend,Credit_Uplift,CustomerID,585049,282100,0.31,CUST450896,SME,Low,0,US,CUST450896
-Amend,Default,IsDefaulted,804190,437894,0.63,CUST712035,Retail,Medium,1,US,0
-Amend,Fix_Broken_Batch,CustomerID,447338,163968,0.41,CUST563201,SME,Medium,0,DE,CUST563201
-Amend,Credit_Uplift,RiskCategory,798875,686182,0.35,CUST192654,Corporate,Medium,1,GB,Medium
-Amend,Credit_Uplift,CustomerID,361406,41091,0.83,CUST359147,Retail,High,1,US,CUST665428
-Amend,Market Downturn,IsDefaulted,995522,193469,0.45,CUST804231,Corporate,High,0,DE,0.75
-Amend,Defaulting_Reclassify,CustomerID,895499,128668,0.81,CUST981372,Corporate,Low,0,US,CUST359147
-Amend,Fix_Broken_Batch,CustomerType,960045,863188,0.22,CUST712035,Corporate,Medium,0,DE,SME
-Amend,Market Downturn,CustomerType,33795,458104,0.2,CUST192654,Corporate,High,0,GB,0.75
-Amend,Default,IsDefaulted,610625,980119,0.75,CUST238947,SME,Low,0,DE,0
-Amend,Fix_Broken_Batch,CountryCode,999096,580057,0.34,CUST450896,Corporate,Medium,1,GB,DE
-Amend,Market Downturn,CustomerID,299231,58408,0.59,CUST238947,Corporate,High,0,US,0.75
-Amend,Defaulting_Reclassify,RiskCategory,257563,152581,0.31,CUST450896,Retail,Low,1,GB,Low
-Amend,Default,RiskCategory,616435,142067,0.54,CUST192654,Retail,Medium,1,US,High
-Amend,GRC_EndMonth,CountryCode,398366,687320,0.82,CUST665428,Retail,High,1,DE,GB
-Amend,Market Downturn,CustomerID,284055,512182,0.35,CUST665428,Corporate,High,0,US,0.75
-Amend,Credit_Uplift,IsDefaulted,150205,335007,0.29,CUST712035,SME,Low,1,GB,1
-Amend,Fix_Broken_Batch,CountryCode,488327,755238,0.07,CUST103289,Retail,Medium,1,DE,DE
-Amend,Defaulting_Reclassify,CustomerType,897338,335792,0.73,CUST359147,SME,Low,0,DE,Retail
-Amend,Fix_Broken_Batch,RiskCategory,299823,647700,0.66,CUST450896,SME,Low,0,US,High
-Amend,Fix_Broken_Batch,RiskCategory,127926,214578,0.86,CUST238947,Retail,Low,1,GB,Medium
-Amend,GRC_EndMonth,CustomerType,102833,435793,0.16,CUST450896,Retail,High,0,US,SME
-Amend,GRC_EndMonth,CustomerID,483147,13314,0.56,CUST712035,SME,Medium,0,US,CUST192654
-Amend,GRC_EndMonth,CountryCode,973449,117554,0.2,CUST192654,Retail,Low,0,GB,GB
-Amend,Defaulting_Reclassify,CustomerID,924758,463206,0.47,CUST238947,Retail,High,1,US,CUST103289
-Amend,Credit_Uplift,CustomerType,737222,642912,0.8,CUST238947,Corporate,Low,0,GB,Corporate
-Amend,Credit_Uplift,IsDefaulted,691010,187942,0.41,CUST981372,Retail,Low,0,US,1
-Amend,Default,CustomerType,238150,16579,0.65,CUST563201,Retail,High,1,GB,SME
-Amend,Fix_Broken_Batch,RiskCategory,850834,262835,0.49,CUST238947,Retail,Medium,0,US,High
-Amend,GRC_EndMonth,RiskCategory,424201,74760,0.1,CUST359147,Retail,Low,1,GB,Medium
-Amend,Credit_Uplift,CustomerID,838665,207770,0.03,CUST359147,SME,Medium,1,US,CUST563201
-Amend,Credit_Uplift,CustomerID,802391,580133,0.46,CUST712035,Corporate,Low,0,US,CUST981372
-Amend,Default,CountryCode,210581,407520,0.14,CUST192654,Corporate,Low,0,DE,DE
-Amend,Default,CountryCode,222014,192881,0.71,CUST712035,SME,Medium,1,GB,US
-Amend,Fix_Broken_Batch,RiskCategory,404575,714140,0.88,CUST192654,SME,High,1,US,High
-Amend,Defaulting_Reclassify,CountryCode,738529,175551,0.24,CUST238947,SME,Medium,0,DE,US
-Amend,Default,IsDefaulted,865703,41174,0.82,CUST192654,Retail,Medium,0,DE,0
-Amend,Market Downturn,CustomerID,730010,379177,0.32,CUST712035,Corporate,High,0,GB,0.75
-Amend,GRC_EndMonth,CountryCode,492053,93940,0.87,CUST804231,SME,Low,0,DE,US
-Amend,Market Downturn,CountryCode,743652,148366,0.92,CUST563201,Corporate,High,1,GB,0.75
-Amend,Default,IsDefaulted,59790,901574,0.11,CUST712035,SME,Medium,0,DE,1
-Amend,Default,CustomerID,427539,231081,0.34,CUST238947,Retail,High,0,US,CUST804231
-Amend,GRC_EndMonth,CustomerType,333317,528059,0.68,CUST665428,Retail,Medium,1,DE,Retail
-Amend,Default,CustomerType,663767,281551,0.6,CUST192654,Retail,High,1,GB,SME
-Amend,Default,CountryCode,154896,262769,0.8,CUST238947,Retail,Low,1,DE,GB
-Amend,Fix_Broken_Batch,RiskCategory,404564,534899,0.1,CUST563201,Corporate,Medium,0,DE,Medium
-Amend,Fix_Broken_Batch,CountryCode,852852,762751,0.84,CUST192654,SME,Medium,0,DE,GB
-Amend,Market Downturn,CustomerID,716278,825195,0.84,CUST103289,Corporate,High,0,US,0.75
-Amend,GRC_EndMonth,IsDefaulted,974165,174078,0.68,CUST804231,SME,Low,1,US,1
-Amend,Market Downturn,CountryCode,555884,112851,0.02,CUST981372,Corporate,High,1,GB,0.75
-Amend,GRC_EndMonth,IsDefaulted,745433,825268,0.99,CUST563201,Retail,Low,0,DE,0
-Amend,GRC_EndMonth,IsDefaulted,296901,810584,0.06,CUST359147,Retail,High,0,DE,1
-Amend,Default,CustomerType,68291,132056,0.01,CUST103289,SME,High,1,DE,Retail
-Amend,Market Downturn,RiskCategory,231772,591783,0.29,CUST192654,Corporate,High,0,GB,0.75
-Amend,Fix_Broken_Batch,CustomerType,858246,378483,0.29,CUST804231,Retail,Low,0,DE,Corporate
-Amend,Credit_Uplift,RiskCategory,953511,635338,0.01,CUST238947,Corporate,Low,0,GB,Medium
-Amend,Defaulting_Reclassify,CustomerType,15277,505843,0.21,CUST192654,Corporate,Medium,0,DE,SME
-Amend,Defaulting_Reclassify,IsDefaulted,338606,485327,0.24,CUST981372,Retail,Low,0,GB,1
-Amend,Fix_Broken_Batch,CustomerID,549235,297188,0.35,CUST238947,Retail,High,1,GB,CUST665428
-Amend,GRC_EndMonth,CountryCode,46923,131986,0.58,CUST450896,SME,Low,0,DE,DE
-Amend,Market Downturn,IsDefaulted,8252,132118,0.35,CUST359147,Corporate,High,0,US,0.75
-Amend,GRC_EndMonth,CustomerType,667512,672841,0.55,CUST192654,SME,High,0,US,Corporate
-Amend,Credit_Uplift,IsDefaulted,325850,492258,0.41,CUST712035,Corporate,Low,1,GB,1
-Amend,GRC_EndMonth,RiskCategory,171327,456178,0.64,CUST359147,Retail,Low,0,GB,Medium
-Amend,Fix_Broken_Batch,CustomerType,275075,149373,0.16,CUST103289,Corporate,Medium,0,DE,Corporate
-Amend,Defaulting_Reclassify,RiskCategory,793498,762796,0.64,CUST359147,Retail,Low,1,DE,Low
-Amend,Defaulting_Reclassify,CustomerID,461182,644876,0.87,CUST804231,Retail,Medium,0,GB,CUST981372
-Amend,Defaulting_Reclassify,RiskCategory,947425,993479,0.17,CUST238947,Retail,High,1,DE,Medium
-Amend,Default,RiskCategory,137182,210806,0.83,CUST103289,SME,Medium,1,GB,Medium
-Amend,Fix_Broken_Batch,CountryCode,754964,11111,0.23,CUST981372,Retail,High,0,DE,US
-Amend,Defaulting_Reclassify,CustomerType,24830,281075,0.66,CUST192654,Corporate,Low,0,GB,Retail
-Amend,GRC_EndMonth,CountryCode,511972,186359,0.4,CUST712035,Retail,Medium,1,GB,GB
-Amend,Credit_Uplift,CountryCode,331784,765091,0.5,CUST804231,SME,Low,1,GB,GB
-Amend,GRC_EndMonth,CustomerType,859065,383315,0.23,CUST804231,Retail,High,0,DE,Retail
-Amend,GRC_EndMonth,RiskCategory,127023,479856,0.42,CUST359147,SME,Medium,0,DE,Low
-Amend,Default,IsDefaulted,609618,884421,0.07,CUST804231,Retail,High,1,GB,0
-Amend,Fix_Broken_Batch,CustomerID,123654,448817,0.42,CUST359147,SME,High,1,US,CUST712035
-Amend,GRC_EndMonth,RiskCategory,52462,566140,0.37,CUST238947,Corporate,Low,0,US,Medium
-Amend,GRC_EndMonth,RiskCategory,940020,593084,0.97,CUST712035,SME,High,1,GB,Low
-Amend,GRC_EndMonth,CountryCode,586856,190854,0.72,CUST238947,Corporate,Medium,1,GB,DE
-Amend,GRC_EndMonth,CountryCode,197355,885863,0.92,CUST665428,SME,Medium,0,GB,DE
-Amend,GRC_EndMonth,CustomerID,544720,893611,0.75,CUST192654,Corporate,Low,1,DE,CUST359147
-Amend,Fix_Broken_Batch,IsDefaulted,774964,735172,0.77,CUST981372,Retail,Low,1,US,0
-Amend,Default,RiskCategory,352756,204290,0.78,CUST981372,Corporate,Medium,1,DE,Medium
-Amend,GRC_EndMonth,CustomerType,721283,163864,0.44,CUST712035,SME,High,0,DE,Retail
-Amend,Defaulting_Reclassify,CountryCode,437324,168048,0.97,CUST192654,Retail,Medium,0,DE,GB
-Amend,Credit_Uplift,IsDefaulted,793924,39291,0.23,CUST103289,Corporate,Low,0,DE,1
-Amend,Default,CustomerType,599486,928900,0.18,CUST238947,SME,Medium,0,US,Retail
-Amend,Credit_Uplift,CustomerID,156538,140944,0.42,CUST981372,Retail,High,1,DE,CUST804231
-Amend,Defaulting_Reclassify,CustomerID,290490,192471,0.83,CUST665428,SME,High,0,GB,CUST450896
-Amend,Defaulting_Reclassify,CustomerID,37465,254947,0.73,CUST981372,SME,Medium,0,DE,CUST563201
-Amend,Defaulting_Reclassify,CountryCode,364605,220716,0.85,CUST804231,SME,Medium,0,GB,DE
-Amend,Fix_Broken_Batch,RiskCategory,224946,244269,0.96,CUST981372,Retail,Low,1,DE,Medium
-Amend,Defaulting_Reclassify,RiskCategory,31769,999392,0.98,CUST103289,Retail,Low,1,US,High
-Amend,Market Downturn,CountryCode,38060,177926,0.23,CUST103289,Corporate,High,0,GB,0.75
-Amend,Fix_Broken_Batch,CustomerType,947198,882853,0.94,CUST804231,Corporate,Low,1,GB,Retail
-Amend,Default,IsDefaulted,220058,140186,0.17,CUST192654,Retail,Low,0,DE,1
-Amend,Default,RiskCategory,38153,589374,0.59,CUST192654,SME,Low,1,GB,High
-Amend,Defaulting_Reclassify,CustomerType,809829,172515,0.84,CUST192654,Retail,High,0,US,Retail
-Amend,Credit_Uplift,RiskCategory,113276,687245,0.33,CUST981372,Retail,Low,1,GB,Low
-Amend,Default,CustomerID,252725,214949,0.41,CUST450896,SME,Medium,0,US,CUST981372
-Amend,Fix_Broken_Batch,CustomerType,333986,497446,0.75,CUST103289,Retail,High,0,US,Corporate
-Amend,Fix_Broken_Batch,CustomerID,420957,671070,0.62,CUST103289,Retail,Medium,1,GB,CUST103289
-Amend,Defaulting_Reclassify,RiskCategory,605855,122119,0.39,CUST665428,SME,Low,0,DE,Medium
-Amend,Market Downturn,CustomerType,702617,703116,0.64,CUST192654,Corporate,High,0,US,0.75
-Amend,Default,CustomerID,374088,800529,0.39,CUST192654,Retail,Low,0,US,CUST804231
-Amend,Market Downturn,RiskCategory,292161,257905,0.36,CUST103289,Corporate,High,0,US,0.75
-Amend,GRC_EndMonth,IsDefaulted,328181,186688,0.79,CUST192654,SME,High,1,US,0
-Amend,Market Downturn,CustomerType,683497,267997,0.58,CUST665428,Corporate,High,0,GB,0.75
-Amend,Credit_Uplift,CountryCode,616332,809763,0.09,CUST359147,Retail,Medium,0,US,US
-Amend,Credit_Uplift,CustomerID,931685,424611,0.33,CUST804231,SME,Low,0,US,CUST712035
-Amend,Defaulting_Reclassify,RiskCategory,737978,14737,0.29,CUST981372,Retail,Low,1,US,Low
-Amend,Fix_Broken_Batch,CustomerID,283681,273591,0.84,CUST192654,Corporate,Low,1,US,CUST665428
-Amend,Default,CustomerID,551180,265865,0.23,CUST103289,SME,Low,1,DE,CUST665428
-Amend,Credit_Uplift,RiskCategory,903348,499670,0.11,CUST238947,SME,Low,0,GB,Medium
-Amend,Defaulting_Reclassify,CustomerType,66326,500933,0.03,CUST238947,SME,Medium,0,DE,Corporate
-Amend,Fix_Broken_Batch,CustomerType,250121,5751,0.92,CUST450896,Corporate,Low,1,GB,SME
-Amend,Credit_Uplift,CustomerID,87719,52788,0.05,CUST981372,Retail,High,0,DE,CUST103289
-Amend,Defaulting_Reclassify,CustomerID,700063,606405,0.83,CUST359147,Retail,Medium,1,DE,CUST192654
-Amend,Default,IsDefaulted,57803,483797,0.5,CUST804231,Retail,Low,1,US,1
-Amend,Market Downturn,CustomerType,539913,841355,0.19,CUST450896,Corporate,High,0,US,0.75
-Amend,Defaulting_Reclassify,CustomerType,685521,383922,0.06,CUST712035,SME,Low,0,GB,Retail
-Amend,Market Downturn,IsDefaulted,497645,47967,0.1,CUST804231,Corporate,High,1,DE,0.75
-Amend,Default,RiskCategory,854227,610846,0.26,CUST238947,Retail,Low,1,DE,Medium
-Amend,Fix_Broken_Batch,IsDefaulted,159478,363771,0.2,CUST563201,SME,Low,0,DE,0
-Amend,Default,CustomerID,129294,501471,0.88,CUST804231,Retail,High,0,US,CUST103289
-Amend,Fix_Broken_Batch,CustomerID,667887,244165,0.13,CUST981372,Retail,High,0,US,CUST192654
-Amend,Defaulting_Reclassify,CustomerID,362889,602323,0.68,CUST192654,Corporate,Low,1,US,CUST804231
-Amend,Default,CustomerType,236330,274466,0.14,CUST359147,Retail,Low,1,GB,SME
-Amend,Fix_Broken_Batch,CustomerType,652739,771030,0.88,CUST238947,Corporate,Medium,1,GB,SME
-Amend,GRC_EndMonth,CountryCode,547596,394137,0.48,CUST804231,SME,Low,1,GB,GB
-Amend,Market Downturn,IsDefaulted,622984,741574,0.69,CUST103289,Corporate,High,0,GB,0.75
-Amend,Default,IsDefaulted,344041,517146,0.48,CUST192654,SME,Medium,1,DE,1
-Amend,GRC_EndMonth,CountryCode,519947,411259,0.63,CUST359147,SME,Low,0,GB,US
-Amend,Default,RiskCategory,355861,319384,0.38,CUST192654,Corporate,Medium,0,GB,High
-Amend,Credit_Uplift,IsDefaulted,427279,931313,0.9,CUST665428,Retail,Low,0,GB,1
-Amend,Fix_Broken_Batch,CustomerType,545,667638,0.85,CUST238947,SME,High,1,GB,SME
-Amend,Fix_Broken_Batch,CountryCode,412748,626831,0.71,CUST192654,Retail,Low,0,US,GB
-Amend,Fix_Broken_Batch,CustomerID,481067,960052,0.18,CUST981372,Retail,High,0,DE,CUST981372
-Amend,Market Downturn,CustomerType,965947,97399,0.47,CUST804231,Corporate,High,0,DE,0.75
-Amend,Market Downturn,IsDefaulted,882817,754052,0.83,CUST103289,Corporate,High,0,US,0.75
-Amend,Defaulting_Reclassify,RiskCategory,922936,911030,0.98,CUST563201,Corporate,Medium,1,GB,Medium
-Amend,Defaulting_Reclassify,CustomerType,531645,979347,0.97,CUST665428,SME,High,0,GB,SME
-Amend,Credit_Uplift,CustomerType,263166,32457,0.36,CUST665428,Retail,High,1,US,SME
-Amend,Defaulting_Reclassify,CountryCode,282780,980505,0.56,CUST450896,Retail,Low,1,GB,GB
-Amend,Market Downturn,CustomerID,392675,774052,0.57,CUST665428,Corporate,High,1,GB,0.75
-Amend,Default,CountryCode,220497,71800,0.27,CUST359147,SME,Medium,1,GB,GB
-Amend,Defaulting_Reclassify,CustomerID,879696,43935,0.11,CUST981372,Corporate,Low,1,GB,CUST192654
-Amend,Default,CountryCode,420164,165278,0.4,CUST981372,Corporate,Medium,0,GB,US
-Amend,Default,RiskCategory,372752,60494,0.45,CUST359147,Retail,Medium,1,DE,Medium
-Amend,Defaulting_Reclassify,CustomerType,145937,147012,0.05,CUST563201,Retail,High,1,DE,Corporate
-Amend,GRC_EndMonth,CustomerID,979111,352230,0.5,CUST665428,SME,Medium,1,GB,CUST712035
-Amend,Credit_Uplift,IsDefaulted,986826,827310,0.16,CUST359147,Retail,Low,0,GB,0
-Amend,Fix_Broken_Batch,RiskCategory,10486,552709,0.07,CUST981372,Retail,Low,0,US,High
-Amend,Credit_Uplift,CustomerType,823102,222938,0.04,CUST103289,SME,Low,1,GB,Retail
-Amend,Defaulting_Reclassify,CustomerType,756418,10754,0.15,CUST981372,Corporate,Medium,0,US,Corporate
-Amend,GRC_EndMonth,CountryCode,165585,53325,0.52,CUST359147,Corporate,Low,1,GB,DE
-Amend,Fix_Broken_Batch,CustomerID,11416,872889,0.4,CUST103289,SME,High,0,GB,CUST450896
-Amend,Market Downturn,CountryCode,979891,362705,0.1,CUST192654,Corporate,High,0,US,0.75
-Amend,Fix_Broken_Batch,IsDefaulted,469212,155920,0.48,CUST563201,Retail,High,0,DE,1
-Amend,GRC_EndMonth,RiskCategory,642387,210045,0.43,CUST981372,Corporate,Low,1,US,Low
-Amend,Default,CustomerType,458258,351418,0.4,CUST238947,Retail,High,0,GB,SME
-Amend,GRC_EndMonth,CountryCode,289571,674524,0.57,CUST238947,Retail,High,1,US,GB
-Amend,GRC_EndMonth,CustomerType,522653,311411,0.34,CUST665428,Retail,Low,0,DE,SME
-Amend,Default,IsDefaulted,183086,898349,0.82,CUST665428,Retail,Low,1,DE,0
-Amend,Credit_Uplift,CountryCode,325216,83668,0.51,CUST804231,Retail,Low,1,GB,US
-Amend,Fix_Broken_Batch,IsDefaulted,70217,349963,0.79,CUST238947,Retail,Medium,0,DE,1
-Amend,Defaulting_Reclassify,CustomerType,953613,867148,0.28,CUST804231,Corporate,Low,0,DE,SME
-Amend,Fix_Broken_Batch,RiskCategory,99106,279461,0.0,CUST359147,Retail,High,0,GB,Medium
-Amend,Default,CustomerType,269153,421911,0.24,CUST450896,SME,Low,1,DE,Retail
-Amend,Defaulting_Reclassify,IsDefaulted,68487,973229,0.06,CUST665428,Retail,Medium,0,GB,0
-Amend,Fix_Broken_Batch,RiskCategory,486079,748798,0.51,CUST563201,Retail,Low,1,GB,Medium
-Amend,Default,CustomerType,425291,757573,0.52,CUST563201,Retail,High,1,US,SME
-Amend,GRC_EndMonth,IsDefaulted,157593,864898,0.02,CUST359147,SME,Low,1,DE,0
-Amend,GRC_EndMonth,CustomerType,655779,937949,0.29,CUST192654,SME,High,0,US,Retail
-Amend,Default,CustomerID,479523,872582,0.06,CUST450896,Retail,High,1,US,CUST192654
-Amend,Default,RiskCategory,649809,656932,0.99,CUST981372,Retail,Low,1,DE,Low
-Amend,Defaulting_Reclassify,CountryCode,978514,348278,0.91,CUST238947,Retail,Low,1,GB,US
-Amend,Fix_Broken_Batch,CustomerType,37020,424699,0.74,CUST103289,SME,Medium,0,US,Retail
-Amend,Fix_Broken_Batch,IsDefaulted,325525,538061,0.49,CUST665428,Corporate,Medium,0,GB,1
-Amend,Credit_Uplift,CountryCode,159424,569586,0.68,CUST103289,SME,High,1,DE,DE
-Amend,Defaulting_Reclassify,CustomerType,517526,866467,0.18,CUST665428,SME,Low,0,GB,SME
-Amend,GRC_EndMonth,CustomerID,601332,359864,0.32,CUST981372,Corporate,Low,1,DE,CUST563201
-Amend,GRC_EndMonth,CustomerType,971910,122554,0.71,CUST103289,Retail,Low,1,DE,SME
-Amend,Credit_Uplift,CountryCode,470985,63545,0.65,CUST359147,Retail,Medium,0,DE,US
-Amend,Default,CustomerID,323756,120390,0.31,CUST103289,Retail,High,0,US,CUST192654
-Amend,Fix_Broken_Batch,CountryCode,727408,529460,0.6,CUST981372,Retail,Low,1,DE,DE
-Amend,Credit_Uplift,RiskCategory,192733,486956,0.2,CUST712035,Retail,High,1,US,Low
-Amend,Fix_Broken_Batch,CountryCode,51442,173248,0.45,CUST563201,SME,Medium,0,US,GB
-Amend,Default,CustomerID,249701,50361,0.29,CUST450896,SME,High,1,DE,CUST981372
-Amend,Default,RiskCategory,18928,615264,0.51,CUST359147,Retail,Medium,1,US,Medium
-Amend,Fix_Broken_Batch,CustomerID,44303,97143,0.63,CUST981372,Retail,Medium,1,US,CUST804231
-Amend,Credit_Uplift,CountryCode,151217,162698,0.62,CUST563201,Retail,Low,1,US,US
-Amend,Market Downturn,CustomerType,313956,97554,0.18,CUST712035,Corporate,High,0,US,0.75
-Amend,Credit_Uplift,CustomerType,353799,801303,0.98,CUST103289,Corporate,Low,0,DE,SME
-Amend,Defaulting_Reclassify,CustomerID,733901,617138,0.86,CUST238947,Corporate,Low,1,DE,CUST804231
-Amend,Defaulting_Reclassify,CustomerID,590003,84248,0.79,CUST192654,Corporate,Medium,1,GB,CUST359147
-Amend,Credit_Uplift,CustomerID,408306,719613,0.57,CUST450896,Retail,Low,1,US,CUST665428
-Amend,Fix_Broken_Batch,CountryCode,964001,370233,0.91,CUST712035,Corporate,Low,0,GB,US
-Amend,Fix_Broken_Batch,CustomerID,634072,847356,0.56,CUST238947,SME,Low,1,DE,CUST238947
-Amend,Fix_Broken_Batch,CustomerType,234591,154252,0.96,CUST981372,SME,Low,0,GB,Corporate
-Amend,Market Downturn,IsDefaulted,55905,570568,0.71,CUST238947,Corporate,High,1,DE,0.75
-Amend,GRC_EndMonth,CountryCode,986713,345656,0.08,CUST563201,Retail,Low,1,GB,GB
-Amend,GRC_EndMonth,CustomerID,360022,578341,0.48,CUST103289,Corporate,Medium,0,DE,CUST804231
-Amend,GRC_EndMonth,CustomerType,160533,693003,0.91,CUST563201,SME,Low,1,GB,Corporate
-Amend,GRC_EndMonth,IsDefaulted,968258,13225,0.89,CUST712035,SME,High,0,DE,1
-Amend,Default,CountryCode,645233,514856,0.72,CUST103289,SME,Medium,1,DE,DE
-Amend,Credit_Uplift,RiskCategory,822862,159539,0.99,CUST192654,Corporate,Low,1,GB,Low
-Amend,Fix_Broken_Batch,CustomerType,999591,922754,0.63,CUST450896,SME,Low,1,US,Retail
-Amend,Fix_Broken_Batch,RiskCategory,757610,130052,0.17,CUST238947,Corporate,Low,0,GB,Medium
-Amend,Fix_Broken_Batch,RiskCategory,885346,345,0.72,CUST563201,SME,Medium,0,DE,Low
-Amend,Defaulting_Reclassify,IsDefaulted,970739,816229,0.54,CUST238947,Corporate,Medium,1,DE,1
-Amend,Defaulting_Reclassify,CountryCode,352036,391775,0.61,CUST450896,Retail,Medium,1,DE,DE
-Amend,Fix_Broken_Batch,CustomerType,979932,170674,0.74,CUST238947,Retail,High,0,DE,Corporate
-Amend,Fix_Broken_Batch,CustomerID,142545,721177,0.16,CUST712035,Corporate,Medium,0,US,CUST804231
-Amend,Defaulting_Reclassify,CountryCode,11272,914670,0.54,CUST804231,Corporate,Medium,0,US,DE
-Amend,GRC_EndMonth,IsDefaulted,40313,142005,0.51,CUST665428,SME,High,0,DE,0
-Amend,GRC_EndMonth,CountryCode,595591,329912,0.89,CUST563201,Corporate,Low,0,US,GB
-Amend,GRC_EndMonth,RiskCategory,951128,540651,0.63,CUST804231,SME,Low,0,DE,Low
-Amend,Market Downturn,CountryCode,643163,763016,0.29,CUST238947,Corporate,High,0,GB,0.75
-Amend,Defaulting_Reclassify,RiskCategory,19647,372374,0.16,CUST359147,Retail,Low,0,GB,Low
-Amend,Fix_Broken_Batch,IsDefaulted,580473,901105,0.41,CUST192654,Corporate,Low,0,DE,1
-Amend,Default,RiskCategory,512380,868127,0.32,CUST238947,SME,High,0,DE,Medium
-Amend,Fix_Broken_Batch,RiskCategory,189646,179944,0.63,CUST450896,SME,Low,0,DE,Low
-Amend,GRC_EndMonth,CustomerID,595420,271637,0.71,CUST192654,SME,High,1,DE,CUST712035
-Amend,Fix_Broken_Batch,CountryCode,784336,633131,0.05,CUST238947,Retail,Medium,1,GB,GB
-Amend,Fix_Broken_Batch,IsDefaulted,227620,396690,0.5,CUST192654,Corporate,Medium,0,US,1
-Amend,Fix_Broken_Batch,CustomerType,371139,398431,0.58,CUST665428,Retail,Medium,0,US,Corporate
-Amend,Credit_Uplift,RiskCategory,961195,422660,0.26,CUST103289,SME,Low,1,GB,High
-Amend,Credit_Uplift,IsDefaulted,473755,726985,0.11,CUST238947,Retail,Medium,0,DE,0
-Amend,Default,CustomerType,827536,546198,0.06,CUST665428,Retail,High,0,DE,SME
-Amend,GRC_EndMonth,RiskCategory,480993,936456,0.28,CUST712035,SME,High,1,DE,Low
-Amend,Default,CountryCode,299009,830500,0.67,CUST981372,Retail,Low,1,GB,DE
-Amend,Default,RiskCategory,625759,855699,0.49,CUST359147,Retail,Medium,1,US,Low
-Amend,Defaulting_Reclassify,IsDefaulted,9298,15782,0.04,CUST712035,Retail,Medium,0,US,0
-Amend,GRC_EndMonth,CustomerID,991096,695517,0.52,CUST192654,Retail,Medium,0,US,CUST238947
-Amend,Default,CustomerType,884256,548800,0.01,CUST192654,Corporate,Low,0,GB,SME
-Amend,Default,RiskCategory,255346,571476,0.74,CUST563201,Corporate,Low,0,DE,High
-Amend,Credit_Uplift,IsDefaulted,594118,249174,0.79,CUST563201,SME,Medium,0,US,1
-Amend,Fix_Broken_Batch,CustomerID,731992,489701,0.9,CUST238947,SME,High,0,GB,CUST665428
-Amend,Credit_Uplift,IsDefaulted,526089,15561,0.43,CUST712035,Retail,Medium,0,GB,0
-Amend,Defaulting_Reclassify,CustomerID,764811,259681,0.91,CUST359147,Corporate,Low,1,DE,CUST665428
-Amend,Defaulting_Reclassify,CountryCode,644058,19439,0.84,CUST804231,Corporate,Low,1,GB,US
-Amend,Fix_Broken_Batch,CustomerType,21220,715676,0.86,CUST804231,Corporate,Low,1,US,SME
-Amend,Fix_Broken_Batch,IsDefaulted,621257,659991,0.7,CUST450896,Corporate,Low,1,US,1
-Amend,Defaulting_Reclassify,CountryCode,642236,685706,0.88,CUST665428,SME,High,1,GB,GB
-Amend,Fix_Broken_Batch,RiskCategory,953242,48415,0.48,CUST359147,Corporate,Medium,0,GB,Low
-Amend,GRC_EndMonth,IsDefaulted,418707,219337,0.51,CUST712035,Corporate,Low,0,US,0
-Amend,Fix_Broken_Batch,CustomerID,373351,132833,0.57,CUST103289,Corporate,Low,0,US,CUST804231
-Amend,Credit_Uplift,IsDefaulted,118828,539353,0.09,CUST238947,Retail,Low,0,US,1
-Amend,Default,RiskCategory,581009,97504,0.07,CUST450896,SME,Low,1,GB,High
-Amend,Fix_Broken_Batch,IsDefaulted,425427,351521,0.54,CUST712035,Retail,Medium,0,DE,0
-Amend,Fix_Broken_Batch,CountryCode,747893,492271,0.62,CUST804231,Corporate,Medium,1,US,DE
-Amend,Defaulting_Reclassify,CountryCode,541734,771495,0.43,CUST103289,SME,Low,0,US,DE
-Amend,Market Downturn,CustomerID,206429,528294,0.84,CUST103289,Corporate,High,0,US,0.75
-Amend,Fix_Broken_Batch,CountryCode,316090,288233,0.92,CUST103289,SME,Low,1,DE,GB
-Amend,Fix_Broken_Batch,CountryCode,928239,724364,0.22,CUST103289,SME,High,0,GB,US
-Amend,Defaulting_Reclassify,CustomerType,557439,91257,0.06,CUST192654,SME,Low,1,GB,Corporate
-Amend,Credit_Uplift,CountryCode,700773,186866,0.77,CUST359147,Retail,High,0,DE,US
-Amend,Credit_Uplift,RiskCategory,654999,791404,0.89,CUST712035,Retail,Low,1,GB,Medium
-Amend,Default,CustomerID,253061,562974,0.47,CUST712035,Retail,Low,1,DE,CUST981372
-Amend,GRC_EndMonth,CustomerType,884514,8,0.77,CUST238947,Corporate,Low,1,GB,Corporate
-Amend,Market Downturn,CustomerType,914253,140865,0.12,CUST450896,Corporate,High,0,GB,0.75
-Amend,Defaulting_Reclassify,CustomerType,272625,736901,0.36,CUST563201,Retail,High,0,DE,SME
-Amend,Default,CountryCode,56400,976261,0.81,CUST192654,SME,Low,0,DE,US
-Amend,Fix_Broken_Batch,CustomerID,219863,823702,0.87,CUST981372,SME,High,1,DE,CUST712035
-Amend,Fix_Broken_Batch,RiskCategory,499728,542200,0.27,CUST712035,Retail,High,1,GB,High
-Amend,Credit_Uplift,CountryCode,318845,407778,0.4,CUST981372,Retail,Low,0,GB,US
-Amend,Default,RiskCategory,887455,917493,0.3,CUST981372,SME,High,0,GB,Medium
-Amend,GRC_EndMonth,RiskCategory,826657,630759,0.3,CUST103289,Retail,High,0,US,Low
-Amend,Credit_Uplift,IsDefaulted,590450,666594,0.29,CUST359147,Retail,Medium,1,US,0
-Amend,Fix_Broken_Batch,CountryCode,448230,932432,0.16,CUST712035,SME,High,1,US,US
-Amend,Defaulting_Reclassify,CustomerID,419464,189017,0.11,CUST665428,Retail,High,0,DE,CUST450896
-Amend,GRC_EndMonth,CustomerID,617676,629018,0.41,CUST192654,Retail,High,0,GB,CUST981372
-Amend,Default,CountryCode,930758,74717,0.42,CUST712035,Retail,Medium,1,GB,GB
-Amend,Fix_Broken_Batch,IsDefaulted,805091,985166,0.36,CUST103289,SME,Medium,1,GB,0
-Amend,Fix_Broken_Batch,CustomerID,826742,477346,0.16,CUST450896,Retail,Low,1,DE,CUST665428
-Amend,Market Downturn,CustomerID,834624,429897,0.91,CUST665428,Corporate,High,0,US,0.75
-Amend,Credit_Uplift,RiskCategory,333657,556929,0.48,CUST804231,Corporate,Medium,0,US,Low
-Amend,Fix_Broken_Batch,RiskCategory,654456,772135,0.51,CUST359147,SME,Medium,0,US,High
-Amend,Market Downturn,RiskCategory,789151,837172,0.08,CUST665428,Corporate,High,1,US,0.75
-Amend,Defaulting_Reclassify,CustomerType,389752,195933,0.92,CUST563201,Retail,Low,0,DE,Retail
-Amend,Default,RiskCategory,826521,27753,0.19,CUST563201,Corporate,Medium,1,US,High
-Amend,Fix_Broken_Batch,CustomerID,577916,599344,0.1,CUST563201,SME,Low,0,GB,CUST981372
-Amend,Default,IsDefaulted,260272,361959,0.19,CUST359147,Corporate,Low,0,DE,1
-Amend,GRC_EndMonth,IsDefaulted,514305,306040,0.42,CUST359147,Retail,High,1,GB,0
-Amend,GRC_EndMonth,CustomerType,479972,375906,0.73,CUST192654,Corporate,Medium,1,GB,Corporate
-Amend,Defaulting_Reclassify,CustomerID,591343,926528,0.16,CUST450896,Corporate,Low,0,GB,CUST981372
-Amend,Fix_Broken_Batch,CountryCode,266372,848437,0.61,CUST192654,SME,Low,0,US,DE
-Amend,Defaulting_Reclassify,IsDefaulted,663122,822368,0.31,CUST192654,SME,High,1,DE,0
-Amend,Default,CustomerID,580409,815291,0.32,CUST804231,Corporate,Low,1,GB,CUST712035
-Amend,Defaulting_Reclassify,CustomerID,812508,968301,0.45,CUST450896,Retail,Low,0,US,CUST665428
-Amend,Market Downturn,CustomerType,551217,560901,0.8,CUST981372,Corporate,High,1,DE,0.75
-Amend,Defaulting_Reclassify,IsDefaulted,427522,978447,0.27,CUST238947,Retail,High,0,GB,1
-Amend,Fix_Broken_Batch,IsDefaulted,19953,183083,0.27,CUST712035,Retail,High,0,GB,1
-Amend,Defaulting_Reclassify,CustomerID,938877,140200,0.04,CUST103289,Retail,Low,0,US,CUST450896
-Amend,GRC_EndMonth,RiskCategory,3932,62968,0.51,CUST804231,Corporate,Medium,0,US,High
-Amend,Defaulting_Reclassify,RiskCategory,432712,691592,0.46,CUST359147,Retail,Medium,0,US,Low
-Amend,Fix_Broken_Batch,IsDefaulted,407981,186554,0.13,CUST359147,Retail,Medium,0,US,0
-Amend,Default,RiskCategory,519082,611379,0.45,CUST804231,Retail,High,1,US,High
-Amend,Default,CustomerID,590776,667811,0.82,CUST712035,Corporate,Medium,1,DE,CUST665428
-Amend,Default,IsDefaulted,390609,400761,0.37,CUST712035,Retail,High,0,US,0
-Amend,GRC_EndMonth,CustomerID,122397,41296,0.02,CUST712035,SME,Medium,0,DE,CUST563201
-Amend,Default,RiskCategory,657598,856904,0.83,CUST450896,SME,Low,0,US,Low
-Amend,Defaulting_Reclassify,IsDefaulted,259431,316287,0.75,CUST981372,Retail,Medium,1,DE,0
-Amend,GRC_EndMonth,IsDefaulted,784562,819024,0.79,CUST359147,Retail,Medium,1,DE,1
-Amend,Credit_Uplift,RiskCategory,863168,940897,0.0,CUST804231,Corporate,Medium,0,US,High
-Amend,Defaulting_Reclassify,CustomerType,768710,967511,0.88,CUST804231,Retail,Low,0,DE,Retail
-Amend,Defaulting_Reclassify,CustomerID,26422,541316,0.82,CUST359147,Retail,Low,0,US,CUST103289
-Amend,GRC_EndMonth,CustomerType,804456,376819,0.29,CUST981372,Retail,High,1,US,Retail
-Amend,Fix_Broken_Batch,CountryCode,421314,425387,0.9,CUST712035,SME,Medium,1,GB,US
-Amend,Defaulting_Reclassify,CustomerType,848395,868663,0.0,CUST981372,Retail,High,1,GB,Corporate
-Amend,GRC_EndMonth,CustomerType,939022,785890,0.27,CUST665428,SME,High,1,DE,Corporate
-Amend,Market Downturn,CountryCode,953419,384727,0.36,CUST563201,Corporate,High,0,US,0.75
-Amend,Fix_Broken_Batch,IsDefaulted,922437,618296,0.09,CUST359147,SME,Low,0,US,1
-Amend,Credit_Uplift,CustomerID,351787,820823,0.04,CUST981372,Corporate,Medium,1,DE,CUST563201
-Amend,Default,CustomerID,857366,62870,0.59,CUST804231,SME,High,1,GB,CUST192654
-Amend,GRC_EndMonth,CountryCode,243144,31480,0.71,CUST804231,Retail,High,1,DE,US
-Amend,GRC_EndMonth,CustomerType,997537,161085,0.68,CUST804231,Retail,Medium,1,GB,SME
-Amend,Default,CustomerID,527140,560173,0.61,CUST450896,Retail,Low,0,US,CUST450896
-Amend,Defaulting_Reclassify,CustomerType,720245,275491,0.86,CUST192654,Retail,Medium,0,DE,Corporate
-Amend,Default,IsDefaulted,95130,918605,0.49,CUST103289,Retail,Medium,1,US,0
-Amend,Credit_Uplift,RiskCategory,641500,91111,0.72,CUST712035,Retail,Low,1,DE,Medium
-Amend,Default,IsDefaulted,234415,797938,0.72,CUST804231,Corporate,Medium,1,DE,0
-Amend,Default,CountryCode,26234,948226,0.94,CUST665428,Corporate,Medium,0,US,GB
-Amend,Defaulting_Reclassify,IsDefaulted,791569,623562,0.01,CUST665428,Retail,High,0,US,1
-Amend,Default,CustomerType,158850,767753,0.88,CUST450896,Corporate,Medium,0,GB,SME
-Amend,Fix_Broken_Batch,RiskCategory,830332,670852,0.75,CUST563201,Corporate,Low,0,US,Medium
-Amend,Credit_Uplift,CustomerType,737603,691977,0.52,CUST563201,Retail,Medium,1,US,SME
-Amend,Defaulting_Reclassify,IsDefaulted,465001,557186,0.59,CUST359147,SME,High,1,GB,1
-Amend,Default,IsDefaulted,655717,282429,0.11,CUST712035,Corporate,Low,0,DE,1
-Amend,Default,IsDefaulted,241779,513342,0.66,CUST103289,Corporate,Medium,0,GB,0
-Amend,GRC_EndMonth,RiskCategory,129444,671756,0.39,CUST563201,SME,Medium,1,DE,Low
-Amend,Fix_Broken_Batch,IsDefaulted,222297,980317,0.29,CUST712035,Retail,Medium,1,DE,1
-Amend,Credit_Uplift,CustomerID,669573,86566,0.57,CUST192654,Corporate,Medium,1,DE,CUST238947
-Amend,Credit_Uplift,CustomerID,659906,971023,0.34,CUST981372,Corporate,Medium,1,DE,CUST103289
-Amend,Defaulting_Reclassify,CustomerID,142722,223079,0.89,CUST981372,SME,High,1,DE,CUST450896
-Amend,GRC_EndMonth,IsDefaulted,211930,936761,0.12,CUST238947,SME,Medium,0,GB,1
-Amend,GRC_EndMonth,CustomerID,58340,833629,0.29,CUST665428,SME,High,1,US,CUST450896
-Amend,Defaulting_Reclassify,CountryCode,497251,690591,0.3,CUST450896,Retail,Low,1,DE,US
-Amend,Market Downturn,CustomerType,416676,205739,0.99,CUST450896,Corporate,High,0,DE,0.75
-Amend,Default,CustomerType,336818,988642,0.77,CUST359147,Corporate,Low,0,GB,SME
-Amend,Defaulting_Reclassify,CustomerID,163339,788148,0.29,CUST103289,Corporate,Medium,1,GB,CUST359147
-Amend,GRC_EndMonth,IsDefaulted,976995,644547,0.8,CUST450896,SME,High,0,DE,0
-Amend,Default,CustomerID,497267,55298,0.71,CUST563201,SME,Low,0,US,CUST359147
-Amend,GRC_EndMonth,CustomerType,858289,712147,0.24,CUST563201,Retail,High,1,DE,Corporate
-Amend,Market Downturn,CustomerType,907639,349294,0.12,CUST450896,Corporate,High,1,GB,0.75
-Amend,Default,CountryCode,986654,25466,0.9,CUST563201,SME,Low,1,US,DE
-Amend,Defaulting_Reclassify,CountryCode,196358,83292,0.06,CUST359147,Retail,Medium,1,US,US
-Amend,Default,CountryCode,17977,212082,0.28,CUST804231,SME,High,1,DE,US
-Amend,Defaulting_Reclassify,CustomerID,539401,690512,0.77,CUST238947,SME,High,0,GB,CUST192654
-Amend,Default,CustomerType,243237,291017,0.28,CUST103289,SME,Medium,0,GB,Retail
-Amend,Fix_Broken_Batch,CustomerID,154869,71434,0.65,CUST981372,Retail,High,1,US,CUST359147
-Amend,Default,IsDefaulted,111509,975449,0.85,CUST192654,Retail,Low,0,US,1
-Amend,Default,RiskCategory,126673,262343,0.75,CUST981372,Retail,High,0,DE,Medium
-Amend,Fix_Broken_Batch,CustomerID,226344,395537,0.61,CUST981372,SME,High,0,GB,CUST804231
-Amend,Fix_Broken_Batch,IsDefaulted,988937,981250,0.96,CUST450896,SME,Medium,0,GB,0
-Amend,Credit_Uplift,CountryCode,426144,673807,0.11,CUST359147,SME,High,0,DE,GB
-Amend,Defaulting_Reclassify,CustomerType,332085,830254,0.73,CUST563201,Corporate,Medium,1,GB,SME
-Amend,Default,CustomerType,431278,179759,0.31,CUST563201,SME,Medium,1,DE,Retail
-Amend,Fix_Broken_Batch,CustomerType,266098,335644,0.64,CUST563201,Retail,Medium,0,DE,Retail
-Amend,Market Downturn,RiskCategory,530790,601270,0.06,CUST563201,Corporate,High,1,GB,0.75
-Amend,Default,CustomerID,140541,620803,0.78,CUST712035,Retail,Low,0,US,CUST804231
-Amend,GRC_EndMonth,CustomerID,60586,13446,0.57,CUST192654,Corporate,Medium,0,DE,CUST238947
-Amend,Credit_Uplift,CustomerType,148642,999353,0.24,CUST450896,Retail,Low,1,DE,SME
-Amend,Fix_Broken_Batch,CustomerType,488669,516938,0.09,CUST192654,SME,Medium,1,DE,Corporate
-Amend,Defaulting_Reclassify,CountryCode,933582,532107,0.75,CUST192654,Corporate,Medium,1,DE,US
-Amend,Credit_Uplift,CustomerType,611789,571888,0.19,CUST450896,Retail,High,0,DE,SME
-Amend,GRC_EndMonth,CustomerType,425423,361559,0.74,CUST981372,Retail,Medium,0,GB,Retail
-Amend,GRC_EndMonth,IsDefaulted,490863,229022,0.31,CUST359147,Corporate,Medium,0,GB,0
-Amend,GRC_EndMonth,CustomerType,330420,835978,0.66,CUST665428,Retail,Low,1,US,Retail
-Amend,Market Downturn,CustomerID,970457,125812,0.79,CUST563201,Corporate,High,0,US,0.75
-Amend,Default,CountryCode,196189,17141,0.37,CUST450896,Corporate,Medium,0,DE,DE
-Amend,Market Downturn,RiskCategory,528874,771253,0.41,CUST359147,Corporate,High,1,GB,0.75
-Amend,Credit_Uplift,CountryCode,292318,888288,0.23,CUST192654,Retail,High,0,DE,US
-Amend,Defaulting_Reclassify,CustomerType,500106,621282,0.42,CUST712035,Corporate,Medium,1,US,SME
-Amend,Default,CustomerType,293355,94966,0.17,CUST712035,Corporate,Low,1,DE,SME
-Amend,Market Downturn,CountryCode,906724,200325,0.39,CUST563201,Corporate,High,0,US,0.75
-Amend,GRC_EndMonth,CountryCode,25097,671785,0.6,CUST450896,Corporate,Medium,0,US,US
-Amend,Fix_Broken_Batch,CustomerID,758878,805903,0.07,CUST103289,Corporate,Low,1,US,CUST712035
-Amend,Defaulting_Reclassify,CustomerType,831904,986706,0.85,CUST192654,SME,Low,0,GB,SME
-Amend,Default,IsDefaulted,704926,41575,0.02,CUST192654,SME,High,0,DE,1
-Amend,Credit_Uplift,CountryCode,78682,570135,0.5,CUST450896,Retail,Medium,1,US,US
-Amend,Market Downturn,CountryCode,521936,181288,0.75,CUST103289,Corporate,High,0,US,0.75
-Amend,Fix_Broken_Batch,RiskCategory,571929,563834,0.48,CUST103289,SME,High,1,US,High
-Amend,Defaulting_Reclassify,IsDefaulted,646686,730324,0.59,CUST103289,Corporate,Low,0,GB,0
-Amend,Credit_Uplift,CountryCode,722916,237705,0.8,CUST238947,Retail,High,0,US,DE
-Amend,Fix_Broken_Batch,CustomerType,699037,977625,0.39,CUST981372,Retail,Low,0,GB,SME
-Amend,Default,IsDefaulted,517021,428754,0.28,CUST665428,Corporate,Low,0,GB,0
-Amend,Defaulting_Reclassify,CustomerID,373116,633609,0.31,CUST103289,Corporate,Low,0,DE,CUST981372
-Amend,Market Downturn,RiskCategory,267924,37864,0.45,CUST359147,Corporate,High,1,DE,0.75
-Amend,Market Downturn,CustomerID,929299,259375,0.68,CUST103289,Corporate,High,1,DE,0.75
-Amend,Fix_Broken_Batch,CustomerType,76474,787948,0.45,CUST804231,Corporate,Low,0,DE,Retail
-Amend,GRC_EndMonth,CustomerID,180444,796810,0.07,CUST563201,Corporate,Medium,0,US,CUST103289
-Amend,Market Downturn,CustomerType,354774,524923,0.19,CUST450896,Corporate,High,0,GB,0.75
-Amend,Defaulting_Reclassify,CountryCode,797855,482953,0.16,CUST103289,Retail,High,0,US,US
-Amend,Fix_Broken_Batch,CountryCode,488740,682429,0.55,CUST804231,Retail,Medium,1,DE,GB
-Amend,Credit_Uplift,CustomerID,109235,7318,0.86,CUST981372,Retail,High,1,US,CUST804231
-Amend,Defaulting_Reclassify,CountryCode,458656,533536,0.38,CUST238947,SME,High,0,DE,US
-Amend,Defaulting_Reclassify,RiskCategory,239752,785345,0.09,CUST450896,Corporate,Low,0,US,High
-Amend,GRC_EndMonth,CountryCode,86059,356285,0.6,CUST238947,Retail,Low,1,GB,GB
-Amend,Credit_Uplift,RiskCategory,983910,213848,0.01,CUST192654,Retail,Medium,0,DE,High
-Amend,Market Downturn,CustomerType,244360,857156,0.74,CUST359147,Corporate,High,0,DE,0.75
-Amend,Defaulting_Reclassify,IsDefaulted,942575,733723,0.27,CUST238947,Retail,High,0,GB,0
-Amend,Default,CountryCode,299439,755368,0.67,CUST238947,SME,High,1,GB,US
-Amend,Credit_Uplift,CountryCode,149879,267270,0.74,CUST712035,SME,Medium,1,DE,DE
-Amend,Market Downturn,CustomerType,175469,182154,0.71,CUST981372,Corporate,High,0,US,0.75
-Amend,Market Downturn,RiskCategory,495543,476827,0.51,CUST103289,Corporate,High,0,DE,0.75
-Amend,Market Downturn,CustomerType,53033,533890,0.72,CUST192654,Corporate,High,0,US,0.75
-Amend,Fix_Broken_Batch,CountryCode,27153,762743,0.91,CUST192654,Retail,High,0,GB,US
-Amend,Credit_Uplift,CustomerType,858752,464197,0.96,CUST712035,Retail,Medium,0,GB,Retail
-Amend,Fix_Broken_Batch,CountryCode,266366,664809,0.23,CUST192654,SME,High,1,US,DE
-Amend,Fix_Broken_Batch,RiskCategory,812913,627645,0.62,CUST103289,Retail,Medium,0,US,High
-Amend,Credit_Uplift,RiskCategory,48627,15407,0.81,CUST563201,Retail,Medium,1,GB,Medium
-Amend,Default,CustomerType,581522,67671,0.66,CUST981372,Retail,High,1,GB,SME
-Amend,Defaulting_Reclassify,CustomerType,391646,357302,0.64,CUST238947,SME,Low,0,DE,SME
-Amend,Default,CustomerType,341869,144687,0.34,CUST238947,SME,High,0,GB,SME
-Amend,Defaulting_Reclassify,IsDefaulted,434826,298810,0.43,CUST192654,SME,Low,1,DE,1
-Amend,Default,IsDefaulted,239101,897967,0.68,CUST103289,Corporate,Low,1,DE,1
-Amend,Defaulting_Reclassify,CountryCode,952098,389205,0.25,CUST192654,Corporate,Medium,0,GB,GB
-Amend,Fix_Broken_Batch,CountryCode,998211,476037,0.1,CUST192654,Retail,High,0,GB,US
-Amend,Defaulting_Reclassify,IsDefaulted,596330,61377,0.4,CUST712035,Retail,High,1,GB,1
-Amend,Credit_Uplift,CustomerType,758379,288233,0.22,CUST804231,Corporate,Medium,0,GB,Retail
-Amend,Credit_Uplift,IsDefaulted,488280,777183,0.93,CUST712035,Retail,High,1,US,1
-Amend,Market Downturn,IsDefaulted,893745,907135,0.22,CUST359147,Corporate,High,0,DE,0.75
-Amend,GRC_EndMonth,CustomerID,838907,183901,0.91,CUST712035,Corporate,Medium,0,US,CUST450896
-Amend,GRC_EndMonth,CountryCode,807971,662302,0.79,CUST981372,SME,Low,1,DE,DE
-Amend,Credit_Uplift,IsDefaulted,459791,903332,0.71,CUST665428,Corporate,Low,0,GB,0
-Amend,GRC_EndMonth,CustomerType,445261,262266,0.45,CUST450896,Retail,High,0,US,Corporate
-Amend,Credit_Uplift,CustomerType,570723,49644,0.55,CUST450896,Retail,Low,1,DE,SME
-Amend,Credit_Uplift,RiskCategory,26201,440395,0.03,CUST103289,SME,High,0,GB,Low
-Amend,Defaulting_Reclassify,CustomerType,598186,544410,0.19,CUST103289,Corporate,Low,1,US,Retail
-Amend,Defaulting_Reclassify,CustomerType,410863,587871,0.75,CUST981372,Retail,Medium,0,DE,SME
-Amend,Credit_Uplift,CustomerID,85781,909904,0.75,CUST712035,Corporate,Medium,1,US,CUST192654
-Amend,Fix_Broken_Batch,IsDefaulted,263661,470303,0.79,CUST563201,Retail,Low,1,DE,0
-Amend,GRC_EndMonth,CustomerID,862336,773492,0.46,CUST804231,Corporate,Medium,0,GB,CUST192654
-Amend,Fix_Broken_Batch,RiskCategory,416875,787622,0.54,CUST238947,SME,Medium,1,US,Medium
-Amend,Fix_Broken_Batch,CustomerID,185229,197639,0.79,CUST804231,Retail,Medium,0,GB,CUST712035
-Amend,GRC_EndMonth,IsDefaulted,950716,194060,0.29,CUST450896,Corporate,Medium,1,GB,1
-Amend,Credit_Uplift,RiskCategory,23295,820713,0.14,CUST238947,Retail,Medium,0,US,High
-Amend,Market Downturn,IsDefaulted,884661,695929,0.73,CUST563201,Corporate,High,1,GB,0.75
-Amend,Credit_Uplift,IsDefaulted,315088,710643,0.36,CUST192654,Retail,High,0,DE,0
-Amend,Defaulting_Reclassify,RiskCategory,576969,189303,0.08,CUST563201,SME,High,0,US,High
-Amend,Defaulting_Reclassify,CustomerID,472326,899102,0.45,CUST359147,SME,High,0,US,CUST981372
-Amend,Defaulting_Reclassify,IsDefaulted,727219,196667,0.87,CUST103289,SME,High,0,GB,0
-Amend,Default,IsDefaulted,65263,152560,0.28,CUST563201,Corporate,Low,0,US,0
-Amend,Defaulting_Reclassify,CustomerID,135219,432064,0.5,CUST665428,SME,Medium,0,GB,CUST450896
-Amend,Market Downturn,CountryCode,285891,65904,0.17,CUST563201,Corporate,High,0,US,0.75
-Amend,GRC_EndMonth,RiskCategory,345836,839587,0.13,CUST192654,Corporate,Low,1,DE,High
-Amend,Market Downturn,IsDefaulted,599858,252797,0.74,CUST238947,Corporate,High,1,US,0.75
-Amend,Credit_Uplift,CustomerID,60009,893722,0.24,CUST712035,Corporate,Low,1,GB,CUST238947
-Amend,Fix_Broken_Batch,IsDefaulted,269724,52600,0.7,CUST981372,SME,Medium,1,US,0
-Amend,Fix_Broken_Batch,CountryCode,350433,853151,0.6,CUST804231,Retail,Low,1,US,GB
-Amend,GRC_EndMonth,IsDefaulted,620749,267758,0.2,CUST359147,Corporate,Medium,0,US,0
-Amend,Default,CustomerID,983502,348393,0.69,CUST712035,SME,Low,0,GB,CUST192654
-Amend,GRC_EndMonth,CountryCode,3653,166403,0.3,CUST665428,SME,Low,1,GB,DE
-Amend,Defaulting_Reclassify,RiskCategory,347666,713896,0.7,CUST804231,Corporate,Medium,1,DE,High
-Amend,Defaulting_Reclassify,IsDefaulted,982416,55009,0.37,CUST981372,Retail,High,0,US,1
-Amend,Credit_Uplift,RiskCategory,17385,46670,0.23,CUST563201,Corporate,Medium,1,GB,Medium
-Amend,GRC_EndMonth,RiskCategory,530035,980031,0.42,CUST665428,SME,Low,0,GB,Low
-Amend,GRC_EndMonth,RiskCategory,359646,571893,0.49,CUST712035,Retail,Low,0,DE,High
-Amend,Default,CustomerType,137334,463788,0.54,CUST450896,Retail,Low,1,DE,Corporate
-Amend,Market Downturn,CustomerType,332706,933723,0.32,CUST712035,Corporate,High,1,DE,0.75
-Amend,GRC_EndMonth,CountryCode,232176,727380,0.77,CUST665428,Retail,Medium,0,US,GB
-Amend,Default,IsDefaulted,804986,499330,0.35,CUST563201,Retail,Medium,0,GB,0
-Amend,Market Downturn,CustomerType,919230,77147,0.42,CUST665428,Corporate,High,0,DE,0.75
-Amend,Fix_Broken_Batch,RiskCategory,95633,514094,0.71,CUST804231,SME,High,1,GB,Medium
-Amend,Default,CustomerType,831576,268638,0.87,CUST103289,SME,High,0,DE,SME
-Amend,Fix_Broken_Batch,RiskCategory,32767,659847,0.37,CUST712035,Retail,Low,1,GB,Medium
-Amend,GRC_EndMonth,CustomerType,555488,81676,0.35,CUST238947,Corporate,Low,0,DE,Corporate
-Amend,Default,RiskCategory,195194,823343,0.07,CUST563201,SME,High,0,GB,Low
-Amend,Defaulting_Reclassify,CustomerType,655076,562330,0.19,CUST103289,SME,Low,1,US,Retail
-Amend,Credit_Uplift,RiskCategory,880976,743466,0.21,CUST450896,Retail,Low,0,US,High
-Amend,Default,CustomerID,848984,499119,0.27,CUST665428,Retail,Medium,1,GB,CUST192654
-Amend,Credit_Uplift,CustomerType,835306,900747,0.82,CUST359147,Retail,Low,0,GB,Corporate
-Amend,Defaulting_Reclassify,IsDefaulted,412993,808882,0.1,CUST238947,Retail,Medium,1,GB,0
-Amend,GRC_EndMonth,CustomerID,720402,420998,0.67,CUST665428,SME,Medium,0,US,CUST563201
-Amend,Credit_Uplift,CountryCode,389588,535892,0.54,CUST804231,SME,Low,0,US,US
-Amend,Defaulting_Reclassify,CountryCode,389815,615081,0.02,CUST665428,SME,Medium,1,DE,DE
-Amend,Market Downturn,CustomerType,613213,546928,0.65,CUST359147,Corporate,High,1,DE,0.75
-Amend,Credit_Uplift,CustomerType,573452,986351,0.85,CUST563201,SME,Low,1,US,Corporate
-Amend,Defaulting_Reclassify,CustomerID,414005,983444,0.73,CUST450896,Retail,Low,1,GB,CUST359147
-Amend,Market Downturn,CountryCode,686084,581226,0.84,CUST981372,Corporate,High,1,US,0.75
-Amend,Market Downturn,CustomerID,211500,191493,0.11,CUST238947,Corporate,High,1,US,0.75
-Amend,GRC_EndMonth,CustomerID,111633,337167,0.6,CUST563201,Corporate,Low,1,GB,CUST238947
-Amend,Default,IsDefaulted,548370,592258,0.75,CUST804231,Retail,High,1,US,1
-Amend,Market Downturn,RiskCategory,822613,221785,0.43,CUST103289,Corporate,High,1,DE,0.75
-Amend,GRC_EndMonth,CustomerType,229783,625097,0.93,CUST712035,Corporate,Medium,0,DE,Corporate
-Amend,Default,IsDefaulted,426685,481450,0.69,CUST103289,Retail,High,1,DE,1
-Amend,Default,RiskCategory,848103,586345,0.87,CUST563201,Retail,High,1,DE,Low
-Amend,GRC_EndMonth,CustomerType,920325,691169,0.34,CUST563201,Retail,Low,0,GB,Corporate
-Amend,Credit_Uplift,CountryCode,498426,926016,0.34,CUST665428,Retail,High,0,US,DE
-Amend,Market Downturn,CountryCode,380676,112776,0.87,CUST665428,Corporate,High,0,US,0.75
-Amend,GRC_EndMonth,CustomerType,698461,137661,0.4,CUST192654,Retail,Medium,1,DE,Retail
-Amend,GRC_EndMonth,CustomerType,776062,232925,0.97,CUST563201,SME,Low,1,DE,Corporate
-Amend,Default,CountryCode,891796,405544,0.21,CUST804231,SME,Low,0,DE,GB
-Amend,GRC_EndMonth,RiskCategory,684061,753123,0.56,CUST359147,Retail,High,1,DE,Medium
-Amend,GRC_EndMonth,CountryCode,897113,451426,0.76,CUST804231,SME,High,0,GB,US
-Amend,GRC_EndMonth,RiskCategory,984716,775016,0.63,CUST712035,SME,High,1,GB,Low
-Amend,GRC_EndMonth,RiskCategory,264810,24006,0.57,CUST192654,SME,High,1,US,Low
-Amend,Default,CountryCode,719863,447260,0.51,CUST804231,SME,High,0,GB,GB
-Amend,Default,IsDefaulted,28091,304706,0.63,CUST192654,Retail,High,0,US,1
-Amend,Fix_Broken_Batch,CountryCode,788830,477362,0.82,CUST981372,Corporate,Medium,0,US,US
-Amend,Defaulting_Reclassify,RiskCategory,457055,921119,0.37,CUST450896,SME,Medium,0,GB,Low
-Amend,Default,IsDefaulted,141606,915276,0.02,CUST103289,SME,High,1,DE,1
-Amend,Credit_Uplift,CustomerType,238870,559398,0.62,CUST238947,SME,High,0,GB,Corporate
-Amend,Credit_Uplift,CustomerType,834526,456447,0.61,CUST563201,Corporate,Medium,0,GB,SME
-Amend,Market Downturn,CustomerID,215355,883962,0.28,CUST450896,Corporate,High,1,GB,0.75
-Amend,GRC_EndMonth,CountryCode,637486,552484,0.24,CUST981372,Corporate,Low,1,DE,DE
-Amend,Default,CustomerType,570951,74835,0.26,CUST192654,Retail,Medium,1,DE,Retail
-Amend,GRC_EndMonth,CustomerID,517190,370681,0.77,CUST563201,SME,High,1,DE,CUST712035
-Amend,Market Downturn,CountryCode,135935,559571,0.4,CUST981372,Corporate,High,0,DE,0.75
-Amend,Default,RiskCategory,765130,601398,0.7,CUST359147,SME,High,1,US,High
-Amend,Market Downturn,CustomerID,863068,716198,0.52,CUST665428,Corporate,High,1,US,0.75
-Amend,Fix_Broken_Batch,IsDefaulted,889914,619046,0.92,CUST238947,Retail,High,1,GB,1
-Amend,Credit_Uplift,IsDefaulted,706752,468225,0.52,CUST103289,SME,Low,0,GB,0
-Amend,Default,CustomerType,888514,426671,0.16,CUST103289,Corporate,Low,0,DE,Corporate
-Amend,Defaulting_Reclassify,CountryCode,241956,754444,0.46,CUST103289,SME,High,0,US,GB
-Amend,Defaulting_Reclassify,IsDefaulted,535735,424949,0.29,CUST450896,SME,Low,1,GB,0
-Amend,Market Downturn,CustomerID,919478,874864,0.6,CUST563201,Corporate,High,0,DE,0.75
-Amend,Defaulting_Reclassify,RiskCategory,9801,118512,0.44,CUST981372,SME,High,0,US,High
-Amend,GRC_EndMonth,CustomerType,209630,458737,0.42,CUST804231,Retail,Medium,1,GB,Retail
-Amend,Default,CustomerID,865709,757499,0.23,CUST981372,SME,Low,0,GB,CUST804231
-Amend,Fix_Broken_Batch,RiskCategory,996731,341725,0.69,CUST103289,SME,High,1,US,High
-Amend,Market Downturn,CustomerType,778690,697165,0.05,CUST103289,Corporate,High,1,US,0.75
-Amend,Credit_Uplift,CustomerType,184815,281424,0.15,CUST238947,SME,Medium,1,US,Corporate
-Amend,Fix_Broken_Batch,RiskCategory,208134,486893,0.34,CUST450896,Retail,Low,1,US,Medium
-Amend,Defaulting_Reclassify,IsDefaulted,402370,486511,0.74,CUST238947,Retail,High,1,DE,0
-Amend,Default,CustomerID,347267,764808,0.83,CUST103289,Retail,High,0,GB,CUST981372
-Amend,Defaulting_Reclassify,CustomerID,875097,564226,0.88,CUST981372,Corporate,Medium,0,DE,CUST238947
-Amend,Defaulting_Reclassify,IsDefaulted,763682,12327,0.11,CUST238947,Corporate,Low,0,DE,1
-Amend,Default,RiskCategory,212137,496800,0.07,CUST665428,SME,High,1,US,High
-Amend,Credit_Uplift,CustomerID,847352,604354,0.68,CUST103289,SME,Medium,1,DE,CUST563201
-Amend,Credit_Uplift,CountryCode,982885,615234,0.98,CUST450896,SME,High,1,DE,DE
-Amend,Fix_Broken_Batch,CustomerType,805363,550706,0.4,CUST665428,SME,Medium,0,US,Corporate
-Amend,Fix_Broken_Batch,CustomerType,344597,993269,0.31,CUST563201,Corporate,Medium,1,DE,SME
-Amend,Default,CountryCode,365007,321451,0.19,CUST665428,SME,High,1,US,DE
-Amend,GRC_EndMonth,IsDefaulted,124810,111988,0.46,CUST192654,Retail,Low,1,DE,0
-Amend,Defaulting_Reclassify,RiskCategory,387240,748933,0.79,CUST665428,Retail,High,1,GB,Low
-Amend,Credit_Uplift,RiskCategory,983853,391465,0.68,CUST981372,Retail,Low,1,DE,Medium
-Amend,Default,CustomerID,665097,439868,0.13,CUST359147,Corporate,Low,0,US,CUST665428
-Amend,Default,IsDefaulted,326879,173954,0.49,CUST665428,SME,High,1,US,1
-Amend,Credit_Uplift,CustomerID,259479,464571,0.7,CUST563201,SME,High,1,US,CUST712035
-Amend,GRC_EndMonth,CustomerType,349079,175110,0.08,CUST103289,Retail,Low,1,DE,SME
-Amend,Default,CustomerID,173317,774125,0.65,CUST981372,Retail,Low,1,GB,CUST712035
-Amend,Credit_Uplift,CustomerID,375632,779470,0.68,CUST712035,Retail,Low,0,GB,CUST712035
-Amend,Defaulting_Reclassify,CustomerID,438016,502617,0.77,CUST238947,Retail,High,1,GB,CUST238947
-Amend,Fix_Broken_Batch,CountryCode,479365,112918,0.05,CUST981372,SME,Low,1,GB,DE
-Amend,Fix_Broken_Batch,CustomerID,364683,632415,0.8,CUST238947,Corporate,Low,0,DE,CUST563201
-Amend,GRC_EndMonth,CustomerType,558416,296928,0.62,CUST238947,Corporate,Medium,0,DE,Corporate
-Amend,Fix_Broken_Batch,CountryCode,250887,415537,0.46,CUST804231,SME,Medium,1,GB,US
-Amend,Credit_Uplift,CountryCode,323403,286575,0.91,CUST563201,Retail,Medium,1,US,DE
-Amend,Credit_Uplift,CountryCode,565531,928214,0.11,CUST238947,SME,Medium,0,GB,GB
-Amend,GRC_EndMonth,CustomerType,141000,337468,0.24,CUST450896,Retail,Medium,1,US,Retail
-Amend,Fix_Broken_Batch,RiskCategory,700816,71045,0.73,CUST804231,Retail,Medium,1,GB,Medium
-Amend,Credit_Uplift,CustomerType,449906,326301,0.2,CUST981372,SME,Low,1,DE,Corporate
-Amend,Credit_Uplift,CustomerID,2037,628990,0.69,CUST359147,Retail,High,0,US,CUST981372
-Amend,Default,CustomerType,361489,264428,0.03,CUST563201,Retail,High,1,US,SME
-Amend,Defaulting_Reclassify,CustomerType,550952,189711,0.44,CUST238947,Retail,Medium,0,US,Retail
-Amend,Fix_Broken_Batch,CountryCode,241873,619641,0.54,CUST103289,SME,High,0,US,GB
-Amend,Defaulting_Reclassify,CountryCode,532326,11154,0.92,CUST665428,Corporate,Low,0,DE,US
-Amend,Credit_Uplift,RiskCategory,152613,366025,0.34,CUST103289,SME,High,1,DE,Low
-Amend,Fix_Broken_Batch,CustomerType,148908,47286,0.19,CUST981372,Retail,Medium,0,DE,SME
-Amend,Credit_Uplift,IsDefaulted,50537,732635,0.72,CUST665428,SME,Medium,1,DE,0
-Amend,GRC_EndMonth,RiskCategory,553801,333418,0.14,CUST450896,SME,Low,0,DE,Low
-Amend,Market Downturn,CountryCode,22815,319511,0.64,CUST981372,Corporate,High,0,US,0.75
-Amend,Default,IsDefaulted,176192,142787,0.98,CUST712035,Retail,High,0,DE,1
-Amend,Credit_Uplift,CustomerID,726879,727922,0.28,CUST665428,Retail,High,0,GB,CUST665428
-Amend,Fix_Broken_Batch,CountryCode,727320,277924,0.94,CUST103289,SME,Low,0,DE,DE
-Amend,GRC_EndMonth,RiskCategory,756096,592059,0.63,CUST665428,Retail,Low,0,US,Low
-Amend,Default,CustomerID,692240,449717,0.32,CUST712035,Retail,Low,1,US,CUST103289
-Amend,Market Downturn,CountryCode,704351,944268,0.62,CUST192654,Corporate,High,1,GB,0.75
-Amend,Defaulting_Reclassify,RiskCategory,363800,530162,0.73,CUST981372,Corporate,Low,1,DE,Medium
-Amend,Market Downturn,RiskCategory,58289,987181,0.79,CUST981372,Corporate,High,1,US,0.75
-Amend,GRC_EndMonth,RiskCategory,227419,610525,0.42,CUST238947,Corporate,Medium,1,DE,Medium
-Amend,Fix_Broken_Batch,RiskCategory,723892,111203,0.25,CUST563201,Retail,Medium,1,DE,High
-Amend,Defaulting_Reclassify,IsDefaulted,125528,51356,0.02,CUST359147,Corporate,Low,1,US,1
-Amend,Market Downturn,CustomerType,647052,471461,0.11,CUST804231,Corporate,High,1,US,0.75
-Amend,Credit_Uplift,IsDefaulted,341709,307938,0.51,CUST665428,SME,Low,0,GB,0
-Amend,GRC_EndMonth,IsDefaulted,62657,727846,0.12,CUST238947,Retail,Medium,1,DE,0
-Amend,GRC_EndMonth,CountryCode,318031,506674,0.17,CUST804231,Retail,Low,1,DE,US
-Amend,GRC_EndMonth,RiskCategory,532369,434097,0.87,CUST238947,SME,Low,1,DE,Medium
-Amend,Market Downturn,CountryCode,902533,671109,0.23,CUST665428,Corporate,High,0,GB,0.75
-Amend,Default,RiskCategory,119705,704284,0.69,CUST450896,Corporate,Medium,0,US,Medium
-Amend,Fix_Broken_Batch,RiskCategory,91831,829757,0.55,CUST103289,SME,Low,0,US,High
-Amend,Fix_Broken_Batch,CustomerID,319527,359758,0.74,CUST359147,SME,Medium,1,DE,CUST563201
-Amend,Credit_Uplift,CustomerType,830452,444272,0.76,CUST238947,Retail,Medium,0,GB,Retail
-Amend,Credit_Uplift,IsDefaulted,529390,158163,0.01,CUST450896,Retail,Medium,1,GB,0
-Amend,Defaulting_Reclassify,CountryCode,19162,376587,0.64,CUST981372,SME,Medium,1,US,GB
-Amend,GRC_EndMonth,IsDefaulted,973807,87622,0.51,CUST804231,Corporate,Medium,1,US,1
-Amend,Credit_Uplift,CustomerType,54209,402960,0.7,CUST563201,SME,Medium,0,GB,Corporate
-Amend,GRC_EndMonth,RiskCategory,22322,371081,0.14,CUST238947,Retail,Low,1,GB,High
-Amend,Fix_Broken_Batch,CustomerType,829328,46119,0.27,CUST981372,Retail,Low,1,US,SME
-Amend,Fix_Broken_Batch,CountryCode,348174,76688,0.31,CUST665428,Corporate,Low,0,DE,GB
-Amend,GRC_EndMonth,IsDefaulted,758241,20370,0.05,CUST238947,Corporate,Medium,1,DE,1
-Amend,GRC_EndMonth,CountryCode,896156,315370,0.82,CUST192654,Retail,Low,1,US,US
-Amend,GRC_EndMonth,CustomerID,92703,425318,0.69,CUST238947,Retail,Low,1,DE,CUST238947
-Amend,Market Downturn,CountryCode,813065,316245,0.95,CUST103289,Corporate,High,0,US,0.75
-Amend,Credit_Uplift,IsDefaulted,166838,771635,0.57,CUST450896,SME,Medium,0,US,0
-Amend,Defaulting_Reclassify,IsDefaulted,845502,231600,0.87,CUST359147,Corporate,Medium,1,DE,0
-Amend,GRC_EndMonth,RiskCategory,355696,768037,0.02,CUST665428,SME,High,1,GB,Low
-Amend,Defaulting_Reclassify,RiskCategory,512488,799777,0.42,CUST665428,Retail,Medium,0,DE,High
-Amend,GRC_EndMonth,CustomerID,979554,772772,0.53,CUST450896,SME,High,0,DE,CUST712035
-Amend,Defaulting_Reclassify,RiskCategory,709881,460836,0.71,CUST450896,Corporate,Low,1,US,Low
-Amend,Market Downturn,RiskCategory,327139,185797,0.46,CUST359147,Corporate,High,1,DE,0.75
-Amend,Defaulting_Reclassify,RiskCategory,888953,394675,0.47,CUST192654,Corporate,Medium,0,DE,Low
-Amend,Fix_Broken_Batch,IsDefaulted,268800,448376,0.31,CUST192654,SME,Medium,0,GB,1
-Amend,GRC_EndMonth,CustomerID,579430,595981,0.5,CUST359147,Corporate,Medium,0,GB,CUST238947
-Amend,GRC_EndMonth,IsDefaulted,945299,354821,0.51,CUST712035,Retail,Medium,1,US,1
-Amend,Default,CountryCode,187872,979522,0.65,CUST103289,Corporate,Low,0,US,GB
-Amend,Default,CustomerType,512284,222659,0.02,CUST450896,Retail,High,0,DE,Retail
-Amend,GRC_EndMonth,CustomerType,789382,919488,0.37,CUST712035,SME,Low,1,DE,Retail
-Amend,Defaulting_Reclassify,IsDefaulted,476843,61490,0.96,CUST563201,SME,Low,1,DE,1
-Amend,Fix_Broken_Batch,CountryCode,911971,847284,0.54,CUST359147,Retail,Low,0,GB,DE
-Amend,Default,CustomerID,771069,18674,0.4,CUST359147,Corporate,Low,0,US,CUST665428
-Amend,GRC_EndMonth,CustomerType,157020,410325,0.82,CUST665428,Retail,Medium,0,US,Corporate
-Amend,GRC_EndMonth,CountryCode,948537,578809,0.22,CUST450896,SME,High,1,DE,DE
-Amend,Default,IsDefaulted,567700,276336,0.81,CUST804231,Corporate,Medium,1,US,0
-Amend,Defaulting_Reclassify,IsDefaulted,874466,347756,0.82,CUST359147,Retail,Medium,1,DE,1
-Amend,GRC_EndMonth,IsDefaulted,419920,756198,0.68,CUST712035,Retail,Low,1,GB,0
-Amend,Credit_Uplift,CustomerID,483120,287431,0.67,CUST238947,Retail,Low,0,GB,CUST712035
-Amend,Defaulting_Reclassify,CountryCode,93384,963525,0.19,CUST563201,Retail,Low,0,GB,US
-Amend,Defaulting_Reclassify,IsDefaulted,69437,25663,0.16,CUST359147,SME,High,0,GB,1
-Amend,GRC_EndMonth,IsDefaulted,757499,896248,0.2,CUST563201,Retail,Medium,0,GB,0
-Amend,GRC_EndMonth,CustomerID,78229,120207,0.34,CUST804231,Corporate,Low,0,DE,CUST359147
-Amend,Market Downturn,RiskCategory,237685,347079,0.76,CUST563201,Corporate,High,0,GB,0.75
-Amend,Default,CountryCode,730491,152561,0.56,CUST450896,Corporate,Medium,0,US,US
-Amend,Market Downturn,CustomerType,853856,441732,0.52,CUST981372,Corporate,High,1,GB,0.75
-Amend,Defaulting_Reclassify,CustomerType,756152,544664,0.19,CUST804231,SME,Medium,1,GB,SME
-Amend,Default,CustomerType,862853,571327,0.0,CUST981372,Retail,Low,0,DE,Corporate
-Amend,Credit_Uplift,CustomerType,747055,767407,0.41,CUST665428,SME,High,0,US,SME
-Amend,GRC_EndMonth,RiskCategory,902113,806664,0.59,CUST804231,Retail,High,1,US,Low
-Amend,Defaulting_Reclassify,CustomerID,22659,779293,0.25,CUST450896,SME,Medium,1,GB,CUST981372
-Amend,Market Downturn,CountryCode,819694,886352,0.77,CUST359147,Corporate,High,1,US,0.75
-Amend,Credit_Uplift,IsDefaulted,90719,668829,0.58,CUST103289,Retail,High,0,GB,0
-Amend,Fix_Broken_Batch,CountryCode,470443,510422,0.01,CUST981372,Retail,Medium,1,US,US
-Amend,Credit_Uplift,CountryCode,160828,617753,0.8,CUST359147,SME,Low,1,DE,GB
-Amend,Defaulting_Reclassify,RiskCategory,244856,357319,0.73,CUST359147,SME,Low,1,GB,Medium
-Amend,Defaulting_Reclassify,CountryCode,271683,348014,0.7,CUST103289,Retail,Medium,1,US,GB
-Amend,Credit_Uplift,CountryCode,118127,116575,0.68,CUST192654,Retail,Medium,1,DE,DE
-Amend,Fix_Broken_Batch,CustomerID,637634,850714,0.08,CUST359147,SME,Medium,0,DE,CUST981372
-Amend,GRC_EndMonth,IsDefaulted,340941,274737,0.91,CUST192654,SME,Medium,0,US,0
-Amend,Default,RiskCategory,943428,90971,0.14,CUST665428,Retail,Low,0,GB,Low
-Amend,GRC_EndMonth,CustomerType,8414,867937,0.36,CUST103289,SME,High,0,US,SME
-Amend,Market Downturn,CountryCode,838367,726761,0.33,CUST665428,Corporate,High,1,DE,0.75
-Amend,GRC_EndMonth,RiskCategory,189909,310802,0.71,CUST450896,Corporate,Medium,1,US,High
-Amend,Credit_Uplift,IsDefaulted,150184,281412,0.2,CUST712035,Corporate,Medium,0,US,1
-Amend,Credit_Uplift,IsDefaulted,712748,744534,0.35,CUST238947,Retail,High,1,GB,0
-Amend,Fix_Broken_Batch,RiskCategory,394457,615640,0.94,CUST103289,SME,High,0,DE,Medium
-Amend,Default,CountryCode,552258,379493,0.7,CUST192654,Retail,Low,0,US,GB
-Amend,GRC_EndMonth,CustomerType,691184,567430,0.12,CUST563201,Corporate,Low,0,GB,Corporate
-Amend,GRC_EndMonth,CustomerID,274689,914907,0.09,CUST359147,Corporate,Low,1,DE,CUST192654
-Amend,Credit_Uplift,CountryCode,733063,394901,0.39,CUST359147,SME,Medium,0,GB,DE
-Amend,Default,CustomerType,189015,13938,0.5,CUST238947,SME,Low,0,GB,Retail
-Amend,Default,CustomerID,696231,647072,0.68,CUST238947,Corporate,Low,0,US,CUST665428
-Amend,Defaulting_Reclassify,CustomerType,964387,169065,0.72,CUST450896,SME,Low,0,US,Retail
-Amend,Default,CustomerID,316594,41047,0.42,CUST359147,Corporate,Low,0,US,CUST563201
-Amend,GRC_EndMonth,CustomerID,348894,708370,0.63,CUST450896,Retail,Low,0,DE,CUST103289
-Amend,Default,CountryCode,694042,476200,0.68,CUST450896,Retail,Medium,0,GB,DE
-Amend,Default,IsDefaulted,566603,504028,0.65,CUST103289,Retail,Medium,0,US,1
-Amend,Fix_Broken_Batch,RiskCategory,426630,497716,0.95,CUST981372,SME,High,0,GB,Medium
-Amend,GRC_EndMonth,CustomerID,740205,458545,0.6,CUST450896,Retail,Medium,1,US,CUST804231
-Amend,Fix_Broken_Batch,CustomerID,221780,770692,0.94,CUST981372,Retail,Medium,1,US,CUST359147
-Amend,Defaulting_Reclassify,CustomerID,114901,530875,0.63,CUST450896,SME,High,0,US,CUST665428
-Amend,Credit_Uplift,CustomerType,801244,685015,0.77,CUST712035,SME,Medium,0,GB,Retail
-Amend,Fix_Broken_Batch,CustomerID,677443,84570,0.02,CUST238947,Corporate,Low,1,US,CUST238947
-Amend,Market Downturn,RiskCategory,599213,373347,0.51,CUST359147,Corporate,High,0,US,0.75
-Amend,Default,IsDefaulted,593162,873528,0.74,CUST665428,Retail,High,1,DE,1
-Amend,Credit_Uplift,CustomerType,838415,356636,0.84,CUST665428,Corporate,Low,1,US,Retail
-Amend,Default,CustomerID,568805,558407,0.31,CUST359147,SME,Low,0,DE,CUST450896
-Amend,Market Downturn,IsDefaulted,781268,856791,0.13,CUST981372,Corporate,High,0,US,0.75
-Amend,GRC_EndMonth,IsDefaulted,701025,359663,0.79,CUST238947,Corporate,Low,1,US,0
-Amend,Fix_Broken_Batch,CustomerID,457023,581773,0.92,CUST981372,Corporate,Low,0,US,CUST192654
-Amend,Defaulting_Reclassify,CountryCode,974988,459665,0.25,CUST192654,Retail,Low,0,US,US
-Amend,Default,CustomerType,373138,275081,0.04,CUST981372,Retail,Low,0,GB,Corporate
-Amend,Default,CustomerType,791285,972491,0.72,CUST450896,Retail,Low,1,GB,Corporate
-Amend,Market Downturn,CustomerID,239093,102066,0.86,CUST359147,Corporate,High,1,GB,0.75
-Amend,Market Downturn,CustomerID,460860,289413,0.23,CUST804231,Corporate,High,1,US,0.75
-Amend,GRC_EndMonth,CountryCode,255273,148414,0.26,CUST192654,Retail,High,0,DE,US
-Amend,Market Downturn,RiskCategory,101308,509916,0.1,CUST665428,Corporate,High,1,DE,0.75
-Amend,Fix_Broken_Batch,CustomerID,545238,805559,0.07,CUST238947,SME,High,1,GB,CUST981372
-Amend,Defaulting_Reclassify,RiskCategory,878072,434519,0.87,CUST238947,Retail,High,1,US,High
-Amend,GRC_EndMonth,RiskCategory,108158,200955,0.95,CUST563201,SME,High,0,GB,High
-Amend,GRC_EndMonth,IsDefaulted,796570,446200,0.1,CUST712035,Retail,Medium,1,GB,1
-Amend,Credit_Uplift,RiskCategory,426103,458504,0.76,CUST804231,SME,High,0,GB,Medium
-Amend,Default,CountryCode,898469,492018,0.69,CUST238947,Corporate,Medium,1,GB,US
-Amend,GRC_EndMonth,RiskCategory,121312,423727,0.26,CUST450896,SME,High,1,US,Low
-Amend,Fix_Broken_Batch,CustomerID,548392,691043,0.04,CUST192654,Retail,Medium,1,US,CUST981372
-Amend,Default,CountryCode,640561,326618,0.59,CUST563201,Corporate,Medium,0,DE,DE
-Amend,Credit_Uplift,RiskCategory,301674,66113,0.26,CUST359147,SME,High,1,DE,Low
-Amend,Defaulting_Reclassify,RiskCategory,280919,398031,0.39,CUST192654,SME,Low,0,US,High
-Amend,Credit_Uplift,RiskCategory,277550,250490,0.58,CUST563201,SME,Medium,0,DE,High
-Amend,Market Downturn,CustomerID,810356,110196,0.76,CUST665428,Corporate,High,0,GB,0.75
-Amend,Defaulting_Reclassify,IsDefaulted,395750,94556,0.78,CUST804231,Retail,Low,1,DE,1
-Amend,Credit_Uplift,RiskCategory,724639,144291,0.46,CUST192654,Corporate,Low,0,DE,Medium
-Amend,GRC_EndMonth,RiskCategory,453911,99523,0.61,CUST359147,Retail,Low,0,GB,Low
-Amend,Defaulting_Reclassify,CustomerType,137888,46328,0.0,CUST981372,SME,High,1,US,Retail
-Amend,Defaulting_Reclassify,CustomerType,23529,933950,0.03,CUST103289,Retail,Medium,1,DE,Corporate
-Amend,Credit_Uplift,RiskCategory,323894,839413,0.02,CUST804231,Retail,Low,1,DE,Low
-Amend,Credit_Uplift,CountryCode,434281,204635,0.2,CUST359147,Corporate,Medium,0,DE,DE
-Amend,Credit_Uplift,CustomerID,847186,399538,0.29,CUST238947,Retail,Medium,1,US,CUST563201
-Amend,Market Downturn,RiskCategory,493988,411544,0.25,CUST981372,Corporate,High,1,US,0.75
-Amend,Defaulting_Reclassify,CustomerID,379952,848810,0.5,CUST712035,Retail,High,1,DE,CUST981372
-Amend,Fix_Broken_Batch,RiskCategory,436976,50560,0.01,CUST450896,Retail,Low,0,GB,Medium
-Amend,Fix_Broken_Batch,CustomerType,865299,999489,0.25,CUST981372,Corporate,Low,0,DE,Retail
-Amend,Credit_Uplift,RiskCategory,70405,383846,0.57,CUST981372,SME,Medium,1,US,Low
-Amend,Default,CountryCode,894692,69283,0.18,CUST981372,Retail,High,1,DE,US
-Amend,Default,CustomerType,464645,633514,0.29,CUST359147,Retail,Medium,0,DE,Corporate
-Amend,Credit_Uplift,RiskCategory,954796,367865,0.63,CUST665428,Corporate,Low,0,DE,High
-Amend,GRC_EndMonth,RiskCategory,52184,35078,0.84,CUST359147,Retail,High,0,GB,High
-Amend,Credit_Uplift,CountryCode,562716,432544,0.19,CUST359147,Corporate,Low,1,DE,DE
-Amend,GRC_EndMonth,CountryCode,682839,352343,0.91,CUST238947,Corporate,Medium,1,US,GB
-Amend,Fix_Broken_Batch,IsDefaulted,405181,719800,0.33,CUST712035,Retail,Medium,1,DE,0
-Amend,Default,RiskCategory,141050,267994,0.84,CUST359147,Corporate,Low,0,US,Low
-Amend,GRC_EndMonth,CustomerType,601933,66380,0.02,CUST359147,SME,Medium,0,US,SME
-Amend,Default,IsDefaulted,400459,380988,0.94,CUST450896,SME,High,1,US,1
-Amend,Credit_Uplift,CountryCode,417239,166875,0.59,CUST563201,Corporate,Low,1,US,GB
-Amend,Credit_Uplift,RiskCategory,105001,258797,0.93,CUST665428,Corporate,Medium,0,DE,High
-Amend,Fix_Broken_Batch,RiskCategory,921732,63188,0.15,CUST359147,SME,High,0,DE,Medium
-Amend,Default,IsDefaulted,11576,490279,0.17,CUST981372,Retail,Low,1,DE,1
-Amend,Fix_Broken_Batch,IsDefaulted,107961,241438,0.98,CUST103289,Retail,Medium,1,US,1
-Amend,Fix_Broken_Batch,RiskCategory,581599,791347,0.84,CUST665428,Retail,Low,0,DE,High
-Amend,Defaulting_Reclassify,RiskCategory,858227,540022,0.47,CUST103289,SME,High,0,GB,Low
-Amend,Defaulting_Reclassify,CountryCode,299134,328402,0.5,CUST450896,Corporate,Low,0,DE,GB
-Amend,Defaulting_Reclassify,CountryCode,200026,753302,0.28,CUST192654,Retail,High,0,DE,US
-Amend,GRC_EndMonth,CustomerType,425212,294341,0.63,CUST103289,Retail,Medium,1,GB,Retail
-Amend,Defaulting_Reclassify,CustomerType,195784,596216,0.71,CUST665428,SME,High,1,GB,Retail
-Amend,Default,RiskCategory,729286,255648,0.81,CUST238947,SME,High,0,US,Low
-Amend,Fix_Broken_Batch,RiskCategory,189389,823253,0.63,CUST450896,Retail,Medium,0,GB,High
-Amend,Fix_Broken_Batch,CustomerType,170275,224112,0.57,CUST192654,Retail,Low,0,GB,Retail
-Amend,Default,CustomerID,528674,300066,0.57,CUST359147,SME,Medium,0,DE,CUST804231
-Amend,Fix_Broken_Batch,CustomerID,963411,167955,0.64,CUST712035,Corporate,Medium,0,GB,CUST359147
-Amend,GRC_EndMonth,RiskCategory,446177,661351,0.6,CUST712035,SME,High,0,US,Low
-Amend,Credit_Uplift,CustomerType,166833,385030,0.48,CUST804231,Retail,Medium,1,DE,Corporate
-Amend,GRC_EndMonth,RiskCategory,331075,753189,0.15,CUST359147,Retail,Low,0,US,High
-Amend,GRC_EndMonth,CountryCode,647766,738988,0.51,CUST103289,SME,Medium,0,GB,US
-Amend,Fix_Broken_Batch,CustomerID,761103,237987,0.93,CUST103289,Retail,Low,1,GB,CUST103289
-Amend,Default,IsDefaulted,115289,847255,0.82,CUST563201,SME,Low,0,DE,1
-Amend,Fix_Broken_Batch,CountryCode,142015,37080,0.67,CUST712035,SME,Low,1,US,GB
-Amend,Defaulting_Reclassify,CustomerType,681977,38152,0.54,CUST712035,Retail,High,1,DE,SME
-Amend,Credit_Uplift,RiskCategory,808525,956338,0.73,CUST563201,SME,High,1,GB,Medium
-Amend,Fix_Broken_Batch,RiskCategory,699470,284030,0.74,CUST804231,Retail,Medium,0,DE,Low
-Amend,Default,RiskCategory,621293,870593,0.91,CUST712035,Retail,Low,0,DE,Low
-Amend,Defaulting_Reclassify,CustomerID,423603,751,0.5,CUST103289,Retail,High,0,GB,CUST804231
-Amend,Market Downturn,IsDefaulted,774358,209305,0.51,CUST359147,Corporate,High,1,GB,0.75
-Amend,Credit_Uplift,CustomerID,679654,307200,0.67,CUST804231,Retail,Low,1,US,CUST359147
-Amend,Default,IsDefaulted,185334,573636,0.09,CUST192654,Corporate,Medium,0,GB,1
-Amend,Defaulting_Reclassify,IsDefaulted,769645,21175,0.96,CUST563201,Retail,Medium,0,DE,0
-Amend,Credit_Uplift,IsDefaulted,614994,383706,0.8,CUST712035,Retail,Low,0,GB,1
-Amend,Market Downturn,IsDefaulted,994308,254169,0.56,CUST563201,Corporate,High,1,GB,0.75
-Amend,Default,CustomerType,116519,838847,0.2,CUST450896,SME,Medium,0,GB,Retail
+Amend,Fix_Broken_Batch,CustomerID,727741,167749,0.15,CUST712035,Retail,High,0,US,CUST981372
+Amend,Default,RiskCategory,322590,409969,0.15,CUST450896,SME,Low,0,DE,Medium
+Amend,Defaulting_Reclassify,RiskCategory,916339,631088,0.95,CUST712035,Retail,Medium,1,GB,High
+Amend,Defaulting_Reclassify,IsDefaulted,474573,963829,0.5,CUST192654,Corporate,Medium,1,DE,0
+Amend,Market Downturn,CustomerType,402089,742127,0.12,CUST192654,Corporate,High,1,DE,0.75
+Amend,Credit_Uplift,IsDefaulted,782759,987356,0.58,CUST238947,SME,High,0,DE,1
+Amend,Default,IsDefaulted,483758,14262,0.62,CUST981372,Retail,High,0,GB,0
+Amend,Credit_Uplift,IsDefaulted,663881,337374,0.26,CUST192654,SME,High,1,DE,0
+Amend,Default,CustomerID,244540,45593,0.57,CUST192654,Retail,High,0,GB,CUST103289
+Amend,Credit_Uplift,RiskCategory,231428,541960,0.47,CUST563201,Corporate,Low,1,GB,Low
+Amend,Defaulting_Reclassify,CustomerID,927018,404614,0.8,CUST450896,SME,Low,1,DE,CUST359147
+Amend,Credit_Uplift,CountryCode,472680,925900,0.23,CUST665428,Corporate,Medium,1,DE,DE
+Amend,GRC_EndMonth,CustomerType,934951,987354,0.41,CUST804231,SME,Low,1,DE,SME
+Amend,Market Downturn,IsDefaulted,945983,199563,0.69,CUST103289,Corporate,High,1,DE,0.75
+Amend,Credit_Uplift,IsDefaulted,251889,846675,0.65,CUST238947,Retail,High,0,GB,1
+Amend,Default,RiskCategory,910384,785003,0.15,CUST359147,Retail,Low,0,US,High
+Amend,Default,CountryCode,455904,735078,0.65,CUST192654,SME,Medium,0,GB,DE
+Amend,Defaulting_Reclassify,RiskCategory,251359,577791,0.58,CUST192654,SME,High,1,GB,Medium
+Amend,Default,CustomerType,513740,668979,0.17,CUST103289,Corporate,Medium,1,GB,SME
+Amend,Default,CustomerType,882056,544621,0.92,CUST238947,Retail,Low,0,US,Corporate
+Amend,Fix_Broken_Batch,CountryCode,51650,145140,0.54,CUST359147,Retail,High,0,US,GB
+Amend,Credit_Uplift,CustomerType,410100,596165,0.67,CUST712035,SME,Medium,1,DE,SME
+Amend,Defaulting_Reclassify,CustomerType,41274,511801,0.5,CUST450896,Retail,Low,0,US,Retail
+Amend,GRC_EndMonth,CountryCode,868960,299294,0.24,CUST450896,Retail,Medium,0,US,DE
+Amend,Fix_Broken_Batch,CustomerID,142156,596780,0.51,CUST981372,Corporate,Low,1,DE,CUST712035
+Amend,GRC_EndMonth,IsDefaulted,751530,759774,0.47,CUST238947,SME,High,1,GB,1
+Amend,Market Downturn,RiskCategory,7230,434678,0.93,CUST804231,Corporate,High,0,DE,0.75
+Amend,Credit_Uplift,IsDefaulted,526801,302997,0.68,CUST359147,SME,Medium,0,US,1
+Amend,Defaulting_Reclassify,RiskCategory,1402,978272,0.85,CUST238947,SME,Medium,1,US,High
+Amend,Market Downturn,CustomerID,989702,813678,0.11,CUST450896,Corporate,High,1,GB,0.75
+Amend,Market Downturn,CountryCode,152199,47681,0.56,CUST192654,Corporate,High,0,DE,0.75
+Amend,Fix_Broken_Batch,CustomerType,905370,287924,0.97,CUST665428,SME,High,1,DE,Retail
+Amend,Default,CustomerType,919634,482929,0.69,CUST712035,Retail,Medium,0,DE,SME
+Amend,Fix_Broken_Batch,CountryCode,728612,699901,0.74,CUST665428,SME,High,0,GB,DE
+Amend,Defaulting_Reclassify,IsDefaulted,856195,305324,0.09,CUST563201,SME,Medium,1,GB,0
+Amend,GRC_EndMonth,IsDefaulted,623245,464946,0.59,CUST450896,SME,Medium,1,DE,0
+Amend,Fix_Broken_Batch,IsDefaulted,749035,765671,0.96,CUST359147,SME,High,0,GB,0
+Amend,Credit_Uplift,CountryCode,415268,664149,0.39,CUST563201,SME,Low,0,US,DE
+Amend,Defaulting_Reclassify,RiskCategory,53428,57511,0.62,CUST804231,SME,Medium,0,DE,High
+Amend,Fix_Broken_Batch,RiskCategory,748559,938179,0.63,CUST665428,Retail,Medium,1,US,Medium
+Amend,Fix_Broken_Batch,RiskCategory,631033,507225,0.87,CUST238947,Corporate,Low,0,GB,High
+Amend,Default,CountryCode,889145,100708,0.74,CUST450896,Retail,Low,1,GB,GB
+Amend,Credit_Uplift,IsDefaulted,582840,21778,0.37,CUST804231,SME,Medium,1,GB,1
+Amend,Default,RiskCategory,27745,208444,0.37,CUST981372,Corporate,Medium,1,US,Medium
+Amend,Default,CustomerID,150411,24436,0.79,CUST981372,SME,Medium,1,GB,CUST103289
+Amend,Defaulting_Reclassify,CustomerType,700371,457450,0.86,CUST192654,SME,High,0,US,Corporate
+Amend,Fix_Broken_Batch,CountryCode,714791,511093,0.07,CUST359147,Retail,Medium,1,US,DE
+Amend,Default,RiskCategory,254896,247514,0.0,CUST359147,SME,Medium,0,GB,High
+Amend,GRC_EndMonth,CustomerID,774874,35402,0.14,CUST238947,Retail,High,0,GB,CUST450896
+Amend,Market Downturn,CustomerID,29018,233843,0.13,CUST103289,Corporate,High,1,GB,0.75
+Amend,Defaulting_Reclassify,CustomerID,805934,913217,0.86,CUST981372,Retail,Low,1,DE,CUST238947
+Amend,Defaulting_Reclassify,CustomerType,743547,722906,0.55,CUST563201,Retail,High,1,DE,Corporate
+Amend,Fix_Broken_Batch,IsDefaulted,243767,642873,0.86,CUST103289,Retail,High,1,US,0
+Amend,Credit_Uplift,RiskCategory,60781,167767,0.52,CUST804231,Retail,Medium,1,GB,High
+Amend,Defaulting_Reclassify,CustomerID,507419,662471,0.04,CUST192654,Corporate,Medium,0,US,CUST238947
+Amend,GRC_EndMonth,CustomerID,392119,663093,0.0,CUST563201,Corporate,Medium,1,GB,CUST665428
+Amend,Fix_Broken_Batch,CustomerID,698926,761021,0.32,CUST981372,Retail,Medium,1,US,CUST712035
+Amend,Market Downturn,RiskCategory,18976,48278,0.17,CUST981372,Corporate,High,0,DE,0.75
+Amend,Default,CustomerID,361009,96973,0.84,CUST103289,Corporate,Low,1,DE,CUST192654
+Amend,Default,CustomerID,111905,177448,0.72,CUST450896,SME,High,0,GB,CUST450896
+Amend,Credit_Uplift,IsDefaulted,492447,285585,0.21,CUST665428,Retail,Low,0,GB,1
+Amend,Defaulting_Reclassify,RiskCategory,342531,707139,0.77,CUST804231,Retail,High,1,US,High
+Amend,Credit_Uplift,IsDefaulted,375319,14275,0.84,CUST238947,Corporate,Low,1,US,0
+Amend,Fix_Broken_Batch,CustomerType,11225,677408,0.34,CUST238947,SME,High,0,GB,Corporate
+Amend,Default,IsDefaulted,192622,436881,0.69,CUST665428,Retail,High,1,DE,1
+Amend,Market Downturn,IsDefaulted,370623,104471,0.46,CUST563201,Corporate,High,0,DE,0.75
+Amend,Credit_Uplift,IsDefaulted,221852,146198,0.8,CUST192654,Corporate,Low,1,DE,1
+Amend,Default,CountryCode,652327,409493,0.67,CUST804231,Retail,Medium,0,DE,DE
+Amend,Default,CountryCode,380843,28465,0.61,CUST450896,SME,High,0,GB,DE
+Amend,Credit_Uplift,RiskCategory,146938,802847,0.17,CUST981372,Corporate,Medium,1,US,Low
+Amend,GRC_EndMonth,CustomerID,55113,986252,0.99,CUST103289,SME,High,1,US,CUST981372
+Amend,Defaulting_Reclassify,RiskCategory,472257,17175,0.06,CUST665428,SME,High,1,US,Medium
+Amend,Credit_Uplift,CustomerType,848818,688291,0.23,CUST192654,Retail,High,0,DE,Corporate
+Amend,Defaulting_Reclassify,RiskCategory,696272,295628,0.3,CUST359147,Corporate,Low,1,DE,High
+Amend,Fix_Broken_Batch,CountryCode,757052,581846,0.76,CUST103289,Corporate,Medium,0,US,US
+Amend,GRC_EndMonth,CountryCode,521855,593379,0.96,CUST192654,SME,High,1,US,GB
+Amend,Credit_Uplift,CustomerID,837038,627180,0.96,CUST804231,Corporate,Medium,1,DE,CUST712035
+Amend,GRC_EndMonth,CustomerID,671698,867759,0.91,CUST192654,Corporate,Low,0,DE,CUST192654
+Amend,Fix_Broken_Batch,IsDefaulted,747749,325554,0.44,CUST563201,SME,High,1,GB,1
+Amend,GRC_EndMonth,IsDefaulted,444336,89922,0.29,CUST192654,Corporate,Medium,0,GB,1
+Amend,GRC_EndMonth,CountryCode,452224,502795,0.47,CUST665428,Retail,High,1,DE,GB
+Amend,Fix_Broken_Batch,RiskCategory,346753,533358,0.95,CUST665428,Retail,Low,0,DE,Medium
+Amend,Default,CustomerID,804679,470016,0.06,CUST981372,Retail,Medium,0,GB,CUST563201
+Amend,Credit_Uplift,CustomerID,576844,631783,0.54,CUST192654,SME,High,1,DE,CUST192654
+Amend,Credit_Uplift,CustomerType,246556,796813,0.49,CUST665428,Retail,Low,1,US,SME
+Amend,Defaulting_Reclassify,CustomerType,524083,2782,0.14,CUST804231,Retail,Low,1,GB,SME
+Amend,Defaulting_Reclassify,CountryCode,606412,802007,0.1,CUST712035,Corporate,Medium,0,US,DE
+Amend,GRC_EndMonth,RiskCategory,331096,859120,0.54,CUST103289,Retail,High,0,GB,Low
+Amend,Defaulting_Reclassify,CountryCode,25714,626325,0.35,CUST712035,SME,Medium,1,US,GB
+Amend,Credit_Uplift,CustomerType,360321,503680,0.06,CUST359147,SME,Medium,0,DE,SME
+Amend,Default,CustomerID,800552,53827,0.19,CUST563201,Corporate,Medium,0,GB,CUST804231
+Amend,Defaulting_Reclassify,CustomerID,10954,828268,0.72,CUST450896,Retail,Low,0,DE,CUST712035
+Amend,GRC_EndMonth,CustomerType,642993,590010,0.95,CUST192654,Corporate,Low,1,DE,Corporate
+Amend,Defaulting_Reclassify,RiskCategory,11651,930374,0.44,CUST981372,SME,Medium,1,GB,Medium
+Amend,GRC_EndMonth,CustomerID,912521,980199,0.37,CUST563201,SME,High,1,US,CUST665428
+Amend,GRC_EndMonth,CustomerID,372340,742913,0.78,CUST804231,Corporate,Medium,0,US,CUST804231
+Amend,Default,CountryCode,990574,879708,0.79,CUST103289,Retail,High,0,GB,DE
+Amend,Fix_Broken_Batch,RiskCategory,750204,799912,0.62,CUST981372,SME,Medium,1,US,Low
+Amend,GRC_EndMonth,CountryCode,571492,128490,0.04,CUST238947,Corporate,Medium,1,US,DE
+Amend,Default,CustomerType,743734,748731,0.68,CUST359147,SME,Low,1,DE,SME
+Amend,Defaulting_Reclassify,CustomerID,570983,480759,0.09,CUST192654,Retail,Medium,0,DE,CUST450896
+Amend,Fix_Broken_Batch,IsDefaulted,717648,710035,0.28,CUST192654,Corporate,Medium,1,GB,1
+Amend,Default,RiskCategory,579377,284186,0.87,CUST192654,SME,Medium,1,GB,Low
+Amend,Fix_Broken_Batch,CustomerID,896715,553659,0.84,CUST712035,Retail,Medium,1,GB,CUST665428
+Amend,Fix_Broken_Batch,CustomerID,937241,388740,0.06,CUST712035,SME,High,0,DE,CUST563201
+Amend,Defaulting_Reclassify,CustomerID,299480,686869,0.83,CUST804231,SME,Medium,0,US,CUST238947
+Amend,GRC_EndMonth,CustomerID,834678,451519,0.91,CUST981372,Retail,Low,0,US,CUST450896
+Amend,Fix_Broken_Batch,RiskCategory,754377,52722,0.21,CUST981372,Retail,High,0,DE,High
+Amend,Fix_Broken_Batch,IsDefaulted,846302,172333,0.16,CUST563201,Retail,Low,0,US,1
+Amend,GRC_EndMonth,CountryCode,942910,638855,0.41,CUST192654,Corporate,Medium,1,US,GB
+Amend,Market Downturn,IsDefaulted,973509,18110,0.53,CUST103289,Corporate,High,1,GB,0.75
+Amend,Defaulting_Reclassify,CustomerType,293622,166292,0.65,CUST450896,SME,High,1,GB,SME
+Amend,Default,RiskCategory,724693,321510,0.55,CUST359147,Retail,High,0,US,Medium
+Amend,Defaulting_Reclassify,CustomerType,832062,499961,0.57,CUST192654,Corporate,Medium,1,GB,Corporate
+Amend,Market Downturn,RiskCategory,674336,139754,0.88,CUST192654,Corporate,High,1,GB,0.75
+Amend,Fix_Broken_Batch,IsDefaulted,381036,765939,0.52,CUST804231,SME,Low,1,US,0
+Amend,Fix_Broken_Batch,CountryCode,281709,184109,0.86,CUST563201,Retail,High,0,US,GB
+Amend,Fix_Broken_Batch,CustomerID,803282,869762,0.88,CUST103289,Corporate,Medium,0,GB,CUST563201
+Amend,Market Downturn,RiskCategory,345461,819953,0.76,CUST563201,Corporate,High,1,US,0.75
+Amend,Credit_Uplift,CustomerID,724465,207169,0.97,CUST238947,SME,Medium,0,US,CUST804231
+Amend,Defaulting_Reclassify,RiskCategory,593394,485679,0.75,CUST665428,SME,High,0,DE,Medium
+Amend,Defaulting_Reclassify,IsDefaulted,912845,592019,0.91,CUST665428,SME,Low,0,US,1
+Amend,Market Downturn,CountryCode,160011,472299,0.92,CUST238947,Corporate,High,0,US,0.75
+Amend,Fix_Broken_Batch,CustomerID,654160,950911,0.67,CUST359147,Retail,High,0,DE,CUST238947
+Amend,GRC_EndMonth,CustomerType,711872,864442,0.27,CUST981372,Corporate,Low,0,US,SME
+Amend,Defaulting_Reclassify,CustomerType,521626,489861,0.93,CUST712035,SME,High,0,US,Corporate
+Amend,Default,CustomerType,654910,792971,0.82,CUST192654,Retail,High,1,GB,SME
+Amend,GRC_EndMonth,CountryCode,625533,938155,0.73,CUST359147,SME,Low,1,DE,US
+Amend,Default,RiskCategory,625337,796818,0.31,CUST981372,SME,Medium,1,GB,Medium
+Amend,Market Downturn,IsDefaulted,132081,397437,0.32,CUST563201,Corporate,High,1,GB,0.75
+Amend,Credit_Uplift,CustomerType,647243,109896,0.32,CUST238947,Corporate,Low,1,GB,Corporate
+Amend,GRC_EndMonth,RiskCategory,550552,875392,0.51,CUST665428,Corporate,Medium,0,US,Low
+Amend,GRC_EndMonth,CustomerID,448775,230716,0.89,CUST665428,SME,Low,1,US,CUST665428
+Amend,GRC_EndMonth,IsDefaulted,773918,648046,0.61,CUST665428,Retail,Low,1,US,1
+Amend,Defaulting_Reclassify,CustomerID,382233,995563,0.99,CUST712035,SME,Medium,0,US,CUST359147
+Amend,Defaulting_Reclassify,CustomerID,529139,167462,0.51,CUST238947,Retail,Low,0,DE,CUST712035
+Amend,Credit_Uplift,CustomerType,753327,892420,0.33,CUST712035,SME,Low,0,US,Retail
+Amend,GRC_EndMonth,RiskCategory,483697,309911,0.06,CUST981372,SME,Low,0,US,Low
+Amend,GRC_EndMonth,CustomerType,978670,841029,0.26,CUST103289,Retail,Medium,1,GB,SME
+Amend,Defaulting_Reclassify,CustomerType,471497,491487,0.56,CUST712035,Corporate,Low,0,DE,SME
+Amend,Fix_Broken_Batch,CustomerType,247050,15795,0.99,CUST450896,Retail,Medium,1,DE,Corporate
+Amend,Defaulting_Reclassify,CountryCode,20933,352376,0.43,CUST450896,Retail,Medium,1,DE,GB
+Amend,Credit_Uplift,CustomerType,516796,562521,0.12,CUST359147,SME,Low,0,US,SME
+Amend,Default,IsDefaulted,229708,290462,0.94,CUST804231,SME,Low,0,US,0
+Amend,GRC_EndMonth,CustomerType,570072,445237,0.96,CUST665428,Retail,Medium,0,GB,Retail
+Amend,Default,IsDefaulted,218935,31795,0.06,CUST563201,Retail,High,1,DE,1
+Amend,Fix_Broken_Batch,CountryCode,43253,57,0.45,CUST563201,Retail,Low,0,DE,DE
+Amend,Defaulting_Reclassify,RiskCategory,771338,704224,0.65,CUST192654,SME,Medium,0,GB,Low
+Amend,GRC_EndMonth,CustomerType,491587,722417,0.28,CUST359147,Retail,Low,1,DE,Corporate
+Amend,Default,IsDefaulted,923797,194841,0.04,CUST359147,SME,Low,0,US,0
+Amend,Fix_Broken_Batch,IsDefaulted,106215,530001,0.4,CUST238947,Corporate,Low,0,US,0
+Amend,Defaulting_Reclassify,IsDefaulted,241507,240437,0.79,CUST665428,Corporate,Low,1,DE,0
+Amend,GRC_EndMonth,RiskCategory,776923,592229,0.83,CUST712035,Corporate,Low,1,GB,Medium
+Amend,Fix_Broken_Batch,RiskCategory,658528,788468,0.92,CUST804231,Retail,High,0,US,High
+Amend,Fix_Broken_Batch,CountryCode,473198,448639,0.48,CUST359147,Retail,Low,0,GB,DE
+Amend,Credit_Uplift,RiskCategory,447091,757958,0.36,CUST563201,Corporate,Medium,1,US,Medium
+Amend,Defaulting_Reclassify,CustomerID,847000,139646,0.37,CUST359147,Retail,Low,1,DE,CUST103289
+Amend,Default,RiskCategory,720429,382297,0.06,CUST103289,Corporate,Low,0,GB,Low
+Amend,GRC_EndMonth,IsDefaulted,863920,50677,0.58,CUST359147,SME,High,0,DE,1
+Amend,Defaulting_Reclassify,RiskCategory,411382,737232,0.29,CUST712035,Corporate,Medium,1,GB,Low
+Amend,Fix_Broken_Batch,CustomerID,641230,224931,0.03,CUST103289,SME,High,1,DE,CUST563201
+Amend,Fix_Broken_Batch,IsDefaulted,722437,411394,0.68,CUST712035,SME,Medium,1,GB,0
+Amend,Fix_Broken_Batch,CustomerID,277356,916214,0.93,CUST804231,SME,High,0,DE,CUST192654
+Amend,Fix_Broken_Batch,CountryCode,976300,17272,0.44,CUST192654,Retail,High,0,US,GB
+Amend,Defaulting_Reclassify,CountryCode,228324,359120,0.09,CUST450896,SME,Low,0,DE,GB
+Amend,Defaulting_Reclassify,CountryCode,44699,403794,0.01,CUST238947,Retail,Medium,1,GB,US
+Amend,GRC_EndMonth,IsDefaulted,82365,429815,0.0,CUST981372,SME,Low,1,US,0
+Amend,Credit_Uplift,IsDefaulted,317436,190456,0.97,CUST665428,Retail,Low,1,DE,1
+Amend,Defaulting_Reclassify,CountryCode,460969,502302,0.66,CUST712035,Retail,Medium,0,DE,GB
+Amend,Credit_Uplift,CountryCode,280487,448250,0.99,CUST804231,Corporate,Medium,1,DE,GB
+Amend,GRC_EndMonth,IsDefaulted,479301,930036,0.82,CUST712035,Retail,Low,1,DE,1
+Amend,Fix_Broken_Batch,CountryCode,192445,658265,0.87,CUST712035,Corporate,Low,0,DE,DE
+Amend,Defaulting_Reclassify,CustomerType,874522,934909,0.45,CUST238947,Retail,Medium,0,US,SME
+Amend,Fix_Broken_Batch,CustomerType,704197,570741,0.89,CUST804231,SME,High,0,GB,Retail
+Amend,Defaulting_Reclassify,RiskCategory,64343,88364,0.13,CUST981372,Corporate,Low,1,US,High
+Amend,Fix_Broken_Batch,CustomerType,851696,643907,0.33,CUST563201,Corporate,Medium,1,GB,Retail
+Amend,Credit_Uplift,CustomerID,873922,642716,0.44,CUST563201,SME,Low,1,US,CUST563201
+Amend,Default,CustomerType,793531,348416,0.42,CUST359147,Retail,Low,1,DE,Corporate
+Amend,Defaulting_Reclassify,CountryCode,968309,6692,0.03,CUST238947,SME,High,1,GB,DE
+Amend,Defaulting_Reclassify,IsDefaulted,140456,726083,0.06,CUST563201,Retail,High,0,US,0
+Amend,Defaulting_Reclassify,CountryCode,944776,329078,0.97,CUST712035,Corporate,Low,0,DE,US
+Amend,Defaulting_Reclassify,CustomerID,100956,50619,0.72,CUST665428,Corporate,Medium,1,GB,CUST192654
+Amend,Default,IsDefaulted,997458,389603,0.39,CUST665428,Corporate,Low,1,US,0
+Amend,Defaulting_Reclassify,CustomerID,379285,36926,0.26,CUST981372,SME,Low,0,DE,CUST563201
+Amend,Defaulting_Reclassify,IsDefaulted,200346,978315,0.66,CUST563201,Retail,Medium,0,DE,1
+Amend,GRC_EndMonth,CountryCode,497727,100111,0.4,CUST981372,Retail,High,0,DE,US
+Amend,Defaulting_Reclassify,IsDefaulted,700429,82707,0.72,CUST359147,SME,Medium,0,US,1
+Amend,Credit_Uplift,CountryCode,191580,699259,0.62,CUST103289,SME,Low,0,US,GB
+Amend,Fix_Broken_Batch,RiskCategory,778923,705024,0.91,CUST238947,Corporate,Medium,1,GB,High
+Amend,Market Downturn,CustomerID,440457,569049,0.62,CUST563201,Corporate,High,0,GB,0.75
+Amend,Fix_Broken_Batch,CustomerType,897383,52455,0.56,CUST238947,SME,Low,1,DE,SME
+Amend,Credit_Uplift,CountryCode,352028,67513,0.58,CUST359147,SME,High,1,GB,DE
+Amend,Fix_Broken_Batch,CountryCode,580480,211182,0.89,CUST192654,Retail,Low,1,DE,DE
+Amend,Market Downturn,CustomerType,228625,755386,0.97,CUST665428,Corporate,High,1,GB,0.75
+Amend,Defaulting_Reclassify,CustomerID,471561,921758,0.31,CUST981372,Retail,Medium,1,US,CUST238947
+Amend,Fix_Broken_Batch,CustomerType,958954,205413,0.3,CUST359147,Corporate,Medium,1,DE,Retail
+Amend,Credit_Uplift,IsDefaulted,972944,696327,0.52,CUST450896,Retail,High,1,US,1
+Amend,Fix_Broken_Batch,CustomerID,79576,86136,0.61,CUST359147,Corporate,Low,0,GB,CUST359147
+Amend,Fix_Broken_Batch,CountryCode,226434,586930,0.28,CUST359147,Retail,Low,1,GB,US
+Amend,Credit_Uplift,RiskCategory,504194,610136,0.04,CUST103289,Retail,Medium,1,GB,High
+Amend,Defaulting_Reclassify,CustomerID,713142,590082,0.04,CUST804231,SME,High,0,DE,CUST238947
+Amend,Defaulting_Reclassify,CustomerType,544058,931846,0.19,CUST665428,SME,Low,1,GB,SME
+Amend,Fix_Broken_Batch,CountryCode,376684,267948,0.67,CUST981372,SME,Low,0,US,DE
+Amend,Defaulting_Reclassify,CountryCode,76748,627372,0.28,CUST238947,SME,Low,1,DE,DE
+Amend,Fix_Broken_Batch,RiskCategory,27610,909084,0.2,CUST359147,SME,Medium,1,US,Low
+Amend,GRC_EndMonth,IsDefaulted,292614,960451,0.56,CUST981372,Corporate,Low,0,US,0
+Amend,Market Downturn,IsDefaulted,701142,107629,0.92,CUST665428,Corporate,High,1,US,0.75
+Amend,Market Downturn,IsDefaulted,477792,403366,0.7,CUST563201,Corporate,High,0,US,0.75
+Amend,Default,RiskCategory,340617,64677,0.42,CUST804231,SME,Low,0,DE,Medium
+Amend,Default,RiskCategory,519988,148999,0.88,CUST103289,Retail,High,1,DE,High
+Amend,GRC_EndMonth,RiskCategory,147896,524634,0.2,CUST192654,SME,High,1,US,Low
+Amend,Defaulting_Reclassify,RiskCategory,607104,990002,0.21,CUST359147,Retail,Low,1,DE,Medium
+Amend,Fix_Broken_Batch,IsDefaulted,258017,679488,0.52,CUST563201,Retail,Low,0,DE,1
+Amend,GRC_EndMonth,RiskCategory,524405,409971,0.38,CUST712035,Corporate,Low,0,US,Low
+Amend,Default,RiskCategory,386476,117929,0.83,CUST712035,Retail,High,0,US,Medium
+Amend,Default,CustomerType,32112,202287,0.58,CUST359147,Corporate,Medium,1,GB,Retail
+Amend,Market Downturn,CustomerID,480265,838328,0.69,CUST450896,Corporate,High,1,US,0.75
+Amend,Fix_Broken_Batch,CustomerID,823783,147141,0.49,CUST359147,Corporate,Low,1,DE,CUST804231
+Amend,GRC_EndMonth,CustomerType,829894,974496,0.0,CUST450896,SME,Medium,1,DE,Retail
+Amend,Defaulting_Reclassify,IsDefaulted,97874,921051,0.0,CUST238947,Corporate,Low,0,DE,1
+Amend,Defaulting_Reclassify,IsDefaulted,762381,212105,0.52,CUST359147,Corporate,Low,0,US,1
+Amend,GRC_EndMonth,CustomerID,245512,84807,0.24,CUST192654,Corporate,Medium,1,US,CUST192654
+Amend,GRC_EndMonth,CountryCode,952822,205505,0.04,CUST804231,SME,Medium,1,US,US
+Amend,GRC_EndMonth,IsDefaulted,748151,929591,0.7,CUST192654,Retail,High,1,US,0
+Amend,Fix_Broken_Batch,IsDefaulted,453798,733563,0.82,CUST450896,Retail,Medium,0,GB,1
+Amend,Fix_Broken_Batch,CountryCode,718283,367730,0.19,CUST238947,Retail,Medium,0,DE,US
+Amend,Default,RiskCategory,144750,866729,0.67,CUST665428,Corporate,Medium,0,US,Low
+Amend,GRC_EndMonth,IsDefaulted,1162,202466,0.59,CUST804231,SME,Low,1,GB,0
+Amend,Default,CustomerType,861881,332135,0.59,CUST981372,Retail,Low,1,DE,Retail
+Amend,Fix_Broken_Batch,CustomerType,413081,115351,0.69,CUST450896,SME,High,0,US,SME
+Amend,Default,RiskCategory,867302,177895,0.14,CUST359147,Corporate,Low,1,US,Medium
+Amend,Fix_Broken_Batch,CustomerID,693406,600003,0.3,CUST712035,Retail,Low,0,US,CUST981372
+Amend,Fix_Broken_Batch,CustomerID,895083,18377,0.68,CUST712035,Corporate,Low,1,DE,CUST103289
+Amend,GRC_EndMonth,RiskCategory,383437,383837,0.94,CUST192654,Retail,Low,0,GB,Low
+Amend,Fix_Broken_Batch,CountryCode,339341,814732,0.0,CUST192654,SME,Medium,0,DE,DE
+Amend,Fix_Broken_Batch,IsDefaulted,507124,835285,0.01,CUST238947,Retail,Low,0,US,1
+Amend,Default,RiskCategory,408023,896954,0.87,CUST981372,Retail,Low,0,DE,High
+Amend,GRC_EndMonth,CustomerID,805964,472283,0.62,CUST804231,SME,Medium,1,US,CUST804231
+Amend,Defaulting_Reclassify,IsDefaulted,724474,579076,0.22,CUST665428,SME,High,1,US,0
+Amend,Credit_Uplift,CustomerID,339924,791202,0.44,CUST665428,SME,High,1,GB,CUST103289
+Amend,GRC_EndMonth,CustomerType,334980,471086,0.83,CUST712035,Retail,Low,1,DE,SME
+Amend,Credit_Uplift,IsDefaulted,236160,655048,0.7,CUST450896,Corporate,Low,0,GB,0
+Amend,Default,IsDefaulted,777566,275057,0.06,CUST563201,Corporate,Low,0,DE,0
+Amend,Defaulting_Reclassify,IsDefaulted,428669,425162,0.99,CUST981372,SME,Medium,0,DE,0
+Amend,Default,IsDefaulted,347813,225550,0.93,CUST238947,SME,Low,1,DE,1
+Amend,Fix_Broken_Batch,CustomerID,561346,226276,0.47,CUST238947,SME,High,0,US,CUST981372
+Amend,Defaulting_Reclassify,CustomerType,600451,453920,0.47,CUST563201,SME,High,0,US,SME
+Amend,GRC_EndMonth,IsDefaulted,574879,79815,0.1,CUST665428,Corporate,Low,0,GB,0
+Amend,Default,IsDefaulted,235366,562908,0.5,CUST359147,Retail,Low,1,GB,0
+Amend,Defaulting_Reclassify,CustomerID,775065,155423,0.53,CUST103289,Corporate,Medium,1,US,CUST192654
+Amend,Credit_Uplift,RiskCategory,473078,314015,0.38,CUST981372,Corporate,Medium,0,DE,High
+Amend,GRC_EndMonth,CountryCode,692530,707892,0.63,CUST804231,Retail,Low,0,US,GB
+Amend,Fix_Broken_Batch,RiskCategory,105445,472475,0.08,CUST563201,Retail,High,0,US,Medium
+Amend,Credit_Uplift,CustomerType,104962,793120,0.63,CUST712035,SME,Medium,1,DE,SME
+Amend,Credit_Uplift,IsDefaulted,56480,815519,0.95,CUST665428,Corporate,Medium,0,DE,1
+Amend,Defaulting_Reclassify,IsDefaulted,326810,198417,0.26,CUST238947,Retail,High,0,US,1
+Amend,Default,IsDefaulted,458534,449494,0.21,CUST359147,Retail,High,1,GB,0
+Amend,Credit_Uplift,CustomerID,876499,302563,0.71,CUST981372,SME,High,0,DE,CUST238947
+Amend,Defaulting_Reclassify,CustomerID,271797,642074,0.29,CUST103289,Retail,Low,0,DE,CUST665428
+Amend,Credit_Uplift,RiskCategory,409831,299140,0.26,CUST359147,SME,Medium,1,US,Low
+Amend,Default,CustomerID,906047,624821,0.42,CUST563201,SME,High,1,GB,CUST563201
+Amend,Credit_Uplift,CustomerType,365242,423120,0.78,CUST804231,SME,High,0,US,SME
+Amend,Fix_Broken_Batch,CountryCode,678659,178198,0.91,CUST450896,SME,Medium,0,DE,GB
+Amend,GRC_EndMonth,RiskCategory,549801,966427,0.64,CUST804231,SME,Low,0,GB,Low
+Amend,Default,CountryCode,132595,493256,0.48,CUST238947,SME,Low,0,US,GB
+Amend,Default,RiskCategory,779487,646807,0.15,CUST103289,SME,High,1,GB,Low
+Amend,GRC_EndMonth,CountryCode,188971,373252,0.69,CUST563201,SME,Low,1,GB,GB
+Amend,Fix_Broken_Batch,IsDefaulted,291943,105420,0.14,CUST192654,Corporate,Medium,1,US,0
+Amend,Defaulting_Reclassify,CustomerID,40712,905086,0.32,CUST712035,SME,High,0,US,CUST665428
+Amend,Credit_Uplift,RiskCategory,52592,287659,0.55,CUST450896,SME,High,1,DE,Low
+Amend,GRC_EndMonth,CustomerType,460987,564838,0.1,CUST981372,Corporate,Low,1,GB,Corporate
+Amend,Default,IsDefaulted,158042,22189,0.06,CUST665428,Corporate,Low,0,GB,0
+Amend,GRC_EndMonth,CustomerType,170606,569141,0.14,CUST563201,Corporate,Low,1,GB,Retail
+Amend,Default,IsDefaulted,130986,925840,0.87,CUST238947,SME,Medium,1,DE,1
+Amend,GRC_EndMonth,CustomerID,100507,954701,0.49,CUST238947,Retail,Medium,1,DE,CUST450896
+Amend,Credit_Uplift,RiskCategory,776719,636082,0.51,CUST192654,SME,Low,1,US,Low
+Amend,GRC_EndMonth,IsDefaulted,808648,350373,0.5,CUST804231,SME,Low,0,GB,0
+Amend,GRC_EndMonth,CustomerType,166873,354140,0.49,CUST238947,Retail,Low,1,GB,SME
+Amend,GRC_EndMonth,IsDefaulted,766218,965585,0.11,CUST563201,Corporate,Medium,1,DE,1
+Amend,Defaulting_Reclassify,RiskCategory,826632,945597,0.76,CUST192654,Corporate,Low,1,DE,High
+Amend,Default,CustomerType,798841,357199,0.1,CUST103289,Corporate,Low,1,DE,SME
+Amend,GRC_EndMonth,IsDefaulted,287805,330024,0.34,CUST103289,Retail,Medium,1,GB,0
+Amend,Default,RiskCategory,249482,916080,0.79,CUST665428,Retail,Medium,1,DE,Medium
+Amend,Defaulting_Reclassify,CustomerID,372814,402960,0.94,CUST359147,Retail,Low,1,US,CUST238947
+Amend,Credit_Uplift,CountryCode,512779,537756,0.64,CUST563201,SME,Low,0,GB,DE
+Amend,Defaulting_Reclassify,CustomerType,964022,297822,0.33,CUST450896,Retail,High,0,GB,SME
+Amend,Market Downturn,CountryCode,568606,7220,0.14,CUST712035,Corporate,High,0,DE,0.75
+Amend,Credit_Uplift,IsDefaulted,295096,596191,0.58,CUST192654,Corporate,Medium,0,GB,1
+Amend,Default,CustomerType,918134,259628,0.31,CUST804231,Retail,High,1,GB,Retail
+Amend,Fix_Broken_Batch,CustomerID,188122,259085,0.26,CUST238947,Retail,Low,0,GB,CUST359147
+Amend,Credit_Uplift,IsDefaulted,110737,945990,0.29,CUST665428,SME,Medium,1,GB,1
+Amend,Fix_Broken_Batch,IsDefaulted,730120,460634,0.6,CUST450896,Retail,Low,0,DE,0
+Amend,Default,RiskCategory,313935,626326,0.4,CUST359147,Corporate,Medium,0,GB,Medium
+Amend,Credit_Uplift,CustomerID,715788,758099,0.6,CUST665428,Corporate,Low,0,DE,CUST238947
+Amend,Credit_Uplift,IsDefaulted,598592,223364,0.31,CUST103289,Corporate,Medium,0,GB,1
+Amend,Defaulting_Reclassify,RiskCategory,377615,567537,0.78,CUST450896,Retail,High,1,DE,Medium
+Amend,Defaulting_Reclassify,CountryCode,27597,41604,0.28,CUST804231,SME,Medium,1,GB,DE
+Amend,Fix_Broken_Batch,CustomerID,758858,323164,0.36,CUST192654,SME,Low,0,GB,CUST804231
+Amend,Fix_Broken_Batch,IsDefaulted,171429,312243,0.85,CUST665428,Corporate,Low,0,GB,1
+Amend,Fix_Broken_Batch,IsDefaulted,453217,491804,0.68,CUST563201,SME,High,1,US,0
+Amend,Defaulting_Reclassify,CustomerType,797266,469457,0.37,CUST238947,Corporate,Medium,0,US,Corporate
+Amend,Defaulting_Reclassify,CountryCode,571786,385280,0.0,CUST712035,Corporate,Medium,0,US,GB
+Amend,Market Downturn,CustomerID,948080,883227,0.37,CUST192654,Corporate,High,1,GB,0.75
+Amend,Defaulting_Reclassify,CustomerID,271942,435082,0.36,CUST450896,SME,High,1,US,CUST981372
+Amend,Fix_Broken_Batch,CustomerID,757470,894046,0.7,CUST238947,Corporate,Low,0,GB,CUST563201
+Amend,Default,CustomerType,851237,350340,0.38,CUST804231,SME,Medium,1,DE,Corporate
+Amend,Market Downturn,RiskCategory,183168,453979,0.36,CUST804231,Corporate,High,1,DE,0.75
+Amend,Defaulting_Reclassify,RiskCategory,392383,516867,0.05,CUST981372,SME,Low,0,DE,High
+Amend,Default,CustomerType,881019,727676,0.19,CUST665428,Retail,High,1,US,SME
+Amend,Credit_Uplift,CountryCode,398199,337905,0.32,CUST192654,SME,Low,0,DE,DE
+Amend,Default,CountryCode,320815,663285,0.01,CUST804231,Retail,High,1,DE,DE
+Amend,Fix_Broken_Batch,CustomerType,315584,614540,0.12,CUST103289,Corporate,Medium,0,GB,Corporate
+Amend,GRC_EndMonth,CustomerType,370287,198192,0.64,CUST192654,Retail,Medium,1,DE,SME
+Amend,Defaulting_Reclassify,CountryCode,198693,481162,0.3,CUST359147,SME,Medium,1,GB,GB
+Amend,Defaulting_Reclassify,CountryCode,243496,273673,0.48,CUST981372,Corporate,Medium,1,DE,US
+Amend,Credit_Uplift,CustomerID,412860,305565,0.91,CUST804231,Retail,Medium,1,GB,CUST712035
+Amend,Market Downturn,CountryCode,854033,270558,0.01,CUST712035,Corporate,High,1,GB,0.75
+Amend,Fix_Broken_Batch,IsDefaulted,236041,139885,0.87,CUST450896,SME,Low,0,DE,1
+Amend,Fix_Broken_Batch,CountryCode,675434,593908,0.62,CUST804231,Retail,High,0,DE,US
+Amend,Market Downturn,CountryCode,494912,810193,0.57,CUST665428,Corporate,High,0,US,0.75
+Amend,GRC_EndMonth,CountryCode,815428,983007,0.29,CUST804231,Retail,Low,1,DE,GB
+Amend,Defaulting_Reclassify,RiskCategory,349250,814965,0.79,CUST450896,Retail,Medium,1,US,Low
+Amend,Credit_Uplift,IsDefaulted,746953,23569,0.48,CUST450896,Corporate,Low,1,US,1
+Amend,Default,IsDefaulted,964550,725944,0.06,CUST103289,Retail,High,1,DE,1
+Amend,Default,CustomerID,154824,421398,0.6,CUST238947,Corporate,Medium,0,GB,CUST103289
+Amend,GRC_EndMonth,IsDefaulted,747019,266661,0.3,CUST563201,SME,Medium,1,US,1
+Amend,Credit_Uplift,IsDefaulted,516259,12463,0.26,CUST103289,Retail,Medium,0,US,1
+Amend,Default,CustomerID,502253,235749,0.69,CUST981372,SME,High,0,GB,CUST238947
+Amend,GRC_EndMonth,CustomerID,184352,958788,0.0,CUST238947,Retail,High,0,US,CUST359147
+Amend,Defaulting_Reclassify,CustomerID,576869,689368,0.9,CUST450896,Corporate,Medium,0,US,CUST712035
+Amend,GRC_EndMonth,CountryCode,625362,346797,0.89,CUST665428,Retail,Low,0,US,US
+Amend,Defaulting_Reclassify,CustomerID,658048,474878,0.08,CUST804231,Corporate,Low,0,GB,CUST981372
+Amend,Defaulting_Reclassify,CustomerType,39890,841828,0.88,CUST563201,Corporate,Medium,1,DE,Retail
+Amend,Default,CustomerType,652646,540791,0.76,CUST238947,SME,High,1,DE,SME
+Amend,Default,CustomerType,787068,734253,0.54,CUST103289,SME,Low,1,GB,SME
+Amend,Default,CustomerType,733606,113677,0.2,CUST192654,Retail,Medium,1,US,SME
+Amend,Market Downturn,CustomerType,445560,932615,0.58,CUST712035,Corporate,High,1,GB,0.75
+Amend,Default,CustomerType,586144,371722,0.28,CUST665428,Retail,Low,1,GB,Corporate
+Amend,Market Downturn,CustomerID,324360,285623,0.24,CUST981372,Corporate,High,1,US,0.75
+Amend,GRC_EndMonth,CustomerID,863105,535744,0.15,CUST192654,SME,Medium,1,DE,CUST238947
+Amend,GRC_EndMonth,CustomerType,62250,245696,0.42,CUST450896,Corporate,Medium,0,US,Retail
+Amend,Fix_Broken_Batch,IsDefaulted,238586,694588,0.75,CUST804231,Corporate,Low,1,GB,1
+Amend,Defaulting_Reclassify,CountryCode,83586,633141,0.75,CUST665428,SME,High,1,GB,GB
+Amend,Market Downturn,RiskCategory,567566,548413,0.84,CUST103289,Corporate,High,1,DE,0.75
+Amend,Market Downturn,RiskCategory,328789,441958,0.75,CUST665428,Corporate,High,0,GB,0.75
+Amend,GRC_EndMonth,IsDefaulted,317887,269899,0.67,CUST804231,SME,Medium,0,DE,0
+Amend,Fix_Broken_Batch,CustomerID,43559,882792,0.69,CUST665428,SME,Medium,0,DE,CUST103289
+Amend,GRC_EndMonth,CustomerID,991040,463234,0.38,CUST103289,Retail,High,1,DE,CUST563201
+Amend,Defaulting_Reclassify,RiskCategory,606087,935205,0.43,CUST712035,Retail,Low,0,DE,Medium
+Amend,Credit_Uplift,CustomerType,469464,511169,0.38,CUST712035,SME,Medium,0,DE,SME
+Amend,Credit_Uplift,CustomerType,162031,876723,0.54,CUST359147,SME,High,1,US,Retail
+Amend,Defaulting_Reclassify,CustomerType,79678,265640,0.77,CUST359147,Retail,Medium,1,GB,SME
+Amend,Default,CustomerType,736211,875712,0.69,CUST981372,SME,Low,1,GB,SME
+Amend,Defaulting_Reclassify,CountryCode,642402,137506,0.59,CUST665428,SME,Medium,0,GB,GB
+Amend,Default,CustomerID,609260,431205,0.47,CUST238947,SME,Medium,1,DE,CUST712035
+Amend,Fix_Broken_Batch,CustomerID,136351,400506,0.11,CUST359147,SME,Medium,1,GB,CUST712035
+Amend,Fix_Broken_Batch,CustomerID,625584,383466,0.84,CUST359147,SME,Low,1,US,CUST359147
+Amend,Market Downturn,IsDefaulted,400339,715680,0.79,CUST804231,Corporate,High,0,GB,0.75
+Amend,Defaulting_Reclassify,CustomerID,224716,532571,0.1,CUST804231,Corporate,Medium,0,GB,CUST359147
+Amend,Fix_Broken_Batch,CountryCode,395109,787215,0.45,CUST804231,Corporate,Low,1,GB,GB
+Amend,Defaulting_Reclassify,CustomerID,649953,8518,0.4,CUST192654,Retail,High,0,US,CUST665428
+Amend,Fix_Broken_Batch,CustomerID,26395,385056,0.38,CUST359147,SME,High,0,DE,CUST450896
+Amend,Defaulting_Reclassify,CustomerID,318374,385373,0.68,CUST192654,Corporate,Low,1,DE,CUST450896
+Amend,GRC_EndMonth,RiskCategory,597131,884232,0.0,CUST238947,SME,Low,0,DE,Low
+Amend,GRC_EndMonth,CustomerType,559275,926811,0.11,CUST192654,Corporate,Medium,0,GB,Corporate
+Amend,Fix_Broken_Batch,CountryCode,624340,827767,0.87,CUST804231,SME,High,0,GB,US
+Amend,Fix_Broken_Batch,IsDefaulted,867337,846575,0.25,CUST665428,SME,High,1,US,1
+Amend,GRC_EndMonth,RiskCategory,934622,944924,0.45,CUST103289,SME,Medium,0,DE,High
+Amend,Defaulting_Reclassify,CustomerID,648822,676571,0.22,CUST665428,Corporate,Medium,1,US,CUST238947
+Amend,Market Downturn,CountryCode,186863,460463,0.27,CUST450896,Corporate,High,0,US,0.75
+Amend,Fix_Broken_Batch,RiskCategory,763607,539765,0.73,CUST712035,Retail,Medium,0,GB,Low
+Amend,GRC_EndMonth,IsDefaulted,842713,424503,0.47,CUST192654,Retail,Medium,1,GB,0
+Amend,Fix_Broken_Batch,RiskCategory,840656,953239,0.96,CUST981372,SME,Low,0,DE,High
+Amend,Credit_Uplift,CustomerID,14332,523361,0.56,CUST665428,Retail,Medium,0,DE,CUST804231
+Amend,Market Downturn,CustomerID,154459,96559,0.0,CUST359147,Corporate,High,1,DE,0.75
+Amend,Credit_Uplift,CountryCode,134540,675072,0.25,CUST103289,SME,High,0,US,GB
+Amend,Default,IsDefaulted,558974,451221,0.12,CUST981372,SME,Medium,1,GB,1
+Amend,Defaulting_Reclassify,CustomerID,575602,418863,0.76,CUST450896,Corporate,Medium,1,GB,CUST192654
+Amend,Default,CustomerType,927782,478474,0.8,CUST804231,Corporate,Medium,1,DE,Retail
+Amend,GRC_EndMonth,CustomerType,262704,186418,0.56,CUST238947,Corporate,Low,0,DE,Corporate
+Amend,Fix_Broken_Batch,CustomerID,40431,225269,0.07,CUST103289,Corporate,Low,0,DE,CUST103289
+Amend,Credit_Uplift,IsDefaulted,289773,123568,0.23,CUST804231,SME,Low,0,GB,1
+Amend,Default,CustomerType,953693,581323,0.78,CUST192654,Corporate,Medium,0,GB,SME
+Amend,Market Downturn,CountryCode,597249,37323,0.37,CUST665428,Corporate,High,1,GB,0.75
+Amend,Defaulting_Reclassify,CustomerType,807481,59796,0.9,CUST192654,Corporate,Medium,0,GB,Retail
+Amend,GRC_EndMonth,RiskCategory,754879,922564,0.89,CUST103289,Retail,Medium,1,US,Medium
+Amend,Default,CustomerID,202768,212115,0.5,CUST804231,Retail,Medium,1,US,CUST359147
+Amend,Fix_Broken_Batch,CustomerType,827231,367811,0.55,CUST103289,Retail,High,1,US,SME
+Amend,Defaulting_Reclassify,CustomerType,95978,889123,0.92,CUST563201,Retail,Medium,0,US,Retail
+Amend,Market Downturn,IsDefaulted,485115,327729,0.79,CUST238947,Corporate,High,1,GB,0.75
+Amend,Defaulting_Reclassify,IsDefaulted,670762,271396,0.62,CUST712035,Retail,High,0,DE,1
+Amend,Fix_Broken_Batch,IsDefaulted,192306,791720,0.02,CUST981372,Corporate,Low,0,US,0
+Amend,Credit_Uplift,CustomerID,625686,440130,0.16,CUST665428,Retail,Low,0,US,CUST359147
+Amend,Credit_Uplift,CustomerType,475497,905299,0.59,CUST712035,Retail,High,1,GB,Retail
+Amend,Credit_Uplift,IsDefaulted,918519,991680,0.57,CUST804231,Retail,High,1,US,1
+Amend,Default,IsDefaulted,762850,784222,0.84,CUST450896,Retail,Medium,0,US,0
+Amend,GRC_EndMonth,CustomerID,548914,979032,0.19,CUST563201,Corporate,Low,1,GB,CUST450896
+Amend,Fix_Broken_Batch,RiskCategory,702639,477091,0.87,CUST359147,Retail,Medium,0,US,Low
+Amend,Market Downturn,IsDefaulted,600847,612168,0.71,CUST981372,Corporate,High,1,DE,0.75
+Amend,Credit_Uplift,RiskCategory,985400,819409,0.86,CUST238947,Retail,High,0,US,Low
+Amend,Default,CustomerType,227106,737148,0.23,CUST238947,Corporate,Medium,0,GB,Corporate
+Amend,Fix_Broken_Batch,RiskCategory,466485,937486,0.75,CUST192654,Corporate,Medium,0,US,Medium
+Amend,Fix_Broken_Batch,RiskCategory,634322,689227,0.83,CUST981372,SME,Low,0,DE,High
+Amend,Fix_Broken_Batch,RiskCategory,267026,675161,0.86,CUST665428,SME,High,0,US,Low
+Amend,Credit_Uplift,CustomerID,458983,571289,0.83,CUST103289,Corporate,Medium,1,GB,CUST981372
+Amend,Defaulting_Reclassify,CustomerType,498850,539866,0.03,CUST563201,Retail,Low,1,GB,SME
+Amend,Credit_Uplift,CustomerType,743591,681850,0.12,CUST103289,Retail,Low,0,DE,Retail
+Amend,GRC_EndMonth,RiskCategory,940586,232976,0.78,CUST192654,SME,Low,0,DE,High
+Amend,Market Downturn,IsDefaulted,88367,766170,0.18,CUST238947,Corporate,High,1,US,0.75
+Amend,Credit_Uplift,IsDefaulted,844878,253180,0.34,CUST103289,SME,Medium,1,DE,0
+Amend,Fix_Broken_Batch,RiskCategory,621013,275211,0.8,CUST359147,Corporate,Low,0,GB,High
+Amend,GRC_EndMonth,RiskCategory,319541,330655,0.17,CUST804231,Retail,High,1,US,High
+Amend,Default,IsDefaulted,691682,34370,0.0,CUST981372,Retail,Low,0,US,1
+Amend,GRC_EndMonth,CountryCode,676923,813894,0.08,CUST359147,Retail,Low,1,DE,GB
+Amend,Credit_Uplift,CustomerType,566042,236958,0.87,CUST665428,SME,Low,0,DE,Retail
+Amend,Fix_Broken_Batch,CountryCode,222350,93483,0.04,CUST981372,SME,High,1,GB,GB
+Amend,Default,CountryCode,76503,737701,0.53,CUST665428,Retail,Low,1,DE,DE
+Amend,Credit_Uplift,CustomerType,671410,28277,0.63,CUST359147,Corporate,Low,1,US,Retail
+Amend,Default,IsDefaulted,198334,92278,0.45,CUST359147,SME,Low,1,DE,1
+Amend,Market Downturn,IsDefaulted,531612,947649,0.01,CUST981372,Corporate,High,0,US,0.75
+Amend,Credit_Uplift,CustomerID,351096,227563,0.48,CUST103289,Corporate,Low,0,GB,CUST192654
+Amend,Fix_Broken_Batch,RiskCategory,409434,338135,0.42,CUST712035,Retail,Low,1,GB,High
+Amend,Credit_Uplift,IsDefaulted,616808,716479,0.83,CUST450896,Retail,High,0,GB,1
+Amend,GRC_EndMonth,RiskCategory,945277,203448,0.34,CUST981372,Retail,Low,0,DE,Medium
+Amend,Defaulting_Reclassify,IsDefaulted,449005,566811,0.85,CUST192654,SME,Medium,0,DE,0
+Amend,Default,CountryCode,946259,988543,0.43,CUST665428,SME,High,1,US,US
+Amend,Default,CountryCode,166227,269031,0.93,CUST103289,SME,High,1,US,DE
+Amend,GRC_EndMonth,CustomerType,644871,156565,0.34,CUST712035,SME,Medium,0,DE,Retail
+Amend,Default,CustomerID,805032,782788,0.73,CUST192654,SME,High,1,US,CUST192654
+Amend,Default,RiskCategory,107621,15763,0.99,CUST359147,SME,Medium,1,GB,Medium
+Amend,GRC_EndMonth,RiskCategory,903755,647159,0.8,CUST192654,SME,High,0,US,Medium
+Amend,Defaulting_Reclassify,CustomerID,827524,770739,0.33,CUST665428,SME,High,1,US,CUST804231
+Amend,Defaulting_Reclassify,RiskCategory,785044,696764,0.31,CUST238947,SME,High,1,DE,Medium
+Amend,Fix_Broken_Batch,CountryCode,642658,106881,0.0,CUST192654,SME,Medium,1,DE,GB
+Amend,Market Downturn,CustomerID,92334,326934,0.43,CUST450896,Corporate,High,0,US,0.75
+Amend,Defaulting_Reclassify,CustomerType,133898,756867,0.97,CUST804231,SME,High,0,US,Corporate
+Amend,GRC_EndMonth,IsDefaulted,284762,226567,0.81,CUST238947,SME,Low,1,DE,1
+Amend,Credit_Uplift,CustomerType,744087,238577,0.28,CUST238947,Retail,High,0,GB,Retail
+Amend,GRC_EndMonth,CustomerID,298829,721358,0.45,CUST450896,Corporate,Medium,0,US,CUST450896
+Amend,GRC_EndMonth,CountryCode,517850,179449,0.6,CUST238947,SME,Medium,1,GB,DE
+Amend,Default,CustomerType,862596,414740,0.53,CUST981372,SME,High,1,US,SME
+Amend,Credit_Uplift,CustomerType,272612,839493,0.82,CUST238947,Retail,Low,0,US,SME
+Amend,Credit_Uplift,CustomerID,197023,971398,0.82,CUST450896,Retail,High,0,DE,CUST981372
+Amend,Default,RiskCategory,74528,398848,0.5,CUST712035,Retail,High,0,US,Medium
+Amend,Default,CustomerType,453254,677334,0.14,CUST103289,SME,Low,1,GB,Retail
+Amend,GRC_EndMonth,IsDefaulted,117661,647204,0.9,CUST192654,Retail,Low,1,GB,1
+Amend,Credit_Uplift,CountryCode,811600,949174,0.6,CUST450896,Corporate,Low,0,DE,US
+Amend,Credit_Uplift,CustomerType,771630,329139,0.19,CUST981372,SME,Medium,0,US,Retail
+Amend,Default,RiskCategory,244210,487994,0.9,CUST665428,Retail,High,0,DE,Medium
+Amend,GRC_EndMonth,IsDefaulted,796980,84659,0.35,CUST359147,SME,High,1,US,0
+Amend,GRC_EndMonth,RiskCategory,888716,50364,0.91,CUST359147,Retail,Medium,0,DE,High
+Amend,Credit_Uplift,IsDefaulted,422002,129531,0.37,CUST103289,Retail,Low,0,GB,0
+Amend,Default,CountryCode,491587,405030,0.43,CUST359147,SME,Low,1,GB,DE
+Amend,Fix_Broken_Batch,CountryCode,522308,441785,0.9,CUST192654,Retail,Medium,1,DE,US
+Amend,Credit_Uplift,CustomerType,911741,493490,0.8,CUST665428,SME,Low,0,GB,SME
+Amend,GRC_EndMonth,CustomerType,875347,952912,0.17,CUST450896,SME,High,0,US,SME
+Amend,Fix_Broken_Batch,CountryCode,405418,499848,0.7,CUST238947,Corporate,Low,1,DE,US
+Amend,Defaulting_Reclassify,CountryCode,653307,436673,0.95,CUST712035,SME,High,1,US,DE
+Amend,GRC_EndMonth,CountryCode,501976,269474,0.9,CUST359147,Corporate,Low,1,DE,GB
+Amend,Fix_Broken_Batch,RiskCategory,72462,450661,0.47,CUST192654,SME,Low,1,GB,Medium
+Amend,Fix_Broken_Batch,CustomerID,53056,585899,0.81,CUST712035,Retail,Low,1,US,CUST450896
+Amend,Default,CountryCode,124988,46729,0.31,CUST103289,Retail,Medium,1,US,GB
+Amend,GRC_EndMonth,IsDefaulted,678234,607150,0.02,CUST665428,Retail,Medium,1,GB,0
+Amend,Credit_Uplift,CustomerID,539337,682430,0.09,CUST238947,Retail,Low,1,DE,CUST665428
+Amend,Defaulting_Reclassify,IsDefaulted,703714,347182,0.77,CUST359147,SME,High,1,US,1
+Amend,Credit_Uplift,CountryCode,854007,729794,0.21,CUST804231,Retail,High,0,US,DE
+Amend,Credit_Uplift,CustomerID,785045,364407,0.11,CUST981372,SME,High,0,GB,CUST665428
+Amend,Defaulting_Reclassify,CountryCode,615533,909706,0.21,CUST804231,SME,Low,0,DE,US
+Amend,Default,CustomerType,296874,64600,0.35,CUST804231,Corporate,Low,1,GB,Retail
+Amend,Defaulting_Reclassify,IsDefaulted,423550,410195,0.83,CUST712035,SME,Low,1,GB,0
+Amend,Credit_Uplift,CustomerType,168456,182938,0.76,CUST192654,Retail,High,0,US,Retail
+Amend,Market Downturn,CustomerID,476798,305039,0.69,CUST359147,Corporate,High,0,GB,0.75
+Amend,Credit_Uplift,RiskCategory,225022,208779,0.66,CUST103289,SME,Low,1,US,Low
+Amend,Fix_Broken_Batch,IsDefaulted,658223,150494,0.2,CUST192654,Retail,Medium,0,DE,1
+Amend,Defaulting_Reclassify,RiskCategory,338559,499287,0.61,CUST712035,Retail,High,0,US,High
+Amend,Defaulting_Reclassify,RiskCategory,61756,860200,0.69,CUST804231,Retail,Low,1,DE,Low
+Amend,GRC_EndMonth,CountryCode,966358,766108,0.13,CUST450896,Retail,High,0,DE,DE
+Amend,Fix_Broken_Batch,RiskCategory,675550,563502,0.75,CUST238947,Retail,Low,0,GB,High
+Amend,GRC_EndMonth,CustomerType,278611,97681,0.8,CUST665428,Retail,Medium,0,DE,Corporate
+Amend,Market Downturn,CountryCode,861543,682837,0.37,CUST712035,Corporate,High,0,US,0.75
+Amend,Defaulting_Reclassify,RiskCategory,733350,880728,0.75,CUST712035,SME,Low,1,US,Medium
+Amend,Defaulting_Reclassify,CustomerType,376986,487908,0.74,CUST359147,Retail,Low,0,DE,Corporate
+Amend,Defaulting_Reclassify,CustomerType,945514,937358,0.18,CUST981372,Corporate,Medium,0,GB,SME
+Amend,Default,CustomerID,766273,622265,0.28,CUST804231,Corporate,Low,0,DE,CUST359147
+Amend,Defaulting_Reclassify,CustomerType,919405,678945,0.15,CUST238947,SME,High,1,DE,SME
+Amend,Fix_Broken_Batch,RiskCategory,813951,371355,0.33,CUST192654,SME,Medium,1,GB,Medium
+Amend,Credit_Uplift,CountryCode,211529,367424,0.66,CUST238947,SME,Low,0,US,US
+Amend,Default,CountryCode,195891,779098,0.66,CUST450896,Corporate,Low,1,DE,GB
+Amend,Market Downturn,RiskCategory,275193,277258,0.49,CUST665428,Corporate,High,0,DE,0.75
+Amend,Credit_Uplift,IsDefaulted,732116,3825,0.84,CUST103289,Retail,High,1,GB,0
+Amend,Defaulting_Reclassify,CountryCode,651128,379344,0.92,CUST192654,Retail,Medium,1,GB,GB
+Amend,Default,RiskCategory,470448,189015,0.54,CUST981372,Corporate,Medium,0,GB,Medium
+Amend,Defaulting_Reclassify,CountryCode,103306,490664,0.2,CUST103289,SME,High,0,GB,DE
+Amend,Default,RiskCategory,747072,859344,0.22,CUST665428,Retail,High,1,US,Medium
+Amend,Default,IsDefaulted,2104,197295,0.28,CUST981372,Corporate,Low,0,US,1
+Amend,GRC_EndMonth,CustomerID,667683,453185,0.74,CUST192654,Retail,High,1,US,CUST103289
+Amend,Market Downturn,CustomerType,47222,780528,0.22,CUST981372,Corporate,High,0,US,0.75
+Amend,Fix_Broken_Batch,CustomerID,783898,781244,0.72,CUST192654,Retail,Medium,1,GB,CUST665428
+Amend,Fix_Broken_Batch,CustomerType,242308,739472,0.19,CUST238947,SME,Medium,0,GB,Retail
+Amend,Market Downturn,CustomerType,532200,622435,0.67,CUST103289,Corporate,High,0,US,0.75
+Amend,Default,CustomerID,423336,168710,0.25,CUST450896,SME,Low,1,DE,CUST103289
+Amend,Fix_Broken_Batch,RiskCategory,639957,823297,0.03,CUST804231,Retail,High,1,DE,High
+Amend,Defaulting_Reclassify,RiskCategory,363067,313661,0.41,CUST103289,SME,Medium,0,GB,High
+Amend,GRC_EndMonth,RiskCategory,99594,649027,0.95,CUST450896,Corporate,Medium,0,GB,Low
+Amend,Defaulting_Reclassify,IsDefaulted,864068,367489,0.89,CUST238947,SME,Low,1,GB,0
+Amend,Defaulting_Reclassify,CustomerType,498168,727847,0.5,CUST981372,Retail,High,0,US,SME
+Amend,Fix_Broken_Batch,RiskCategory,982756,864651,0.07,CUST712035,Retail,Medium,0,DE,Medium
+Amend,Fix_Broken_Batch,CustomerID,245841,753149,0.09,CUST103289,SME,Medium,0,GB,CUST359147
+Amend,Defaulting_Reclassify,CustomerType,618478,258262,0.15,CUST450896,Corporate,Low,0,US,SME
+Amend,Credit_Uplift,IsDefaulted,396511,188599,0.67,CUST450896,Corporate,Medium,1,DE,0
+Amend,Default,RiskCategory,192858,772122,0.56,CUST192654,Retail,Low,1,US,High
+Amend,Credit_Uplift,CustomerID,564085,253012,0.2,CUST103289,SME,Medium,0,DE,CUST665428
+Amend,Fix_Broken_Batch,CountryCode,593241,883309,0.46,CUST981372,Retail,Low,1,GB,US
+Amend,Defaulting_Reclassify,CountryCode,663726,276273,0.34,CUST359147,Retail,Low,0,DE,DE
+Amend,Default,IsDefaulted,610963,646444,0.7,CUST238947,Retail,High,0,DE,0
+Amend,Defaulting_Reclassify,CountryCode,7334,546079,0.74,CUST981372,SME,Medium,0,DE,DE
+Amend,Fix_Broken_Batch,CountryCode,74915,619241,0.49,CUST192654,Corporate,Low,1,US,DE
+Amend,Market Downturn,CustomerID,904162,243450,0.54,CUST712035,Corporate,High,0,US,0.75
+Amend,Default,CustomerType,785376,755551,0.34,CUST103289,Retail,High,1,US,SME
+Amend,Defaulting_Reclassify,CustomerID,647169,856715,0.14,CUST359147,Retail,High,0,DE,CUST563201
+Amend,Default,IsDefaulted,712057,828577,0.27,CUST665428,Retail,Medium,0,GB,0
+Amend,Fix_Broken_Batch,CountryCode,166307,35511,0.51,CUST450896,Corporate,Medium,0,US,DE
+Amend,Default,CustomerType,307609,711467,0.79,CUST192654,SME,High,0,GB,SME
+Amend,GRC_EndMonth,IsDefaulted,413427,56239,0.63,CUST192654,Retail,Low,1,US,1
+Amend,Default,CustomerType,655113,780230,0.23,CUST665428,Corporate,Low,1,US,SME
+Amend,GRC_EndMonth,IsDefaulted,205647,254799,0.01,CUST103289,Retail,Medium,1,GB,0
+Amend,Credit_Uplift,CustomerID,540020,565336,0.2,CUST103289,Retail,Low,1,GB,CUST103289
+Amend,Market Downturn,CustomerType,587995,552669,0.86,CUST238947,Corporate,High,1,DE,0.75
+Amend,Fix_Broken_Batch,CustomerID,6497,670975,0.36,CUST712035,Retail,Medium,0,US,CUST192654
+Amend,Market Downturn,CountryCode,330230,135323,0.68,CUST103289,Corporate,High,1,US,0.75
+Amend,Defaulting_Reclassify,CustomerType,438248,919109,0.53,CUST450896,Retail,Low,1,DE,Corporate
+Amend,Defaulting_Reclassify,CustomerType,17083,508990,0.72,CUST981372,SME,Low,0,US,SME
+Amend,Default,IsDefaulted,452565,927314,0.94,CUST103289,SME,Medium,1,US,1
+Amend,Fix_Broken_Batch,CustomerType,825140,190644,0.32,CUST103289,Corporate,Medium,0,GB,Retail
+Amend,Credit_Uplift,CustomerID,798305,190778,0.83,CUST103289,Retail,Medium,0,DE,CUST450896
+Amend,Default,CountryCode,57015,725588,0.19,CUST563201,SME,Medium,0,US,US
+Amend,Fix_Broken_Batch,RiskCategory,601221,42402,0.97,CUST192654,Retail,High,0,GB,High
+Amend,Default,CountryCode,7371,173168,0.15,CUST192654,Corporate,Low,1,US,US
+Amend,Market Downturn,RiskCategory,203452,708538,0.1,CUST981372,Corporate,High,1,DE,0.75
+Amend,Market Downturn,CustomerType,287415,654840,0.76,CUST192654,Corporate,High,1,DE,0.75
+Amend,Defaulting_Reclassify,CustomerID,739697,606652,0.36,CUST712035,SME,Low,0,US,CUST192654
+Amend,Fix_Broken_Batch,CustomerID,186625,414552,0.45,CUST665428,Corporate,Medium,0,DE,CUST238947
+Amend,Defaulting_Reclassify,IsDefaulted,322106,755479,0.64,CUST103289,SME,Medium,0,DE,0
+Amend,Market Downturn,CustomerID,695038,568243,0.91,CUST563201,Corporate,High,0,DE,0.75
+Amend,Credit_Uplift,CountryCode,588646,671119,0.91,CUST563201,Corporate,Low,1,GB,DE
+Amend,Defaulting_Reclassify,CustomerID,668608,906597,0.06,CUST359147,Corporate,Medium,1,US,CUST238947
+Amend,GRC_EndMonth,IsDefaulted,256227,496733,0.18,CUST103289,Retail,Medium,1,GB,1
+Amend,Default,CountryCode,114856,460984,0.46,CUST563201,Retail,Low,1,US,US
+Amend,Defaulting_Reclassify,IsDefaulted,273606,985075,0.99,CUST238947,Corporate,Medium,0,US,1
+Amend,Defaulting_Reclassify,IsDefaulted,415889,314817,0.72,CUST103289,Corporate,Low,1,DE,1
+Amend,Default,CountryCode,442673,3580,0.73,CUST981372,SME,High,0,DE,DE
+Amend,Defaulting_Reclassify,CustomerType,243197,939974,0.19,CUST665428,Retail,Low,1,GB,Retail
+Amend,GRC_EndMonth,IsDefaulted,876499,856951,0.36,CUST563201,SME,Low,1,US,1
+Amend,Fix_Broken_Batch,CustomerID,524391,382724,0.45,CUST359147,SME,Medium,1,US,CUST359147
+Amend,Credit_Uplift,CustomerType,401147,602143,0.57,CUST359147,Corporate,Medium,1,GB,Retail
+Amend,Fix_Broken_Batch,RiskCategory,594213,547467,0.72,CUST359147,SME,High,1,GB,Medium
+Amend,Defaulting_Reclassify,CustomerType,571646,438646,0.11,CUST563201,SME,High,1,US,Corporate
+Amend,GRC_EndMonth,CustomerID,492890,27954,0.65,CUST804231,Retail,High,0,GB,CUST665428
+Amend,GRC_EndMonth,RiskCategory,889346,589562,0.08,CUST238947,Retail,High,0,GB,Low
+Amend,GRC_EndMonth,CountryCode,420164,486271,0.36,CUST192654,SME,Low,0,DE,US
+Amend,Market Downturn,RiskCategory,141001,833032,0.1,CUST450896,Corporate,High,0,US,0.75
+Amend,Default,RiskCategory,895508,721561,0.74,CUST359147,Corporate,Medium,0,US,Medium
+Amend,Defaulting_Reclassify,CountryCode,27720,145392,0.46,CUST238947,Corporate,Medium,0,US,DE
+Amend,GRC_EndMonth,CountryCode,741450,656383,0.93,CUST238947,Corporate,Medium,1,US,US
+Amend,GRC_EndMonth,CustomerType,613609,968291,0.73,CUST981372,SME,Medium,0,GB,Retail
+Amend,Defaulting_Reclassify,CountryCode,716829,331823,0.57,CUST712035,SME,High,0,US,US
+Amend,Credit_Uplift,CustomerType,789272,261329,0.18,CUST665428,SME,High,1,GB,SME
+Amend,Default,CustomerID,447117,353451,0.24,CUST981372,SME,Medium,0,US,CUST804231
+Amend,Fix_Broken_Batch,RiskCategory,156979,427618,0.27,CUST804231,Retail,Medium,0,GB,High
+Amend,Market Downturn,CountryCode,842452,394374,0.74,CUST665428,Corporate,High,1,US,0.75
+Amend,Fix_Broken_Batch,CountryCode,430682,980692,0.08,CUST103289,SME,Medium,1,GB,US
+Amend,Default,CustomerType,442139,1192,0.51,CUST450896,SME,Medium,0,GB,Retail
+Amend,Defaulting_Reclassify,CountryCode,694018,675601,0.64,CUST804231,SME,High,1,US,US
+Amend,Fix_Broken_Batch,CountryCode,985014,624773,0.78,CUST665428,Corporate,Low,0,GB,DE
+Amend,Default,RiskCategory,66280,260316,0.59,CUST804231,Retail,Low,1,US,Low
+Amend,Credit_Uplift,CustomerType,12083,700673,0.0,CUST359147,Retail,High,1,GB,Corporate
+Amend,Fix_Broken_Batch,CustomerType,349566,793703,0.84,CUST103289,Retail,Medium,0,DE,Retail
+Amend,Defaulting_Reclassify,CustomerType,90279,532204,0.72,CUST359147,Retail,Low,1,DE,Corporate
+Amend,Market Downturn,CustomerID,161148,141551,0.47,CUST804231,Corporate,High,1,US,0.75
+Amend,Credit_Uplift,RiskCategory,360911,860426,0.66,CUST563201,Retail,Medium,0,US,Medium
+Amend,GRC_EndMonth,CountryCode,939933,900579,0.11,CUST712035,SME,Medium,1,US,DE
+Amend,Default,RiskCategory,966448,435095,0.62,CUST712035,SME,Medium,1,DE,Low
+Amend,Defaulting_Reclassify,IsDefaulted,193878,987004,0.28,CUST981372,Retail,Low,0,DE,1
+Amend,Fix_Broken_Batch,CustomerType,599105,954795,0.02,CUST359147,Retail,Medium,0,US,SME
+Amend,GRC_EndMonth,CustomerType,410078,372947,0.12,CUST450896,Retail,Low,0,GB,Retail
+Amend,GRC_EndMonth,CountryCode,779655,748764,0.0,CUST563201,Retail,Medium,1,GB,US
+Amend,Default,IsDefaulted,787818,703449,0.24,CUST665428,Retail,Medium,1,GB,1
+Amend,GRC_EndMonth,CountryCode,762215,643223,0.53,CUST665428,Retail,Low,0,US,DE
+Amend,GRC_EndMonth,CountryCode,188054,565485,0.79,CUST238947,SME,High,0,DE,GB
+Amend,Defaulting_Reclassify,CustomerID,368202,908514,0.19,CUST981372,SME,Low,0,GB,CUST192654
+Amend,GRC_EndMonth,IsDefaulted,132580,99714,0.55,CUST981372,Retail,Low,0,US,0
+Amend,Market Downturn,RiskCategory,992013,694042,0.35,CUST450896,Corporate,High,0,GB,0.75
+Amend,Credit_Uplift,CustomerID,408648,568588,0.46,CUST450896,Retail,Low,1,DE,CUST665428
+Amend,Credit_Uplift,CustomerID,173497,84029,0.63,CUST192654,Retail,Medium,1,DE,CUST238947
+Amend,Default,CountryCode,886745,114399,0.2,CUST712035,Corporate,Medium,1,DE,DE
+Amend,Fix_Broken_Batch,RiskCategory,718358,23168,0.19,CUST450896,SME,Low,1,GB,High
+Amend,Defaulting_Reclassify,RiskCategory,274604,896258,0.25,CUST359147,Retail,Medium,0,DE,Medium
+Amend,GRC_EndMonth,CustomerType,379777,920508,0.64,CUST665428,SME,Medium,1,US,SME
+Amend,GRC_EndMonth,IsDefaulted,807980,186395,0.58,CUST103289,Retail,Medium,0,US,0
+Amend,Fix_Broken_Batch,CustomerID,969572,940007,0.87,CUST712035,SME,Medium,0,US,CUST103289
+Amend,GRC_EndMonth,CountryCode,448574,210,0.19,CUST103289,Corporate,Low,0,US,GB
+Amend,Market Downturn,IsDefaulted,806221,691712,0.4,CUST103289,Corporate,High,0,GB,0.75
+Amend,Credit_Uplift,CountryCode,373370,819213,0.84,CUST563201,SME,High,0,GB,GB
+Amend,GRC_EndMonth,CountryCode,237378,267981,0.16,CUST804231,Retail,Low,0,DE,DE
+Amend,Fix_Broken_Batch,RiskCategory,876775,415833,0.99,CUST563201,Retail,Low,1,DE,High
+Amend,Fix_Broken_Batch,CustomerID,680440,686812,0.1,CUST804231,SME,Low,1,US,CUST804231
+Amend,Credit_Uplift,IsDefaulted,967938,752539,0.43,CUST712035,SME,Medium,1,GB,1
+Amend,Credit_Uplift,CountryCode,464192,448724,0.24,CUST103289,Retail,Low,0,GB,DE
+Amend,Market Downturn,CustomerID,821501,663119,0.85,CUST359147,Corporate,High,1,US,0.75
+Amend,Default,CountryCode,437250,430584,0.67,CUST981372,Retail,High,1,GB,GB
+Amend,Defaulting_Reclassify,CountryCode,353847,208083,0.98,CUST665428,SME,Medium,1,DE,US
+Amend,Fix_Broken_Batch,CustomerID,565443,283144,0.56,CUST103289,Retail,Medium,1,DE,CUST238947
+Amend,Credit_Uplift,CustomerID,773904,305565,0.05,CUST712035,Corporate,Low,1,GB,CUST712035
+Amend,Default,CustomerType,252028,181627,0.24,CUST192654,SME,Medium,0,US,Retail
+Amend,Defaulting_Reclassify,IsDefaulted,967443,886680,0.99,CUST563201,Retail,Low,0,US,1
+Amend,Credit_Uplift,CustomerID,623145,535899,0.21,CUST238947,Retail,Medium,0,GB,CUST563201
+Amend,Defaulting_Reclassify,CustomerID,771097,772239,0.85,CUST103289,SME,Medium,0,DE,CUST192654
+Amend,Credit_Uplift,CountryCode,456500,889284,0.87,CUST450896,Retail,High,0,GB,GB
+Amend,GRC_EndMonth,RiskCategory,527816,84439,0.78,CUST804231,Retail,High,0,US,High
+Amend,GRC_EndMonth,IsDefaulted,973644,541150,0.82,CUST712035,Retail,Low,1,US,0
+Amend,Credit_Uplift,CountryCode,345046,984492,0.06,CUST359147,SME,High,0,DE,GB
+Amend,Market Downturn,IsDefaulted,92845,154715,0.81,CUST359147,Corporate,High,0,GB,0.75
+Amend,Default,CountryCode,160109,939580,0.24,CUST450896,Corporate,Low,1,DE,DE
+Amend,GRC_EndMonth,IsDefaulted,66360,164431,0.29,CUST563201,Retail,Low,0,US,1
+Amend,Default,RiskCategory,171112,844024,0.9,CUST103289,SME,Medium,0,GB,Medium
+Amend,Defaulting_Reclassify,IsDefaulted,176588,379525,0.18,CUST103289,SME,Medium,0,US,0
+Amend,Defaulting_Reclassify,IsDefaulted,245608,681670,0.37,CUST563201,SME,Low,1,US,0
+Amend,Fix_Broken_Batch,RiskCategory,3739,529244,0.41,CUST712035,SME,Medium,0,DE,Low
+Amend,Default,IsDefaulted,605334,257411,0.45,CUST103289,SME,Medium,0,DE,0
+Amend,GRC_EndMonth,CustomerType,610737,288467,0.4,CUST450896,SME,Medium,0,GB,Retail
+Amend,Fix_Broken_Batch,CustomerType,735958,403089,0.58,CUST192654,SME,Medium,1,US,SME
+Amend,Credit_Uplift,IsDefaulted,413770,742672,0.24,CUST238947,Corporate,Medium,1,US,0
+Amend,Credit_Uplift,IsDefaulted,928547,262743,0.75,CUST665428,Retail,High,0,US,0
+Amend,Defaulting_Reclassify,IsDefaulted,183949,497423,0.54,CUST563201,Corporate,Medium,1,GB,0
+Amend,Default,RiskCategory,771371,375776,0.96,CUST981372,SME,Low,0,DE,Low
+Amend,Credit_Uplift,CountryCode,167289,637294,0.14,CUST981372,SME,High,1,GB,US
+Amend,Fix_Broken_Batch,CustomerID,619825,537190,0.32,CUST103289,Corporate,Medium,0,GB,CUST238947
+Amend,Default,IsDefaulted,821157,391497,0.99,CUST665428,Retail,Medium,0,DE,0
+Amend,Fix_Broken_Batch,RiskCategory,374655,204342,0.89,CUST665428,Corporate,Low,0,US,High
+Amend,Fix_Broken_Batch,CustomerType,287576,603789,0.55,CUST103289,Retail,High,1,GB,Corporate
+Amend,Defaulting_Reclassify,IsDefaulted,566594,896766,0.97,CUST359147,Retail,High,0,DE,1
+Amend,Credit_Uplift,CustomerType,12148,866985,0.76,CUST665428,Retail,Low,1,US,SME
+Amend,Default,IsDefaulted,546227,280226,0.34,CUST981372,SME,Low,0,GB,1
+Amend,Default,CountryCode,57078,139998,0.3,CUST192654,SME,High,1,US,GB
+Amend,GRC_EndMonth,RiskCategory,547288,920935,0.77,CUST804231,SME,Medium,0,US,Medium
+Amend,Credit_Uplift,CountryCode,221089,852894,0.23,CUST238947,Corporate,Medium,0,DE,GB
+Amend,Credit_Uplift,IsDefaulted,395315,20672,0.69,CUST563201,Retail,High,0,GB,0
+Amend,GRC_EndMonth,CustomerType,17311,247040,0.69,CUST712035,Corporate,Low,0,US,Retail
+Amend,Default,CustomerType,481373,328895,0.08,CUST450896,SME,High,1,US,SME
+Amend,Market Downturn,CountryCode,297814,467035,0.23,CUST712035,Corporate,High,1,GB,0.75
+Amend,Defaulting_Reclassify,CustomerType,817066,955041,0.47,CUST712035,Retail,Low,1,US,Corporate
+Amend,Fix_Broken_Batch,RiskCategory,378207,328438,0.92,CUST192654,SME,Medium,0,US,Medium
+Amend,Fix_Broken_Batch,RiskCategory,816359,731431,0.51,CUST712035,Retail,High,1,US,High
+Amend,Credit_Uplift,CustomerID,633919,577153,0.85,CUST450896,Corporate,Low,1,DE,CUST804231
+Amend,Fix_Broken_Batch,CountryCode,945935,284494,0.3,CUST450896,Retail,Low,1,GB,GB
+Amend,Default,CountryCode,534480,870696,0.97,CUST665428,Retail,Medium,1,US,US
+Amend,Credit_Uplift,CustomerID,440533,87531,0.58,CUST563201,Retail,Low,0,US,CUST981372
+Amend,GRC_EndMonth,CountryCode,17825,759067,0.02,CUST712035,Retail,Medium,0,GB,DE
+Amend,Defaulting_Reclassify,CountryCode,440998,367503,0.43,CUST563201,Retail,High,0,US,GB
+Amend,Defaulting_Reclassify,IsDefaulted,62066,400287,0.43,CUST981372,Corporate,Medium,0,GB,0
+Amend,GRC_EndMonth,CustomerType,596560,939471,0.9,CUST450896,SME,Medium,0,DE,Corporate
+Amend,GRC_EndMonth,CountryCode,438149,959737,0.72,CUST359147,Corporate,Medium,0,DE,GB
+Amend,Default,IsDefaulted,144663,119677,0.29,CUST563201,Retail,Low,0,GB,0
+Amend,Credit_Uplift,RiskCategory,234380,236022,0.08,CUST804231,Retail,Medium,0,US,High
+Amend,GRC_EndMonth,CustomerID,381347,679138,0.07,CUST238947,Retail,Medium,0,US,CUST804231
+Amend,Credit_Uplift,IsDefaulted,629330,12290,0.71,CUST665428,Retail,Medium,1,US,1
+Amend,Default,RiskCategory,885292,397776,0.8,CUST238947,Retail,High,0,DE,High
+Amend,Credit_Uplift,IsDefaulted,392225,587508,0.34,CUST712035,SME,Low,1,US,1
+Amend,Market Downturn,CustomerType,690724,483723,0.55,CUST359147,Corporate,High,1,US,0.75
+Amend,Market Downturn,CustomerType,304161,174007,0.88,CUST238947,Corporate,High,0,GB,0.75
+Amend,Defaulting_Reclassify,RiskCategory,104470,68626,0.01,CUST103289,Retail,High,1,GB,Medium
+Amend,Default,RiskCategory,960011,889560,0.04,CUST450896,SME,Medium,0,DE,High
+Amend,Fix_Broken_Batch,CustomerID,250891,531549,0.24,CUST665428,Corporate,Low,0,DE,CUST563201
+Amend,Credit_Uplift,IsDefaulted,26844,640645,0.27,CUST359147,Retail,High,1,DE,1
+Amend,Credit_Uplift,CountryCode,656424,154740,0.28,CUST450896,Retail,Low,0,US,US
+Amend,Fix_Broken_Batch,CustomerType,583658,429241,0.09,CUST712035,Retail,High,0,GB,SME
+Amend,GRC_EndMonth,RiskCategory,956962,105611,0.48,CUST359147,Corporate,Medium,0,DE,Medium
+Amend,Default,RiskCategory,851226,667286,0.52,CUST712035,Corporate,Medium,0,GB,High
+Amend,Default,CustomerID,114296,499007,0.5,CUST981372,Corporate,Medium,1,US,CUST981372
+Amend,Defaulting_Reclassify,IsDefaulted,241043,552473,0.25,CUST804231,SME,High,0,US,1
+Amend,GRC_EndMonth,CountryCode,297679,937161,0.0,CUST192654,SME,Low,0,DE,DE
+Amend,Fix_Broken_Batch,IsDefaulted,858030,48541,0.5,CUST103289,Retail,Medium,0,US,0
+Amend,Fix_Broken_Batch,IsDefaulted,584545,758260,0.9,CUST103289,SME,Low,1,DE,0
+Amend,Default,CustomerType,729850,217677,0.6,CUST665428,Corporate,Low,0,DE,Corporate
+Amend,Fix_Broken_Batch,CustomerType,339958,542252,0.71,CUST563201,SME,Medium,0,GB,Retail
+Amend,Credit_Uplift,CountryCode,457952,147469,0.91,CUST804231,SME,High,0,DE,GB
+Amend,Default,IsDefaulted,193807,915562,0.98,CUST712035,Corporate,Low,0,DE,0
+Amend,Defaulting_Reclassify,CustomerID,448046,148244,0.57,CUST238947,SME,Low,0,US,CUST665428
+Amend,Defaulting_Reclassify,CustomerType,24246,518155,0.49,CUST563201,SME,Medium,1,US,SME
+Amend,Credit_Uplift,RiskCategory,703184,493948,0.85,CUST192654,Retail,Low,1,DE,Low
+Amend,Market Downturn,CustomerType,965296,286040,0.83,CUST665428,Corporate,High,1,GB,0.75
+Amend,Fix_Broken_Batch,CustomerType,67971,849504,0.89,CUST192654,Retail,Medium,0,DE,Retail
+Amend,Credit_Uplift,RiskCategory,228325,998459,0.57,CUST238947,Retail,Low,0,GB,High
+Amend,GRC_EndMonth,CountryCode,948903,45068,0.08,CUST665428,Corporate,Medium,1,GB,DE
+Amend,Default,IsDefaulted,930661,690894,0.46,CUST981372,SME,Medium,1,GB,1
+Amend,Fix_Broken_Batch,CustomerID,629101,837905,0.33,CUST192654,Corporate,Low,0,US,CUST712035
+Amend,GRC_EndMonth,IsDefaulted,635191,446376,0.95,CUST712035,Retail,High,1,US,0
+Amend,Fix_Broken_Batch,CustomerType,792643,498853,0.06,CUST563201,Corporate,Medium,1,DE,Corporate
+Amend,Default,RiskCategory,371698,173731,0.27,CUST981372,SME,Low,0,US,Medium
+Amend,Market Downturn,CustomerType,619070,51545,0.09,CUST192654,Corporate,High,1,GB,0.75
+Amend,GRC_EndMonth,IsDefaulted,877654,51385,0.19,CUST238947,Corporate,Medium,1,DE,0
+Amend,Fix_Broken_Batch,CustomerID,253173,501350,0.91,CUST238947,Retail,Medium,0,DE,CUST192654
+Amend,Default,CustomerType,297486,485314,0.64,CUST103289,Corporate,Medium,0,US,SME
+Amend,Fix_Broken_Batch,CustomerID,599580,628384,0.57,CUST192654,Corporate,Medium,1,DE,CUST103289
+Amend,Credit_Uplift,CountryCode,745264,291517,0.59,CUST563201,Corporate,Low,0,US,DE
+Amend,GRC_EndMonth,CustomerType,795127,752933,0.72,CUST804231,SME,Low,0,US,Retail
+Amend,Fix_Broken_Batch,CountryCode,697773,248245,0.78,CUST103289,Retail,Medium,0,US,US
+Amend,Credit_Uplift,CountryCode,159717,303719,0.33,CUST103289,SME,Medium,0,GB,DE
+Amend,Fix_Broken_Batch,RiskCategory,341397,802672,0.87,CUST192654,SME,Medium,1,GB,Low
+Amend,Fix_Broken_Batch,RiskCategory,830617,113459,0.91,CUST563201,Corporate,Low,1,GB,Low
+Amend,Credit_Uplift,CountryCode,227573,68845,0.64,CUST359147,Retail,Low,1,US,US
+Amend,Fix_Broken_Batch,CustomerID,124710,654957,0.29,CUST981372,Retail,Medium,1,GB,CUST192654
+Amend,Market Downturn,CountryCode,233753,328912,0.06,CUST563201,Corporate,High,1,US,0.75
+Amend,GRC_EndMonth,IsDefaulted,397095,420284,0.13,CUST450896,SME,High,0,DE,0
+Amend,Default,CustomerID,186240,741388,0.4,CUST712035,Corporate,Medium,0,US,CUST450896
+Amend,Fix_Broken_Batch,CountryCode,382152,904047,0.16,CUST359147,SME,Low,0,GB,DE
+Amend,Fix_Broken_Batch,CustomerID,48905,640980,0.03,CUST192654,SME,Low,1,DE,CUST450896
+Amend,Defaulting_Reclassify,CustomerType,150054,103945,0.94,CUST103289,SME,Medium,1,GB,Retail
+Amend,Credit_Uplift,CustomerID,697669,256708,0.2,CUST238947,SME,Low,0,US,CUST981372
+Amend,GRC_EndMonth,IsDefaulted,438835,79787,0.51,CUST563201,SME,Medium,1,GB,0
+Amend,Defaulting_Reclassify,CountryCode,912262,166838,0.67,CUST712035,SME,High,1,US,GB
+Amend,GRC_EndMonth,CustomerType,883299,97544,0.7,CUST804231,SME,Low,1,GB,SME
+Amend,Fix_Broken_Batch,RiskCategory,486724,205793,0.83,CUST359147,Retail,Low,0,DE,Low
+Amend,Default,CountryCode,566787,969876,0.37,CUST804231,Corporate,Medium,1,DE,US
+Amend,Market Downturn,CustomerType,764354,453962,0.2,CUST103289,Corporate,High,0,DE,0.75
+Amend,Credit_Uplift,CustomerID,56091,185518,0.1,CUST981372,SME,Medium,1,GB,CUST450896
+Amend,Fix_Broken_Batch,CustomerID,538498,764023,0.57,CUST981372,SME,Low,0,US,CUST712035
+Amend,Defaulting_Reclassify,CountryCode,782626,853421,0.07,CUST665428,Corporate,Medium,1,DE,GB
+Amend,Defaulting_Reclassify,RiskCategory,877227,444117,0.57,CUST563201,Retail,High,1,DE,Medium
+Amend,Fix_Broken_Batch,CustomerID,307392,568040,0.44,CUST804231,Retail,Medium,1,GB,CUST192654
+Amend,Fix_Broken_Batch,RiskCategory,815834,835080,0.55,CUST563201,Corporate,Medium,1,US,Low
+Amend,Defaulting_Reclassify,RiskCategory,266756,482220,0.64,CUST238947,Corporate,Medium,1,GB,High
+Amend,Defaulting_Reclassify,CountryCode,268150,128345,0.76,CUST450896,Retail,High,1,US,GB
+Amend,Defaulting_Reclassify,CustomerType,136409,326340,0.14,CUST103289,SME,Medium,1,DE,Retail
+Amend,GRC_EndMonth,IsDefaulted,417849,520936,0.93,CUST665428,Retail,Low,0,US,1
+Amend,Default,CustomerType,756441,274502,0.16,CUST238947,Corporate,Medium,0,GB,Corporate
+Amend,GRC_EndMonth,CustomerID,640286,451583,0.92,CUST359147,SME,High,1,GB,CUST103289
+Amend,Defaulting_Reclassify,CustomerType,558454,330312,0.15,CUST359147,Corporate,Medium,0,US,Retail
+Amend,Fix_Broken_Batch,IsDefaulted,230872,232086,0.71,CUST192654,Retail,High,1,DE,1
+Amend,Defaulting_Reclassify,IsDefaulted,670346,930974,0.88,CUST238947,SME,Low,1,US,1
+Amend,Defaulting_Reclassify,IsDefaulted,330890,268114,0.45,CUST981372,Retail,Medium,1,GB,1
+Amend,Default,CustomerType,603301,573578,0.55,CUST981372,Retail,Low,0,DE,Retail
+Amend,GRC_EndMonth,IsDefaulted,983321,295631,0.49,CUST238947,SME,Medium,0,DE,1
+Amend,GRC_EndMonth,CustomerType,956061,844980,0.68,CUST804231,Corporate,Medium,1,US,SME
+Amend,Credit_Uplift,RiskCategory,313544,968817,0.37,CUST359147,Corporate,Low,1,GB,High
+Amend,Credit_Uplift,RiskCategory,166850,433555,0.47,CUST450896,Retail,High,0,DE,High
+Amend,Default,CustomerID,480953,988342,0.17,CUST103289,Retail,Low,1,DE,CUST712035
+Amend,Defaulting_Reclassify,CountryCode,433978,263110,0.05,CUST981372,Retail,Low,0,US,US
+Amend,Credit_Uplift,CountryCode,496290,956983,0.6,CUST450896,Corporate,Medium,0,GB,DE
+Amend,Market Downturn,CountryCode,362277,358905,0.22,CUST665428,Corporate,High,0,GB,0.75
+Amend,Fix_Broken_Batch,IsDefaulted,201503,249531,0.8,CUST238947,Retail,Medium,0,DE,1
+Amend,Credit_Uplift,CustomerID,757123,261200,0.7,CUST712035,Retail,Medium,0,US,CUST665428
+Amend,Defaulting_Reclassify,IsDefaulted,267601,626273,0.96,CUST103289,Retail,High,1,DE,1
+Amend,Defaulting_Reclassify,CustomerID,862479,256369,0.11,CUST981372,Corporate,Low,0,US,CUST981372
+Amend,Credit_Uplift,IsDefaulted,592411,169928,0.39,CUST450896,SME,High,0,US,0
+Amend,Fix_Broken_Batch,CustomerType,309730,280622,0.0,CUST981372,Retail,Low,0,DE,Retail
+Amend,Credit_Uplift,IsDefaulted,887932,500816,0.95,CUST192654,Retail,Low,0,US,0
+Amend,Defaulting_Reclassify,IsDefaulted,334334,507914,0.03,CUST563201,Retail,High,0,GB,0
+Amend,GRC_EndMonth,CustomerType,919142,73001,0.1,CUST665428,SME,High,0,GB,Retail
+Amend,Market Downturn,CustomerID,370078,764361,0.39,CUST981372,Corporate,High,1,US,0.75
+Amend,Default,CustomerType,122537,552260,0.17,CUST665428,SME,High,0,GB,Corporate
+Amend,Default,CustomerID,944925,9112,0.66,CUST103289,Corporate,Medium,0,GB,CUST450896
+Amend,Fix_Broken_Batch,IsDefaulted,856072,142578,0.13,CUST563201,Corporate,Medium,0,US,1
+Amend,Fix_Broken_Batch,CountryCode,93949,769418,0.17,CUST981372,Retail,Medium,0,US,GB
+Amend,GRC_EndMonth,CustomerID,74802,946057,0.72,CUST359147,SME,High,1,GB,CUST804231
+Amend,Defaulting_Reclassify,CountryCode,844004,759580,0.74,CUST712035,Retail,Low,0,DE,GB
+Amend,Fix_Broken_Batch,CountryCode,509386,72629,0.01,CUST359147,Corporate,Medium,0,DE,DE
+Amend,GRC_EndMonth,CustomerType,999999,702759,0.47,CUST450896,SME,High,0,GB,SME
+Amend,Defaulting_Reclassify,CountryCode,703898,42062,0.53,CUST712035,Corporate,Medium,1,US,DE
+Amend,Default,IsDefaulted,806465,903361,0.93,CUST804231,SME,Medium,1,GB,1
+Amend,GRC_EndMonth,CustomerType,199599,619190,0.54,CUST712035,SME,Medium,1,GB,Corporate
+Amend,Default,CustomerID,823085,977050,0.35,CUST103289,SME,High,0,US,CUST238947
+Amend,Defaulting_Reclassify,IsDefaulted,800036,532125,0.75,CUST192654,Retail,High,0,DE,0
+Amend,GRC_EndMonth,CountryCode,781869,334351,0.7,CUST563201,Corporate,Low,1,US,US
+Amend,Default,CustomerID,448058,776279,0.75,CUST981372,Retail,Low,1,GB,CUST665428
+Amend,Fix_Broken_Batch,RiskCategory,98774,67182,0.15,CUST563201,Retail,High,0,US,High
+Amend,Fix_Broken_Batch,RiskCategory,67492,703340,0.31,CUST981372,SME,High,0,DE,Low
+Amend,Defaulting_Reclassify,RiskCategory,474391,680985,0.53,CUST238947,SME,High,1,GB,Low
+Amend,Market Downturn,IsDefaulted,236190,511955,0.48,CUST192654,Corporate,High,0,DE,0.75
+Amend,Credit_Uplift,CustomerID,956961,928333,0.94,CUST665428,SME,Medium,1,DE,CUST192654
+Amend,GRC_EndMonth,RiskCategory,176511,174918,0.78,CUST665428,Corporate,Medium,0,US,Medium
+Amend,GRC_EndMonth,RiskCategory,644217,41781,0.18,CUST103289,Corporate,Medium,1,US,High
+Amend,Default,CustomerID,271294,859723,0.02,CUST563201,SME,Medium,1,DE,CUST712035
+Amend,GRC_EndMonth,CustomerID,620099,851222,0.61,CUST103289,SME,Low,0,GB,CUST981372
+Amend,Credit_Uplift,RiskCategory,191068,74289,0.07,CUST238947,Retail,Low,0,US,High
+Amend,Credit_Uplift,IsDefaulted,240484,4282,0.83,CUST192654,Retail,Low,0,GB,1
+Amend,Fix_Broken_Batch,IsDefaulted,559681,769266,0.93,CUST712035,Retail,Low,1,US,1
+Amend,GRC_EndMonth,CountryCode,298445,899875,0.69,CUST712035,Retail,Medium,0,GB,DE
+Amend,Default,CustomerID,67096,96294,0.92,CUST103289,SME,High,0,US,CUST192654
+Amend,GRC_EndMonth,IsDefaulted,381493,894828,0.94,CUST712035,Retail,Low,1,US,1
+Amend,GRC_EndMonth,RiskCategory,134585,109637,0.91,CUST712035,Corporate,Low,1,US,Low
+Amend,Fix_Broken_Batch,CountryCode,996954,793033,0.28,CUST359147,Corporate,Low,0,DE,GB
+Amend,Credit_Uplift,CountryCode,199574,592337,0.14,CUST450896,Corporate,Low,0,US,GB
+Amend,Defaulting_Reclassify,IsDefaulted,576461,154252,0.88,CUST238947,Retail,Low,1,GB,1
+Amend,Defaulting_Reclassify,IsDefaulted,209181,253785,0.92,CUST192654,SME,Low,1,DE,1
+Amend,Defaulting_Reclassify,RiskCategory,229162,146207,0.54,CUST804231,Corporate,Medium,1,DE,Low
+Amend,Fix_Broken_Batch,IsDefaulted,412888,590935,0.41,CUST665428,Corporate,Medium,0,US,0
+Amend,Defaulting_Reclassify,CustomerID,957003,900532,0.47,CUST712035,Corporate,Medium,0,DE,CUST192654
+Amend,Credit_Uplift,CustomerType,584972,791064,0.97,CUST238947,SME,Medium,0,GB,SME
+Amend,GRC_EndMonth,CountryCode,333216,478872,0.54,CUST192654,Retail,High,1,GB,US
+Amend,Credit_Uplift,CustomerID,235551,402076,0.0,CUST359147,SME,Low,0,DE,CUST450896
+Amend,GRC_EndMonth,CustomerType,656183,403815,0.3,CUST450896,Corporate,Medium,0,US,SME
+Amend,Fix_Broken_Batch,IsDefaulted,206385,558879,0.56,CUST804231,SME,Low,0,GB,1
+Amend,Market Downturn,RiskCategory,341237,238670,0.91,CUST359147,Corporate,High,1,GB,0.75
+Amend,Defaulting_Reclassify,IsDefaulted,651806,21803,0.64,CUST192654,Retail,Medium,0,GB,0
+Amend,Fix_Broken_Batch,CountryCode,377129,232241,0.04,CUST359147,SME,High,1,GB,DE
+Amend,Credit_Uplift,IsDefaulted,288930,276310,0.85,CUST450896,Corporate,Low,1,GB,1
+Amend,Credit_Uplift,CustomerID,267678,905136,0.83,CUST665428,Corporate,Low,0,GB,CUST804231
+Amend,Credit_Uplift,RiskCategory,760044,380442,0.64,CUST712035,Retail,High,1,DE,High
+Amend,GRC_EndMonth,IsDefaulted,860687,555570,0.08,CUST563201,SME,Medium,0,DE,1
+Amend,Fix_Broken_Batch,IsDefaulted,285123,759906,0.04,CUST103289,SME,Medium,0,US,0
+Amend,GRC_EndMonth,RiskCategory,886125,744832,0.2,CUST450896,SME,High,1,DE,Low
+Amend,Fix_Broken_Batch,RiskCategory,500981,638794,0.14,CUST981372,Retail,Low,1,DE,Low
+Amend,Default,CountryCode,346014,262736,0.4,CUST103289,Corporate,Medium,1,US,US
+Amend,Fix_Broken_Batch,CountryCode,343925,979896,0.29,CUST192654,Retail,High,0,DE,GB
+Amend,Credit_Uplift,IsDefaulted,146311,696852,0.0,CUST981372,Retail,High,0,GB,1
+Amend,Market Downturn,CustomerType,375120,972742,0.74,CUST804231,Corporate,High,0,US,0.75
+Amend,Defaulting_Reclassify,CustomerID,670477,595231,0.93,CUST238947,Retail,Medium,1,US,CUST804231
+Amend,Credit_Uplift,IsDefaulted,322521,95729,0.74,CUST563201,SME,Medium,0,GB,0
+Amend,Credit_Uplift,CustomerType,724215,989577,0.45,CUST804231,Retail,Low,0,US,SME
+Amend,Defaulting_Reclassify,IsDefaulted,610590,339902,0.29,CUST563201,Retail,Low,0,US,0
+Amend,Defaulting_Reclassify,CustomerType,177755,223995,0.62,CUST103289,Retail,Low,1,GB,Corporate
+Amend,Fix_Broken_Batch,CustomerID,307389,256383,0.15,CUST103289,SME,High,1,DE,CUST238947
+Amend,Default,CountryCode,944904,854585,0.91,CUST804231,Corporate,Medium,0,DE,DE
+Amend,Market Downturn,RiskCategory,930082,868659,0.47,CUST103289,Corporate,High,1,DE,0.75
+Amend,GRC_EndMonth,IsDefaulted,251465,987479,0.59,CUST450896,SME,High,1,US,1
+Amend,GRC_EndMonth,CustomerType,582905,337063,0.41,CUST103289,SME,Low,0,GB,SME
+Amend,Default,CustomerID,895023,763377,0.5,CUST665428,SME,Medium,1,US,CUST450896
+Amend,Defaulting_Reclassify,RiskCategory,258947,419907,0.79,CUST563201,SME,High,1,GB,Low
+Amend,GRC_EndMonth,CountryCode,476137,574090,0.22,CUST563201,Corporate,Low,0,US,US
+Amend,Fix_Broken_Batch,CountryCode,108455,739824,0.31,CUST103289,Corporate,Low,1,GB,DE
+Amend,Market Downturn,CustomerID,320694,444943,0.64,CUST665428,Corporate,High,0,GB,0.75
+Amend,GRC_EndMonth,CustomerType,286932,719682,0.85,CUST359147,Retail,Low,0,DE,Retail
+Amend,GRC_EndMonth,CustomerType,67865,99589,0.64,CUST192654,SME,High,1,US,Retail
+Amend,GRC_EndMonth,CountryCode,87568,600150,0.98,CUST103289,SME,High,0,DE,DE
+Amend,Defaulting_Reclassify,CustomerType,172217,694761,0.18,CUST238947,Corporate,Medium,0,DE,Corporate
+Amend,Default,CountryCode,999333,759787,0.05,CUST450896,Retail,Low,1,DE,US
+Amend,Fix_Broken_Batch,RiskCategory,780854,770882,0.75,CUST103289,SME,Low,0,DE,Low
+Amend,Credit_Uplift,CustomerID,786969,574178,0.0,CUST450896,Retail,High,1,GB,CUST712035
+Amend,Credit_Uplift,RiskCategory,693416,273301,0.33,CUST359147,Corporate,Medium,1,US,Low
+Amend,Defaulting_Reclassify,CustomerID,62933,260692,0.1,CUST712035,SME,Medium,1,US,CUST665428
+Amend,Defaulting_Reclassify,CustomerID,601354,254224,0.08,CUST804231,Corporate,Medium,1,DE,CUST103289
+Amend,Defaulting_Reclassify,CustomerType,410334,229098,0.73,CUST804231,SME,High,1,US,SME
+Amend,GRC_EndMonth,CustomerType,918315,647319,0.47,CUST450896,SME,Medium,0,US,SME
+Amend,Default,CustomerType,817781,514315,0.16,CUST103289,Retail,Low,0,GB,Corporate
+Amend,GRC_EndMonth,CustomerID,887771,250818,0.94,CUST450896,SME,Low,0,GB,CUST665428
+Amend,Market Downturn,RiskCategory,761627,556303,0.14,CUST103289,Corporate,High,1,DE,0.75
+Amend,Market Downturn,CountryCode,714713,816946,0.15,CUST712035,Corporate,High,0,DE,0.75
+Amend,GRC_EndMonth,CountryCode,848505,171141,0.29,CUST238947,Corporate,Medium,0,US,US
+Amend,GRC_EndMonth,CustomerType,254159,553124,0.87,CUST712035,SME,High,0,US,SME
+Amend,Credit_Uplift,RiskCategory,543553,965608,0.69,CUST238947,Retail,High,1,GB,High
+Amend,Defaulting_Reclassify,RiskCategory,1867,304366,0.05,CUST712035,Corporate,Low,0,US,Low
+Amend,Default,CustomerType,365092,537273,0.78,CUST563201,Retail,High,0,GB,Retail
+Amend,GRC_EndMonth,RiskCategory,102479,523936,0.24,CUST665428,SME,Low,1,DE,Medium
+Amend,GRC_EndMonth,RiskCategory,814962,634808,0.87,CUST712035,Retail,Medium,0,DE,High
+Amend,Credit_Uplift,CustomerID,386610,423104,0.59,CUST563201,SME,Medium,1,US,CUST238947
+Amend,Market Downturn,CustomerID,766771,704847,0.9,CUST981372,Corporate,High,0,US,0.75
+Amend,Fix_Broken_Batch,RiskCategory,120158,261606,0.82,CUST192654,Retail,Medium,1,DE,Medium
+Amend,GRC_EndMonth,RiskCategory,87493,65486,0.73,CUST563201,SME,Low,1,DE,Low
+Amend,GRC_EndMonth,RiskCategory,646245,955758,0.94,CUST804231,Retail,High,1,GB,Low
+Amend,Defaulting_Reclassify,CustomerType,831632,594106,0.99,CUST103289,Retail,High,1,US,Retail
+Amend,GRC_EndMonth,CustomerType,256129,889921,0.48,CUST238947,SME,Low,1,US,SME
+Amend,Defaulting_Reclassify,CustomerType,402265,210799,0.57,CUST192654,Retail,Low,1,DE,Retail
+Amend,Fix_Broken_Batch,RiskCategory,285987,947361,0.02,CUST192654,SME,Low,1,GB,Low
+Amend,Market Downturn,IsDefaulted,54852,518087,0.11,CUST103289,Corporate,High,0,US,0.75
+Amend,Fix_Broken_Batch,CountryCode,885520,685531,0.78,CUST359147,Corporate,Medium,1,US,GB
+Amend,GRC_EndMonth,CustomerID,228680,153913,0.82,CUST981372,Retail,Low,0,US,CUST192654
+Amend,Credit_Uplift,CustomerType,601632,771982,0.93,CUST804231,SME,Low,0,US,Retail
+Amend,Credit_Uplift,CustomerType,910801,389454,0.65,CUST981372,Corporate,Low,0,US,Corporate
+Amend,Fix_Broken_Batch,CustomerType,412326,96635,0.31,CUST712035,Retail,Low,0,US,SME
+Amend,GRC_EndMonth,RiskCategory,613470,766928,0.68,CUST103289,SME,Medium,1,DE,Medium
+Amend,Default,IsDefaulted,942363,66098,0.56,CUST665428,SME,High,1,GB,1
+Amend,GRC_EndMonth,CustomerType,103089,997279,0.71,CUST981372,SME,High,0,DE,SME
+Amend,Defaulting_Reclassify,RiskCategory,407629,516043,0.59,CUST804231,Retail,Low,1,GB,Low
+Amend,Credit_Uplift,CountryCode,635595,216842,0.67,CUST804231,Retail,Low,1,DE,GB
+Amend,GRC_EndMonth,IsDefaulted,737482,862221,0.67,CUST192654,Retail,Low,0,DE,1
+Amend,Fix_Broken_Batch,IsDefaulted,680786,193680,0.24,CUST192654,SME,Medium,0,GB,0
+Amend,Credit_Uplift,IsDefaulted,56583,984026,0.72,CUST103289,SME,High,0,GB,1
+Amend,Defaulting_Reclassify,CustomerID,791336,332017,0.99,CUST238947,Retail,Low,0,DE,CUST563201
+Amend,Defaulting_Reclassify,IsDefaulted,648922,635493,0.72,CUST563201,Corporate,Low,0,DE,0
+Amend,Credit_Uplift,CustomerID,939210,338398,0.52,CUST563201,SME,High,0,US,CUST450896
+Amend,Default,CustomerID,10734,37173,0.51,CUST238947,SME,Low,1,DE,CUST359147
+Amend,Credit_Uplift,CustomerID,746383,408535,0.39,CUST103289,Retail,Medium,0,DE,CUST712035
+Amend,Fix_Broken_Batch,CustomerID,672094,814339,0.56,CUST450896,Corporate,Low,0,US,CUST804231
+Amend,Default,RiskCategory,900815,283012,0.72,CUST450896,Retail,Medium,0,DE,High
+Amend,Defaulting_Reclassify,CustomerID,875716,155546,0.01,CUST450896,Retail,Medium,1,DE,CUST563201
+Amend,GRC_EndMonth,CustomerType,852105,638471,0.85,CUST359147,Retail,High,0,US,SME
+Amend,Defaulting_Reclassify,CustomerID,807821,133593,0.85,CUST192654,Retail,Low,1,DE,CUST103289
+Amend,GRC_EndMonth,CustomerID,396367,939296,0.21,CUST450896,Retail,Medium,0,US,CUST665428
+Amend,GRC_EndMonth,CustomerType,74985,265052,0.17,CUST359147,SME,Low,0,GB,Corporate
+Amend,GRC_EndMonth,CountryCode,16946,112419,0.18,CUST712035,Corporate,Low,0,DE,US
+Amend,Defaulting_Reclassify,CustomerType,64871,552272,0.41,CUST359147,Retail,High,1,DE,SME
+Amend,Market Downturn,CustomerID,40063,796477,0.8,CUST665428,Corporate,High,0,DE,0.75
+Amend,Credit_Uplift,CustomerType,612873,382925,0.56,CUST450896,Retail,Medium,1,DE,Retail
+Amend,Default,CustomerType,473008,440955,0.86,CUST563201,SME,Medium,0,DE,Retail
+Amend,GRC_EndMonth,IsDefaulted,224127,625059,0.41,CUST103289,Corporate,Low,1,DE,1
+Amend,Fix_Broken_Batch,CustomerID,544638,690336,0.19,CUST103289,SME,Medium,1,GB,CUST238947
+Amend,Defaulting_Reclassify,CustomerID,7672,675292,0.09,CUST981372,Corporate,Low,0,GB,CUST981372
+Amend,Credit_Uplift,IsDefaulted,764112,374328,0.89,CUST665428,SME,High,0,DE,0
+Amend,Fix_Broken_Batch,CountryCode,846257,273785,0.21,CUST359147,Corporate,Medium,0,GB,DE
+Amend,GRC_EndMonth,RiskCategory,283017,417073,0.58,CUST804231,Retail,Low,1,US,Medium
+Amend,Market Downturn,CustomerType,637996,493311,0.83,CUST103289,Corporate,High,1,DE,0.75
+Amend,Fix_Broken_Batch,CustomerID,898364,898501,0.72,CUST103289,Retail,Low,0,DE,CUST192654
+Amend,Market Downturn,IsDefaulted,956988,989784,0.25,CUST981372,Corporate,High,1,US,0.75
+Amend,Fix_Broken_Batch,CustomerID,157917,276899,0.36,CUST103289,Retail,Low,1,US,CUST238947
+Amend,Default,CustomerType,699148,953031,0.8,CUST238947,SME,Medium,1,DE,Retail
+Amend,Fix_Broken_Batch,CountryCode,378855,512774,0.95,CUST712035,Corporate,Medium,0,DE,GB
+Amend,Credit_Uplift,CustomerType,104334,624629,0.27,CUST359147,SME,High,0,DE,Retail
+Amend,Credit_Uplift,CountryCode,308226,468448,0.58,CUST238947,Retail,Medium,0,US,GB
+Amend,Credit_Uplift,CustomerID,363004,543810,0.71,CUST359147,SME,Low,0,US,CUST103289
+Amend,Default,IsDefaulted,1439,105877,0.09,CUST192654,SME,High,0,GB,0
+Amend,Market Downturn,RiskCategory,259787,964834,0.03,CUST238947,Corporate,High,1,GB,0.75
+Amend,Default,CustomerType,452166,799700,0.08,CUST563201,Retail,Medium,0,GB,Corporate
+Amend,Market Downturn,CountryCode,676165,389310,0.91,CUST359147,Corporate,High,0,US,0.75
+Amend,Market Downturn,CustomerType,827448,587307,0.85,CUST804231,Corporate,High,1,DE,0.75
+Amend,Fix_Broken_Batch,CountryCode,817815,322904,0.79,CUST450896,Retail,High,0,DE,DE
+Amend,GRC_EndMonth,IsDefaulted,14514,141907,0.52,CUST192654,SME,Low,0,DE,0
+Amend,Credit_Uplift,CustomerID,959131,153457,0.82,CUST665428,SME,Low,0,US,CUST359147
+Amend,Defaulting_Reclassify,RiskCategory,247930,202966,0.65,CUST563201,Corporate,Medium,1,DE,Low
+Amend,Credit_Uplift,CustomerID,556378,153799,0.24,CUST981372,Retail,Medium,1,DE,CUST192654
+Amend,Defaulting_Reclassify,CountryCode,943908,862419,0.01,CUST238947,Retail,Low,0,DE,DE
+Amend,Credit_Uplift,CustomerType,466014,628067,0.39,CUST804231,Corporate,Low,0,GB,SME
+Amend,Defaulting_Reclassify,CustomerType,861570,944117,0.33,CUST563201,Corporate,Low,1,GB,Retail
+Amend,Fix_Broken_Batch,RiskCategory,396308,798469,0.56,CUST981372,SME,High,0,GB,High
+Amend,Credit_Uplift,CountryCode,81831,470073,0.97,CUST712035,Corporate,Low,0,DE,GB
+Amend,Credit_Uplift,IsDefaulted,415067,750786,0.62,CUST359147,Retail,Medium,1,DE,0
+Amend,Fix_Broken_Batch,IsDefaulted,553706,210591,0.24,CUST712035,SME,Medium,0,US,0
+Amend,Defaulting_Reclassify,CountryCode,92318,1469,0.12,CUST238947,Retail,Medium,1,DE,GB
+Amend,Credit_Uplift,CustomerType,107977,102310,0.03,CUST359147,Retail,High,1,DE,Corporate
+Amend,Credit_Uplift,CustomerType,304051,445487,0.9,CUST804231,SME,High,1,US,Corporate
+Amend,Defaulting_Reclassify,RiskCategory,315326,62559,0.25,CUST804231,Retail,Low,1,GB,High
+Amend,Default,CountryCode,550905,260723,0.56,CUST563201,SME,Low,1,US,US
+Amend,Credit_Uplift,CustomerType,677186,230114,0.24,CUST563201,Retail,High,0,GB,Corporate
+Amend,Fix_Broken_Batch,CountryCode,180186,812108,0.82,CUST804231,SME,Medium,0,US,GB
+Amend,Defaulting_Reclassify,CountryCode,414166,466923,0.31,CUST804231,Corporate,Low,1,US,DE
+Amend,Default,CustomerID,282766,547924,0.34,CUST804231,Retail,High,0,GB,CUST192654
+Amend,Default,CountryCode,232418,471024,0.04,CUST450896,Retail,Medium,0,GB,GB
+Amend,GRC_EndMonth,CountryCode,351726,345066,0.49,CUST665428,Corporate,Medium,0,US,US
+Amend,Market Downturn,IsDefaulted,284615,941426,0.36,CUST238947,Corporate,High,1,US,0.75
+Amend,Default,RiskCategory,851036,935039,0.01,CUST192654,Retail,High,0,GB,Low
+Amend,Market Downturn,CountryCode,541113,781257,0.14,CUST981372,Corporate,High,0,DE,0.75
+Amend,GRC_EndMonth,CountryCode,723180,834453,0.59,CUST450896,Corporate,Medium,0,GB,DE
+Amend,Market Downturn,CustomerID,252369,144991,0.58,CUST359147,Corporate,High,1,US,0.75
+Amend,Fix_Broken_Batch,CustomerType,559713,729451,0.09,CUST359147,Retail,Medium,0,DE,SME
+Amend,Market Downturn,IsDefaulted,834409,949972,0.72,CUST359147,Corporate,High,1,GB,0.75
+Amend,Credit_Uplift,CustomerID,133935,51172,0.19,CUST450896,SME,Medium,0,DE,CUST359147
+Amend,Default,CustomerID,161325,641498,0.5,CUST804231,Retail,High,0,GB,CUST103289
+Amend,Market Downturn,CountryCode,94139,856114,0.21,CUST981372,Corporate,High,0,DE,0.75
+Amend,Defaulting_Reclassify,IsDefaulted,114649,667581,0.9,CUST981372,SME,High,1,US,0
+Amend,GRC_EndMonth,CustomerID,302730,865291,0.29,CUST359147,SME,Low,0,US,CUST712035
+Amend,Default,CustomerType,660038,436106,0.02,CUST359147,Retail,Medium,0,GB,Corporate
+Amend,Defaulting_Reclassify,RiskCategory,995201,354806,0.58,CUST450896,Corporate,Low,0,US,High
+Amend,Fix_Broken_Batch,CustomerID,80474,428641,0.86,CUST103289,Retail,Medium,0,US,CUST103289
+Amend,GRC_EndMonth,RiskCategory,725313,948873,0.59,CUST804231,SME,Low,1,DE,High
+Amend,Defaulting_Reclassify,CustomerID,232135,627141,0.03,CUST981372,SME,Low,1,GB,CUST192654
+Amend,Credit_Uplift,CustomerID,360684,788755,0.43,CUST192654,SME,Medium,0,GB,CUST238947
+Amend,Market Downturn,CustomerType,589202,553288,0.63,CUST665428,Corporate,High,1,US,0.75
+Amend,Market Downturn,IsDefaulted,400087,515579,0.33,CUST804231,Corporate,High,0,US,0.75
+Amend,Fix_Broken_Batch,RiskCategory,436386,945241,0.74,CUST238947,Retail,Low,0,GB,Low
+Amend,Defaulting_Reclassify,RiskCategory,692763,253376,0.05,CUST712035,SME,High,1,US,High
+Amend,GRC_EndMonth,IsDefaulted,290144,996104,0.16,CUST450896,Corporate,Medium,0,US,0
+Amend,Credit_Uplift,IsDefaulted,138420,488331,0.99,CUST563201,SME,High,1,GB,0
+Amend,GRC_EndMonth,IsDefaulted,308474,810694,0.28,CUST103289,Corporate,Low,0,US,1
+Amend,Default,CustomerID,132900,539805,0.72,CUST804231,Corporate,Medium,0,US,CUST238947
+Amend,GRC_EndMonth,IsDefaulted,697871,246138,0.01,CUST238947,Retail,High,0,GB,1
+Amend,Market Downturn,IsDefaulted,491459,62554,0.53,CUST450896,Corporate,High,1,US,0.75
+Amend,Credit_Uplift,CustomerType,624698,288734,0.71,CUST192654,Retail,High,1,US,Corporate
+Amend,Fix_Broken_Batch,CustomerID,128303,216893,0.73,CUST712035,Retail,Low,0,DE,CUST981372
+Amend,GRC_EndMonth,CustomerType,789933,764761,0.72,CUST712035,Retail,Low,0,US,Retail
+Amend,Default,IsDefaulted,209884,869585,0.17,CUST238947,Retail,Low,0,US,0
+Amend,Credit_Uplift,CountryCode,408813,406788,0.44,CUST238947,Corporate,Medium,1,DE,GB
+Amend,Credit_Uplift,CountryCode,762754,445757,0.41,CUST450896,Retail,Low,1,GB,DE
+Amend,Default,RiskCategory,99862,409663,0.0,CUST359147,SME,Medium,1,US,Medium
+Amend,Fix_Broken_Batch,RiskCategory,978442,805775,0.33,CUST804231,Corporate,Low,0,US,High
+Amend,Credit_Uplift,IsDefaulted,10695,842611,0.8,CUST981372,SME,Low,0,DE,1
+Amend,Fix_Broken_Batch,IsDefaulted,116839,223539,0.49,CUST359147,Corporate,Low,1,DE,0
+Amend,Credit_Uplift,CountryCode,740534,643031,0.2,CUST665428,SME,Low,0,DE,DE
+Amend,Default,CustomerID,917469,308965,0.33,CUST563201,Corporate,Medium,1,US,CUST804231
+Amend,Fix_Broken_Batch,CustomerType,134145,346978,0.52,CUST450896,SME,Medium,1,GB,Corporate
+Amend,Fix_Broken_Batch,IsDefaulted,47467,826109,0.01,CUST359147,SME,High,0,DE,1
+Amend,Default,CountryCode,590243,954127,0.52,CUST563201,SME,Low,0,DE,US
+Amend,Credit_Uplift,CustomerID,374545,542259,0.14,CUST238947,Retail,High,1,DE,CUST804231
+Amend,Market Downturn,RiskCategory,254741,402263,0.95,CUST563201,Corporate,High,1,DE,0.75
+Amend,Defaulting_Reclassify,IsDefaulted,498569,256755,0.65,CUST712035,SME,High,0,GB,1
+Amend,Credit_Uplift,IsDefaulted,807171,8482,0.42,CUST981372,SME,High,0,DE,0
+Amend,Defaulting_Reclassify,IsDefaulted,109852,403638,0.99,CUST103289,Corporate,Medium,0,GB,1
+Amend,Default,IsDefaulted,703067,686734,0.9,CUST563201,SME,High,0,GB,1
+Amend,GRC_EndMonth,IsDefaulted,173355,576298,0.92,CUST450896,Retail,High,0,DE,0
+Amend,Market Downturn,RiskCategory,430966,261037,0.46,CUST563201,Corporate,High,1,GB,0.75
+Amend,Market Downturn,CustomerID,941061,957485,0.13,CUST103289,Corporate,High,0,US,0.75
+Amend,Credit_Uplift,RiskCategory,912907,397463,0.29,CUST712035,Retail,High,1,US,Medium
+Amend,Market Downturn,IsDefaulted,764727,455237,0.96,CUST192654,Corporate,High,0,US,0.75
+Amend,Fix_Broken_Batch,CustomerType,198886,131055,0.14,CUST712035,Retail,Medium,0,GB,Corporate
+Amend,Default,IsDefaulted,575794,262920,0.89,CUST804231,Retail,Low,1,US,1
+Amend,Fix_Broken_Batch,IsDefaulted,240409,407933,0.37,CUST804231,SME,High,1,DE,0
+Amend,Default,CustomerID,499655,799747,0.78,CUST712035,Corporate,Medium,1,DE,CUST665428
+Amend,Default,IsDefaulted,843487,320775,0.74,CUST238947,SME,High,0,US,0
+Amend,GRC_EndMonth,CountryCode,68954,745314,0.0,CUST192654,SME,Low,0,US,US
+Amend,Defaulting_Reclassify,CustomerID,249039,355545,0.9,CUST359147,Corporate,Medium,0,DE,CUST563201
+Amend,Credit_Uplift,RiskCategory,439707,129766,0.37,CUST712035,Retail,Medium,1,US,Medium
