@@ -1,4 +1,4 @@
 #Ignore models and Weightwatcher reportsy
 
-*/models/
+./Models/*
 */www-img/
