@@ -60,12 +60,6 @@ def LoadModels():
     print("--------------------Models Loaded---------------------")
     return True
 
-
-@xw.func
-def hello(name):
-    os.environ['CURL_CA_BUNDLE'] = ''
-    return f"Hello fucken {name}!"
-
 @xw.func
 def InferAdjustmentName(name):
     global modelsLoaded
