@@ -19,6 +19,9 @@ global tokenizer
 global device
 global adjLabelModel
 global adjLabelsInvDict
+global adjLinkagesModel
+global adjLinkagesInvDict
+global adjLinkagesQuery
 
 def main():
     print("Hello world")
@@ -31,6 +34,11 @@ def LoadModels():
     global device
     global adjLabelModel
     global adjLabelsInvDict
+    global adjLinkagesModel
+    global adjLinkagesInvDict
+    global adjLinkagesQuery
+    global AdjustmentValuesModel
+    
 
     if modelsLoaded:
         print("***Models already loaded***")
@@ -39,6 +47,7 @@ def LoadModels():
     print("--------------------Loading Models---------------------")
     os.environ['CURL_CA_BUNDLE'] = ''
     # Load the pre-trained BERT model and tokenizer
+    print("Loading BERT model and tokenizer...")
     model_name = "cross-encoder/ms-marco-TinyBERT-L-2-v2"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     embeddingsmodel = AutoModel.from_pretrained(model_name)
@@ -48,6 +57,7 @@ def LoadModels():
     embeddingsmodel.to(device)
     
     #Load adjLabelModel 
+    print("Loading Adjustment Labels Model NLP...")
     modelPath="""C:\code\HSBCDataScience\AI_Adjustments_Proto\Models\AdjustmentNameNLP\model.h5"""
     adjLabelModel = tf.keras.models.load_model(modelPath)
 
@@ -55,6 +65,21 @@ def LoadModels():
     adjLabelsInvDictPath="""C:\code\HSBCDataScience\AI_Adjustments_Proto\Models\AdjustmentNameNLP\softmaxlkp.json"""
     with open(adjLabelsInvDictPath) as json_file:
         adjLabelsInvDict = json.load(json_file)
+
+    #Load Adjustment Linkages Model
+    print("Loading Adjustment Linkages Model...")
+    modelPath="""C:\code\HSBCDataScience\AI_Adjustments_Proto\Models\AdjustmentLinkages\model.h5"""
+    adjLinkagesModel = tf.keras.models.load_model(modelPath)
+
+    #Load Adjustment Linkages Query JSON
+    adjLinkagesQueryPath="""C:\code\HSBCDataScience\AI_Adjustments_Proto\Models\AdjustmentLinkages\query.json"""
+    with open(adjLinkagesQueryPath) as json_file:
+        adjLinkagesQuery = json.load(json_file)
+    
+    #Load Adjustment Linkages Inverse Dictionary
+    adjLinkagesInvDictPath="""C:\code\HSBCDataScience\AI_Adjustments_Proto\Models\AdjustmentLinkages\softmaxlkp.json"""
+    with open(adjLinkagesInvDictPath) as json_file:
+        adjLinkagesInvDict = json.load(json_file)
 
     modelsLoaded=True
     print("--------------------Models Loaded---------------------")
