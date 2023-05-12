@@ -86,8 +86,8 @@ def LoadModels():
     adjLinkagesModel = tf.keras.models.load_model(modelPath)
 
     #Load Adjustment Linkages Query JSON
-    adjLinkagesColumns="""C:\code\HSBCDataScience\AI_Adjustments_Proto\Models\AdjustmentLinkages\in_Columsn.json"""
-    with open(adjLinkagesQueryPath) as json_file:
+    adjLinkagesColumns="""C:\code\HSBCDataScience\AI_Adjustments_Proto\Models\AdjustmentLinkages\in_Columns.json"""
+    with open(adjLinkagesColumns) as json_file:
         adjLinkagesColumns = json.load(json_file)
 
     #Load Adjustment Linkages Query JSON
@@ -138,6 +138,42 @@ def LoadModels():
     return True
 
 #NLP Adjustment Base Name Inference-----------------------------------------------------------------------------------------------------------------
+@xw.func
+def inferAdjustmentLinkages(adjName,threshold=0.5):
+    
+    global adjLinkagesModel
+    global adjLinkagesColumns
+    global adjLinkagesQuery
+    global adjLinkagesInvDict
+
+    LoadModels()
+
+    #Make a dataframe with 1 row all zeros
+    df=pd.DataFrame(0, index=[0], columns=adjLinkagesColumns)
+
+    #Onehot encode the AdjustmentName
+    if adjName in adjLinkagesQuery:
+        df[adjName]=1.0
+    else:
+        #No suggestions
+        return []
+
+    #Make a prediction
+    y_pred = adjLinkagesModel.predict(df)
+    y_pred
+
+    threshold = 0.5
+
+    # Get predicted labels
+    prediction=[]
+    predicted_labels = y_pred > threshold
+    for i in range(len(predicted_labels[0])):
+        if predicted_labels[0][i]:
+            prediction.append(adjLinkagesInvDict[str(i)])
+            print(adjLinkagesInvDict[str(i)])
+
+    return prediction
+
 
 #Uses NLP embeddings to get back to base adjustment name
 @xw.func
