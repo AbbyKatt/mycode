@@ -27,6 +27,7 @@ global adjValcolumn_names
 global adjValnumeric_fields
 global adjValfield_metrics
 global adjValsoftmaxlkp
+global adjLinkagesColumns
 
 def main():
     print("Hello world")
@@ -50,6 +51,7 @@ def LoadModels():
     global adjValnumeric_fields
     global adjValfield_metrics
     global adjValsoftmaxlkp
+    global adjLinkagesColumns
     
 
     if modelsLoaded:
@@ -82,6 +84,11 @@ def LoadModels():
     print("Loading Adjustment Linkages Model...")
     modelPath="""C:\code\HSBCDataScience\AI_Adjustments_Proto\Models\AdjustmentLinkages\model.h5"""
     adjLinkagesModel = tf.keras.models.load_model(modelPath)
+
+    #Load Adjustment Linkages Query JSON
+    adjLinkagesColumns="""C:\code\HSBCDataScience\AI_Adjustments_Proto\Models\AdjustmentLinkages\in_Columsn.json"""
+    with open(adjLinkagesQueryPath) as json_file:
+        adjLinkagesColumns = json.load(json_file)
 
     #Load Adjustment Linkages Query JSON
     adjLinkagesQueryPath="""C:\code\HSBCDataScience\AI_Adjustments_Proto\Models\AdjustmentLinkages\query.json"""
@@ -130,6 +137,8 @@ def LoadModels():
     print("--------------------Models Loaded---------------------")
     return True
 
+#NLP Adjustment Base Name Inference-----------------------------------------------------------------------------------------------------------------
+
 #Uses NLP embeddings to get back to base adjustment name
 @xw.func
 def InferAdjustmentName(name):
@@ -169,9 +178,10 @@ def InferAdjustmentName(name):
     # #Get the AdjustmentName from the index
     return adjLabelsInvDict[str(ret)]
 
-if __name__ == "__main__":
-    xw.Book("AdjustmentTemplate.xslm.xslm").set_mock_caller()
-    main()
+
+#Adjustment Linkages Inference----------------------------------------------------------------------------------------------------------------------
+
+
 
 #Field Value Inference------------------------------------------------------------------------------------------------------------------------------
 
@@ -248,6 +258,16 @@ def InferAdjustmentValue(requestJSON):
     result=adjValsoftmaxlkp[str(argmax)]
     print(result)
     return (result)
-    
 
+
+#Field linkage inference --------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------
+
+if __name__ == "__main__":
+    xw.Book("AdjustmentTemplate.xslm.xslm").set_mock_caller()
+    main()
 
