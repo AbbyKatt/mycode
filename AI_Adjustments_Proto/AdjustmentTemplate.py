@@ -156,7 +156,7 @@ def inferAdjustmentLinkages(adjName,threshold=0.5):
         df[adjName]=1.0
     else:
         #No suggestions
-        return []
+        return ""
 
     #Make a prediction
     y_pred = adjLinkagesModel.predict(df)
@@ -172,6 +172,9 @@ def inferAdjustmentLinkages(adjName,threshold=0.5):
             prediction.append(adjLinkagesInvDict[str(i)])
             print(adjLinkagesInvDict[str(i)])
 
+    if len(prediction)==0:
+        return ""
+    
     return prediction
 
 
