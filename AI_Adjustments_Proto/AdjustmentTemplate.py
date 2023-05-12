@@ -22,12 +22,20 @@ global adjLabelsInvDict
 global adjLinkagesModel
 global adjLinkagesInvDict
 global adjLinkagesQuery
+global AdjustmentValuesModel
+global adjValcolumn_names
+global adjValnumeric_fields
+global adjValfield_metrics
+global adjValsoftmaxlkp
 
 def main():
     print("Hello world")
 
 @xw.func
 def LoadModels():
+
+    import json
+
     global modelsLoaded
     global embeddingsmodel
     global tokenizer
@@ -38,6 +46,10 @@ def LoadModels():
     global adjLinkagesInvDict
     global adjLinkagesQuery
     global AdjustmentValuesModel
+    global adjValcolumn_names
+    global adjValnumeric_fields
+    global adjValfield_metrics
+    global adjValsoftmaxlkp
     
 
     if modelsLoaded:
@@ -81,10 +93,44 @@ def LoadModels():
     with open(adjLinkagesInvDictPath) as json_file:
         adjLinkagesInvDict = json.load(json_file)
 
+    print("Loading Adjustment Values Model...")
+    modelPath="""C:\code\HSBCDataScience\AI_Adjustments_Proto\Models\AdjustmentValues"""
+    AdjustmentValuesModel= tf.keras.models.load_model(modelPath+"\\model.h5")
+
+    #Load column names
+    print("Loading Adjustment Values Input Columns...")
+    adjValcolumn_names=[]
+    import json
+    with open(modelPath + '\in_columnnames.json') as json_file:
+        adjValcolumn_names = json.load(json_file)
+
+    #Load numeric fields definition
+    print("Loading Adjustment Values Input Numeric Fields...")
+    adjValnumeric_fields=[]
+    import json
+    with open(modelPath + '\in_numericfield.json') as json_file:
+        adjValnumeric_fields = json.load(json_file)
+
+    #Load field metrics for scaling
+    print("Loading Adjustment Values Input Field Metrics...")
+    adjValfield_metrics={}
+    import json
+    with open(modelPath+'\in_fieldmetrics.json') as json_file:
+        adjValfield_metrics = json.load(json_file)
+
+    #Load softmaxlkp
+    print("Loading Adjustment Values Output Softmax Lookup...")
+    adjValsoftmaxlkp={}
+    import json
+    with open(modelPath+'\softmaxlkp.json') as json_file:
+        adjValsoftmaxlkp = json.load(json_file)        
+
+
     modelsLoaded=True
     print("--------------------Models Loaded---------------------")
     return True
 
+#Uses NLP embeddings to get back to base adjustment name
 @xw.func
 def InferAdjustmentName(name):
     global modelsLoaded
@@ -126,4 +172,82 @@ def InferAdjustmentName(name):
 if __name__ == "__main__":
     xw.Book("AdjustmentTemplate.xslm.xslm").set_mock_caller()
     main()
+
+#Field Value Inference------------------------------------------------------------------------------------------------------------------------------
+
+#Populate the dataframe in AI format with numeric values
+def Normalize(col, min, max):
+    return (col-min)/(max-min)*2-1
+
+#Onehot encode known fields
+def ApplyOneHotField(df,fieldName,valu):
+    fieldNameOH=fieldName+'_'+str(valu)
+
+    #Check if the field exists
+    if fieldNameOH in df.columns:
+        #If it does, set it to 1
+        df[fieldNameOH]=1
+    else:
+        print("***No field found for "+fieldNameOH+" in dataframe with value "+str(valu)+" - skipping")
+
+    return df
+
+#Takes a whole stream of values and returns the adjustment field
+@xw.func
+def InferAdjustmentValue(requestJSON):
+    global AdjustmentValuesModel
+    global adjValcolumn_names
+    global adjValnumeric_fields
+    global adjValfield_metrics
+    global adjValsoftmaxlkp
+
+    import pandas as pd
+    import numpy as np
+    import json
+
+    #Lazy load models
+    LoadModels()
+
+    #parse requestJSON
+    requestJSON=json.loads(requestJSON)
+
+    #Build a pandas dataframe filled with zeros
+    df = pd.DataFrame(0, index=np.arange(1), columns=adjValcolumn_names)
+
+    #Load and Normalize all numeric fields
+    for field in adjValnumeric_fields:
+        #Load un-normalized value
+        df[field]=requestJSON[field]
+
+        if field in adjValfield_metrics:
+            #Load metrics
+            min=adjValfield_metrics[field][0]
+            max=adjValfield_metrics[field][1]
+
+            #Normalize
+            df[field]=Normalize(df[field], min, max)
+
+    #Apply the strings in the rest of request as onehot encoded
+    for field,valu in requestJSON.items():
+        if field in adjValnumeric_fields:
+            #Skip 
+            continue
+        else:
+            df=ApplyOneHotField(df,field,valu)       
+
+    #drop index
+    df=df.drop(df.columns[0], axis=1)
+
+    with tf.device('/gpu:0'):
+        predictions = AdjustmentValuesModel.predict(df)
+        print(predictions)
+
+    #Get argmax value
+    argmax = np.argmax(predictions[0])    
+    print(argmax)
+    result=adjValsoftmaxlkp[str(argmax)]
+    print(result)
+    return (result)
+    
+
 
