@@ -162,11 +162,13 @@ def inferAdjustmentLinkages(adjName,threshold=0.5):
     y_pred = adjLinkagesModel.predict(df)
     y_pred
 
-    threshold = 0.5
+    #threshold = 0.5
 
     # Get predicted labels
     prediction=[]
     predicted_labels = y_pred > threshold
+    print(y_pred)
+    print(predicted_labels)
     for i in range(len(predicted_labels[0])):
         if predicted_labels[0][i]:
             prediction.append(adjLinkagesInvDict[str(i)])
