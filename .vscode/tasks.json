@@ -1,0 +1,9 @@
+{
+    "label": "Run tests",
+    "type": "shell",
+    "command": "pytest",
+    "group": {
+        "kind": "test",
+        "isDefault": true
+    }
+}
